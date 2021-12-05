@@ -1,11 +1,11 @@
 package x1n32;
 
 
-/**Try Making this class do somemore things to the original calculator.
- * Such as the Quadratic Formula. Search online on bbc bitesize if you don't know what it is.
+/**Try Making this class do some more things to the original calculator.
+ * Such as the Quadratic Formula. Search online on BBC Bitesize if you don't know what it is.
      * Try using values a b c 
      * to create a method of using the quadratic formula.
-     * The quatic formula is used to solve a quadratic to find x: ax^2 + bx + c
+     * The quadratic formula is used to solve a quadratic to find x: ax^2 + bx + c
      * The Equation: x = (-b +- square root(b^2 - 4ac))  / 2a
      * +- means plus or minus. x should have two answers.
      * Should return a positive x answer, and a negative x answer.

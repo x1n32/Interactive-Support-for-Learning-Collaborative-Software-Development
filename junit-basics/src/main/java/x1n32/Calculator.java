@@ -51,7 +51,7 @@ public class Calculator {
 	}
 	
 	/**
-	 * Uses the formula pi * r ^2 to calulate area of a circle
+	 * Uses the formula pi * r ^2 to calculate area of a circle
 	 * @param radius
 	 * @return pi * r * r
 	 */
