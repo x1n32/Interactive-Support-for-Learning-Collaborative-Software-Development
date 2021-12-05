@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: x1n32.Calculator2Test
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.235 sec <<< FAILURE!
-testSquareRootAnswer(x1n32.Calculator2Test)  Time elapsed: 0.05 sec  <<< FAILURE!
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec <<< FAILURE!
+testSquareRootAnswer(x1n32.Calculator2Test)  Time elapsed: 0.034 sec  <<< FAILURE!
 org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
 	<no message> in java.lang.NullPointerException
 	<no message> in java.lang.NullPointerException
@@ -16,7 +16,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
@@ -39,7 +39,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
@@ -98,7 +98,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
 		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
 		... 36 more
 
-testQuadraticFormula(x1n32.Calculator2Test)  Time elapsed: 0.015 sec  <<< FAILURE!
+testQuadraticFormula(x1n32.Calculator2Test)  Time elapsed: 0.004 sec  <<< FAILURE!
 org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
 	<no message> in java.lang.NullPointerException
 	<no message> in java.lang.NullPointerException
@@ -112,7 +112,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
@@ -135,7 +135,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
@@ -194,7 +194,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (4 failures)
 		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
 		... 36 more
 
-testFourAC(x1n32.Calculator2Test)  Time elapsed: 0.02 sec  <<< FAILURE!
+testFourAC(x1n32.Calculator2Test)  Time elapsed: 0.007 sec  <<< FAILURE!
 org.opentest4j.MultipleFailuresError: Multiple Failures (8 failures)
 	<no message> in java.lang.NullPointerException
 	<no message> in java.lang.NullPointerException
@@ -212,7 +212,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (8 failures)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
@@ -235,7 +235,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (8 failures)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
@@ -346,7 +346,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (8 failures)
 		at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:77)
 		... 36 more
 
-testSquareOfB(x1n32.Calculator2Test)  Time elapsed: 0.02 sec  <<< FAILURE!
+testSquareOfB(x1n32.Calculator2Test)  Time elapsed: 0.007 sec  <<< FAILURE!
 org.opentest4j.MultipleFailuresError: Multiple Failures (10 failures)
 	<no message> in java.lang.NullPointerException
 	<no message> in java.lang.NullPointerException
@@ -366,7 +366,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (10 failures)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
@@ -389,7 +389,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (10 failures)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
