@@ -57,7 +57,7 @@ public class Calculator2Test {
             assertAll(
 				() -> assertEquals(4, calculator2.squareRootAnswer(20,4), "sqrt 16 = 4"),
 				() -> assertEquals(8, calculator2.squareRootAnswer(63,-1), "sqrt 64 = 8"),
-				() -> assertEquals(10, calculator2.squareRootAnswer(110, -10), "sqrt 100 = 10")
+				() -> assertEquals(10, calculator2.squareRootAnswer(90, -10), "sqrt 100 = 10")
 				);
         }
 
