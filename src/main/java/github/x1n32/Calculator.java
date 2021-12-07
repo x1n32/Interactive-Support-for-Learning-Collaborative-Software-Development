@@ -1,7 +1,8 @@
-package x1n32;
+package github.x1n32;
+
 
 /**
- * A class that has methods to do math related operations.
+ * A class that has methods to do mathematical operations.
  * Can add, subtract, multiply, divide, and can calculate area of a circle.
  * 
  */
@@ -51,7 +52,7 @@ public class Calculator {
 	}
 	
 	/**
-	 * Uses the formula pi * r ^2 to calulate area of a circle
+	 * Uses the formula pi * r ^2 to calculate area of a circle
 	 * @param radius
 	 * @return pi * r * r
 	 */

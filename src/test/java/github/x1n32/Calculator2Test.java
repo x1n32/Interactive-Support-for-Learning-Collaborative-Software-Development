@@ -1,8 +1,9 @@
-package x1n32;
+package github.x1n32;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
@@ -36,6 +37,7 @@ public class Calculator2Test {
 
 
         @Test
+		@DisplayName("Testing 4AC")
 		public void fouracCheck() {
             System.out.println("Doing 4 *a *c");
             assertAll(
@@ -55,7 +57,7 @@ public class Calculator2Test {
             assertAll(
 				() -> assertEquals(4, calculator2.squareRootAnswer(20,4), "sqrt 16 = 4"),
 				() -> assertEquals(8, calculator2.squareRootAnswer(63,-1), "sqrt 64 = 8"),
-				() -> assertEquals(10, calculator2.squareRootAnswer(110, -10), "sqrt 100 = 10")
+				() -> assertEquals(10, calculator2.squareRootAnswer(90, -10), "sqrt 100 = 10")
 				);
         }
 

@@ -1,8 +1,8 @@
-package x1n32;
-
+package github.x1n32;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
@@ -44,6 +44,7 @@ class CalculatorTest {
 		}
 		
 		@Test
+		@DisplayName("Adding 2 negative numbers")
 		void testAddingTwoNegatives() {
 			assertEquals(-2, calculator.add(-1, -1), 
 					"Add method should return the sum of two numbers");
