@@ -1,6 +1,7 @@
 package github.x1n32;
 
 
+
 /**
  * A class that has methods to do mathematical operations.
  * Can add, subtract, multiply, divide, and can calculate area of a circle.
@@ -59,10 +60,11 @@ public class Calculator {
 	public double computeCircleArea(double radius) {
 		return Math.PI * radius * radius;
 	}
-	
 
 
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args)  {
         Calculator calculator = new Calculator();
 		System.out.println("This a java class to showcase methods and classes. ");
 		System.out.println("This Maths Utils java class has several methods/functions it can do. ");
@@ -75,7 +77,9 @@ public class Calculator {
 		System.out.println("12 * 4  = " + calculator.multiply(12,4));  
 		System.out.println("With Radius = 4: Pi * r * r = " + calculator.computeCircleArea(4));  
 		
+	
 
+		
 
     }
 }
