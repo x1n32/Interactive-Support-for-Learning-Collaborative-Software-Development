@@ -34,15 +34,14 @@ class CalculatorTest {
 	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 	static LocalDateTime now = LocalDateTime.now();
 	static String fileReport = "\n==================\n" + dtf.format(now) + " \n";
-	static int beforeFileLength = fileReport.length(); 
+	static int beforeFileLength = fileReport.length();
 
 	static int totalTests = 0;
 	static int testPassed = 0;
 
 	private Calculator calculator;
 
-
-	//Saves an image function
+	// Saves an image function
 	public static void saveImage(String imageUrl, String destinationFile) throws IOException {
 		URL url = new URL(imageUrl);
 		InputStream is = url.openStream();
@@ -63,7 +62,6 @@ class CalculatorTest {
 	void initEach() throws IOException {
 		calculator = new Calculator();
 
-	
 	}
 
 	@Before
@@ -91,45 +89,43 @@ class CalculatorTest {
 			FileWriter Writer = new FileWriter("reportingErrors.txt", true);
 			Writer.write(fileReport);
 
-			System.out.println("Test passed: " + testPassed  + " total = " + totalTests);
-			double percentageCleared =  ((float) testPassed / totalTests);
+			System.out.println("Test passed: " + testPassed + " total = " + totalTests);
+			double percentageCleared = ((float) testPassed / totalTests);
 			percentageCleared = percentageCleared * 100;
-			
+			percentageCleared = 0;
 
-			//If no errors are reported, everything is working. So full score.
-			if (beforeFileLength == fileReport.length()) {
+			//Feedback
+			Writer.write("You have passed " + testPassed + " out of " + totalTests);
+			if (percentageCleared == 0) {
+				Writer.write("\nUnattempted. Have a try!." + percentageCleared);
+				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
+				String destinationFile = "image.jpg";
+				saveImage(imageUrl, destinationFile);
+
+			} else if (percentageCleared == 100) {
 				Writer.write("ALL CORRECT! CONGRATULATIONS!");
 				String imageUrl = "https://www.rubberstampking.co.uk/assets/images/fullmarks.png";
 				String destinationFile = "image.jpg";
 				saveImage(imageUrl, destinationFile);
 
-			} else {
-				Writer.write("You have passed " + testPassed + " out of " + totalTests);
-				if (percentageCleared == 100){
-					Writer.write("ALL CORRECT! CONGRATULATIONS!");
-					String imageUrl = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rubberstampking.co.uk%2Fassets%2Fimages%2Ffullmarks.png&f=1&nofb=1";
-					String destinationFile = "image.jpg";
-					saveImage(imageUrl, destinationFile);
-				}
-				else if (percentageCleared > 50) {
-					Writer.write("Well done.");
-					String imageUrl = "https://cdn3.vectorstock.com/i/1000x1000/94/02/well-done-stamp-vector-1469402.jpg";
-					String destinationFile = "image.jpg";
-					saveImage(imageUrl, destinationFile);
+			} else if (percentageCleared > 50) {
+				Writer.write("Well done.");
+				String imageUrl = "https://cdn3.vectorstock.com/i/1000x1000/94/02/well-done-stamp-vector-1469402.jpg";
+				String destinationFile = "image.jpg";
+				saveImage(imageUrl, destinationFile);
 
-				} else if (percentageCleared <= 50) {
-					Writer.write("\nHave another go." + percentageCleared);
-					String imageUrl = "http://comealivein365.com/wp-content/uploads/2013/08/keep-calm-try-again.jpg";
-					String destinationFile = "image.jpg";
-					saveImage(imageUrl, destinationFile);
-					
-				}
+			} else if (percentageCleared <= 50 && percentageCleared > 0) {
+				Writer.write("\nHave another go." + percentageCleared);
+				String imageUrl = "http://comealivein365.com/wp-content/uploads/2013/08/keep-calm-try-again.jpg";
+				String destinationFile = "image.jpg";
+				saveImage(imageUrl, destinationFile);
+
 			}
+
 			Writer.close();
 			System.out.println("Successfully written.");
 			System.out.println("You have passed " + testPassed + " out of " + totalTests + ". ");
 			// System.out.println(fileReport.length());
-			
 
 		} catch (IOException e) {
 			System.out.println("An error has occurred.");
@@ -269,10 +265,10 @@ class CalculatorTest {
 				totalTests += 1;
 
 				assertAll(
-					() -> assertEquals(10, calculator.divide(100, 10)),
-					() -> assertEquals(100, calculator.divide(150, 1.5f)),
-					() -> assertEquals(0.5, calculator.divide(50, 100)));
-		
+						() -> assertEquals(10, calculator.divide(100, 10)),
+						() -> assertEquals(100, calculator.divide(150, 1.5f)),
+						() -> assertEquals(0.5, calculator.divide(50, 100)));
+
 				testPassed += 1;
 
 			} catch (Throwable e) {

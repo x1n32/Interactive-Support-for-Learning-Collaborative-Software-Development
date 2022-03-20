@@ -18,3 +18,88 @@ All Tasks Complete and Working! Congratulations!ALL CORRECT! CONGRATULATIONS!
 ==================
 2022/03/20 17:44:36 
 All Tasks Complete and Working! Congratulations!ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/20 17:50:51 
+ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/20 17:51:10 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Have another go.0.0
+==================
+2022/03/20 17:52:37 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Have another go.0.0
+==================
+2022/03/20 17:54:27 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Have another go.0.0
+==================
+2022/03/20 17:55:29 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Have another go.0.0
+==================
+2022/03/20 17:55:57 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Unattempted. Have a try!.0.0
+==================
+2022/03/20 17:56:54 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Unattempted. Have a try!.0.0
+==================
+2022/03/20 17:57:28 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Unattempted. Have a try!.0.0
+==================
+2022/03/20 17:57:50 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Unattempted. Have a try!.0.0
+==================
+2022/03/20 17:58:46 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Unattempted. Have a try!.0.0
+==================
+2022/03/20 17:58:56 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Unattempted. Have a try!.0.0
+==================
+2022/03/20 17:59:11 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7
+Unattempted. Have a try!.0.0
+==================
+2022/03/20 17:59:54 
+Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <1.0> but was: <0.0>
+You have passed 6 out of 7Well done.
+==================
+2022/03/20 18:00:25 
+ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/20 18:00:52 
+ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/20 18:01:59 
+You have passed 7 out of 7
+Unattempted. Have a try!.0.0
+==================
