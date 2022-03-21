@@ -13,8 +13,10 @@ The task is broken down into smaller methods. Each one is a step to do the formu
 At the bottom there are methods for positive and a negative answer, so put + - respectively.
 To help the final method is called 'quadraticFormula' - just call the positive and negative answer methods to print the results out.
 
-Your Results:
-<img src="image.jpg" width="50%" height="50%">
+Calculator 1 status:
+<img src="calculator1Status.jpg" width="50%" height="50%">
+Calculator 2 status:
+<img src="calculator2Status.jpg" width="50%" height="50%">
 
 To send feedback, go to https://x1n32.github.io/How-to-GitHub/contact.html
 Answers are in the 'answer' branch. For info on branching go to https://x1n32.github.io/How-to-GitHub/commands.html
