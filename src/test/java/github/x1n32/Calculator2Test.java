@@ -54,7 +54,7 @@ public class Calculator2Test {
 	public static void fileCreation() {
 
 		try {
-			File myObj = new File("reportingErrors.txt");
+			File myObj = new File("calculator2Report.txt");
 			if (myObj.createNewFile()) {
 				System.out.println("File created: " + myObj.getName());
 			} else {
@@ -72,7 +72,7 @@ public class Calculator2Test {
 
 		try {
 
-			FileWriter Writer = new FileWriter("reportingErrors.txt", true);
+			FileWriter Writer = new FileWriter("calculator2Report.txt", true);
 			Writer.write(fileReport);
 
 			System.out.println("Test passed: " + testPassed + " total = " + totalTests);
@@ -83,7 +83,7 @@ public class Calculator2Test {
 			// Feedback
 			Writer.write("For Calculator 2, You have passed " + testPassed + " out of " + totalTests + ". ");
 			if (percentageCleared == 0) {
-				Writer.write("\nUnattempted. Have a try!." );
+				Writer.write("\nHave a try!." );
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
 				String destinationFile = "calculator2Status.jpg";
 				saveImage(imageUrl, destinationFile);

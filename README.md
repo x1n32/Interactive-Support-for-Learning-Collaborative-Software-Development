@@ -14,12 +14,13 @@ At the bottom there are methods for positive and a negative answer, so put + - r
 To help the final method is called 'quadraticFormula' - just call the positive and negative answer methods to print the results out.
 
 Calculator 1 status:
-<img src="calculator1Status.jpg" width="50%" height="50%">
+<img src="calculator1Status.jpg" width="50%" height="50%"><br/>
 Calculator 2 status:
-<img src="calculator2Status.jpg" width="50%" height="50%">
+<img src="calculator2Status.jpg" width="50%" height="50%"><br/>
 
 To send feedback, go to https://x1n32.github.io/How-to-GitHub/contact.html
 Answers are in the 'answer' branch. For info on branching go to https://x1n32.github.io/How-to-GitHub/commands.html
 
 
-[a relative link](reportingErrors.txt)
+[See report on Calculator 1](calculator1Report.txt)<br/>
+[See report on Calculator 2](calculator2Report.txt)
