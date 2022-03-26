@@ -20,3 +20,6 @@ Calculator 2 status:
 
 To send feedback, go to https://x1n32.github.io/How-to-GitHub/contact.html
 Answers are in the 'answer' branch. For info on branching go to https://x1n32.github.io/How-to-GitHub/commands.html
+
+
+[a relative link](reportingErrors.txt)
