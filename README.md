@@ -17,7 +17,7 @@ Calculator 1 status:<br/>
 [See report on Calculator 1](calculator1Report.txt)<br/>
 <img src="calculator1Status.jpg" width="50%" height="50%"><br/>
 Calculator 2 status:<br/>
-[See report on Calculator 2](calculator2Report.txt)
+[See report on Calculator 2](calculator2Report.txt)<br/>
 <img src="calculator2Status.jpg" width="50%" height="50%"><br/>
 
 To send feedback, go to https://x1n32.github.io/How-to-GitHub/contact.html
