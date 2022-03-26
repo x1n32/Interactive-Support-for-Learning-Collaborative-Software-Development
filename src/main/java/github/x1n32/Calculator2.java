@@ -1,7 +1,5 @@
 package github.x1n32;
 
-
-
 /**Try Making this class the Quadratic Formula. Search online on bbc bitesize if you don't know what it is.
 =======
 
