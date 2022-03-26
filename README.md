@@ -1,5 +1,5 @@
 # Task-1-Calculator
-
+https://x1n32.github.io/Task-1-Calculator/ 
 This task has 2 files for you to look at.
 Calculator.java, and Calculator2.java
 
@@ -13,14 +13,15 @@ The task is broken down into smaller methods. Each one is a step to do the formu
 At the bottom there are methods for positive and a negative answer, so put + - respectively.
 To help the final method is called 'quadraticFormula' - just call the positive and negative answer methods to print the results out.
 
-Calculator 1 status:
+Calculator 1 status:<br/>
+[See report on Calculator 1](calculator1Report.txt)<br/>
 <img src="calculator1Status.jpg" width="50%" height="50%"><br/>
-Calculator 2 status:
+Calculator 2 status:<br/>
+[See report on Calculator 2](calculator2Report.txt)
 <img src="calculator2Status.jpg" width="50%" height="50%"><br/>
 
 To send feedback, go to https://x1n32.github.io/How-to-GitHub/contact.html
 Answers are in the 'answer' branch. For info on branching go to https://x1n32.github.io/How-to-GitHub/commands.html
 
 
-[See report on Calculator 1](calculator1Report.txt)<br/>
-[See report on Calculator 2](calculator2Report.txt)
+
