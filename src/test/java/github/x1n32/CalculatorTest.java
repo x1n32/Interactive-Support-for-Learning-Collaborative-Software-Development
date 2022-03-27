@@ -34,7 +34,7 @@ class CalculatorTest {
 	//--File format--------------------------------------------------------
 	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 	static LocalDateTime now = LocalDateTime.now();
-	static String fileReport = "<br/>\n==================\n <br/> /#" + dtf.format(now) + " \n </br>";
+	static String fileReport = "<br/>\n==================\n <br/> " + "#" + dtf.format(now) + " \n </br>";
 	static int beforeFileLength = fileReport.length();
 
 	static int totalTests = 0;
