@@ -5,6 +5,12 @@ Go to the webpage: https://x1n32.github.io/Task-1-Calculator/ <br/>
 [See Task 3 Page](Task3.md)<br/>
 [See Information Page](info.md)<br/>
 
+Go to each task in turn and have a go.
+To save your work, paste the code below to the command line:
+```shell 
+git add . && git commit -m "Saving" && git push && mvn test
+``` 
+
 Below is an example of a task you can practice. 
 On the IDE click on the Show Files tab and go to 
 src/main/java/github/x1n32/DemoTest.jav. Click the green run button. 
