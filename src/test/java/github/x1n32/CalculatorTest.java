@@ -157,6 +157,7 @@ class CalculatorTest {
 				float expected = 2;
 				assertEquals(expected, actual,
 						"Add method should return the sum of two numbers");
+				fileReport += " - Adding two positive numbers WORKS! \n"; //Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -176,6 +177,7 @@ class CalculatorTest {
 				float expected = -2;
 				assertEquals(expected, actual,
 						"Add method should return the sum of two numbers. Tested with 2 negative numbers failed.");
+				fileReport += " - Adding two negative numbers WORKS! \n"; //Positive comment		
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -195,6 +197,7 @@ class CalculatorTest {
 				assertEquals(expected, actual,
 						"Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed.");
 				testPassed += 1;
+				fileReport += " - Adding a positive number and a negative number WORKS! \n"; //Positive comment
 
 			} catch (Throwable e) {
 				fileReport += "Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers\n";
@@ -214,6 +217,7 @@ class CalculatorTest {
 								"1*0 = 0. Numbers must have been changed if there's an error."),
 						() -> assertEquals(1, calculator.multiply(1, 1), "1*1 = 1"),
 						() -> assertEquals(6, calculator.multiply(2, 3), "2*3 = 6"));
+				fileReport += " - Multiplying two numbers WORKS! \n"; //Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -232,6 +236,7 @@ class CalculatorTest {
 				float actual = calculator.multiply(50, 2);
 				float expected = 100;
 				assertEquals(actual, expected, "Should return 100. 50 x 2 = 100");
+				fileReport += " - 50 x 2 WORKS! \n"; //Posotive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -250,6 +255,7 @@ class CalculatorTest {
 				double expected = 314.1592653589793;
 				assertEquals(expected, actual,
 						"Should return area of circle, pi x radius x radius.");
+				fileReport += " - Calculating area of a circle WORKS! \n"; //Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -269,7 +275,7 @@ class CalculatorTest {
 						() -> assertEquals(10, calculator.divide(100, 10)),
 						() -> assertEquals(100, calculator.divide(150, 1.5f)),
 						() -> assertEquals(0.5, calculator.divide(50, 100)));
-
+				fileReport += " - Adding Two numbers WORKS! \n"; //Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {

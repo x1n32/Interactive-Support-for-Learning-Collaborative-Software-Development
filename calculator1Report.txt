@@ -16,3 +16,46 @@ For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
 ==================
 2022/03/27 15:38:01 
 For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/27 16:00:25 
+For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/27 16:05:47 
+Calculating area of a circle WORKS! 
+Adding two positive numbers WORKS! 
+Adding Two numbers WORKS! 
+50 x 2 WORKS! 
+Multiplying two numbers WORKS! 
+Adding two negative numbers WORKS! 
+Adding a positive number and a negative number WORKS! 
+For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/27 16:07:28 
+6. Calculating area of a circle WORKS! 
+1. Adding two positive numbers WORKS! 
+7. Adding Two numbers WORKS! 
+5. 50 x 2 WORKS! 
+4. Multiplying two numbers WORKS! 
+2. Adding two negative numbers WORKS! 
+3. Adding a positive number and a negative number WORKS! 
+For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/27 16:08:16 
+6. Calculating area of a circle WORKS! 
+1. Adding two positive numbers WORKS! 
+7. Adding Two numbers WORKS! 
+5. 50 x 2 WORKS! 
+4. Multiplying two numbers WORKS! 
+2. Adding two negative numbers WORKS! 
+3. Adding a positive number and a negative number WORKS! 
+For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
+==================
+2022/03/27 16:09:26 
+ - Calculating area of a circle WORKS! 
+ - Adding two positive numbers WORKS! 
+ - Adding Two numbers WORKS! 
+ - 50 x 2 WORKS! 
+ - Multiplying two numbers WORKS! 
+ - Adding two negative numbers WORKS! 
+ - Adding a positive number and a negative number WORKS! 
+For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
