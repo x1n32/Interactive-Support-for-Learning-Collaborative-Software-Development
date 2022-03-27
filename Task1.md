@@ -1,5 +1,9 @@
 # Task-1-Calculator
-https://x1n32.github.io/Task-1-Calculator/ 
+[See Home Page](README.md)<br/>
+[See Task 2 Page](Task2.md)<br/>
+[See Task 3 Page](Task3.md)<br/>
+[See Information Page](info.md)<br/>
+(https://x1n32.github.io/Task-1-Calculator/ )
 This task has 2 files for you to look at.
 Calculator.java, and Calculator2.java
 
