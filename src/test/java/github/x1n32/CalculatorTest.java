@@ -122,7 +122,7 @@ class CalculatorTest {
 				saveImage(imageUrl, destinationFile);
 
 			}
-			Writer.write("\n");
+			Writer.write("\n <br>");
 			Writer.close();
 			System.out.println("Successfully written.");
 			System.out.println("You have passed " + testPassed + " out of " + totalTests + ". ");
