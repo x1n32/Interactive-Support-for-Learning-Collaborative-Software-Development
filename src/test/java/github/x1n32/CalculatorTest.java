@@ -69,7 +69,7 @@ class CalculatorTest {
 	public static void fileCreation() {
 
 		try {
-			File myObj = new File("calculator1Report.txt");
+			File myObj = new File("calculator1Report.md");
 			if (myObj.createNewFile()) {
 				System.out.println("File created: " + myObj.getName());
 			} else {
@@ -87,7 +87,7 @@ class CalculatorTest {
 
 		try {
 
-			FileWriter Writer = new FileWriter("calculator1Report.txt", true);
+			FileWriter Writer = new FileWriter("calculator1Report.md", true);
 			Writer.write(fileReport);
 
 			System.out.println("Test passed: " + testPassed + " total = " + totalTests);

@@ -18,12 +18,12 @@ At the bottom there are methods for positive and a negative answer, so put + - r
 To help the final method is called 'quadraticFormula' - just call the positive and negative answer methods to print the results out.
 
 Hash Map Task status:<br/>
-[See report on Hash Map Task](HashMapReport.txt)<br/>
+[See report on Hash Map Task](HashMapReport.md)<br/>
 <img src="calculator1Status.jpg" width="50%" height="50%"><br/>
 
 
-To send feedback, go to https://x1n32.github.io/How-to-GitHub/contact.html
-Answers are in the 'answer' branch. For info on branching go to https://x1n32.github.io/How-to-GitHub/commands.html
+
+Answers are in the 'answer' branch. 
 
 
 

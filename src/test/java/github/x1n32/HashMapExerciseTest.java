@@ -58,7 +58,7 @@ public class HashMapExerciseTest {
 	public static void fileCreation() {
 
 		try {
-			File myObj = new File("HashMapReport.txt");
+			File myObj = new File("HashMapReport.md");
 			if (myObj.createNewFile()) {
 				System.out.println("File created: " + myObj.getName());
 			} else {
@@ -76,7 +76,7 @@ public class HashMapExerciseTest {
 
 		try {
 
-			FileWriter Writer = new FileWriter("HashMapReport.txt", true);
+			FileWriter Writer = new FileWriter("HashMapReport.md", true);
 			Writer.write(fileReport);
 
 			System.out.println("Test passed: " + testPassed + " total = " + totalTests);
