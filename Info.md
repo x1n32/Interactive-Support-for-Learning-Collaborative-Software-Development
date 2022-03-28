@@ -23,3 +23,12 @@ You can use GitHub Pages to load md/html files - Go to Settings, On the left sid
 | `git checkout -b branchname` | check-out the branch you are interested in; giving you a local working copy.  |
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
+
+## Personal Access Token
+I cannot push my changes as I need an access token?
+To generate a personal access token to sign in instead of password: 
+ - Go on GitHub
+ - settings
+ - developer settings
+ -Personal Access Token
+ - Generate. Write this code down somewhere if you need it again.
