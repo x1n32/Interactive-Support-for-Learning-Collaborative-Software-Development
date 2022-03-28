@@ -16,7 +16,7 @@ public class Calculator {
 	 * @return a + b
 	 */
 	public float add(float a, float b) {
-		return a + b;
+		return a + 5;
 	}
 	
 	/**

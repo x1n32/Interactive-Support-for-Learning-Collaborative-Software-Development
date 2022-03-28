@@ -23,6 +23,7 @@ To help the final method is called 'quadraticFormula' - just call the positive a
 Steps: <br>
 - [ ]  Open src/main/java/github/x1n32/Task1Calculator and look at calculator.java
 - [ ]  Run the code via the run button (right click -> run) or scroll to the main method at the bottom and click run
+- [ ]  On this page, click on the link at the calculator status link. Can you see what the error is?
 - [ ]  On the add function, change 'return a + 5' to 'return a + b'.
 - [ ]  Copy the command line code below and run it in the console of your IDE.
 - [ ]  Reload this page. Any differences?
