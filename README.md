@@ -7,8 +7,11 @@ Go to the webpage: https://x1n32.github.io/Task-1-Calculator/ <br/>
 
 Welcome!
 Here there are some coding tasks you can do. 
-FIRST, make sure this repository is your own (either cloned from Classrooms or Forking it.)
-You can set this repository as a webpage - go to settings, pages, on the none button click the main branch.
+FIRST, make sure this repository is your own (either cloned from [Classrooms](https://classroom.github.com/a/SN5PqZFQ ) or Forking it. )
+
+Set this repository as a webpage - go to settings, pages, on the none button click the main branch.
+<br/><img src="pagesScreenshot.jpg" width="40%" height="40%"><br/>
+
 
 Open this repository on Gitpod. Also look at the Task pages to know what to do. 
 It is advised to keep both tabs open, as you can see feedback on what you have done.
