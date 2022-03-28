@@ -12,7 +12,7 @@ It makes use of branches, where you make 'alternate timelines' to test out code 
 Anyone can create repositories where it gets stored on GitHub to back-up code or to share!
 You can use GitHub Pages to load md/html files - Go to Settings, On the left side-bar click 'pages', then on source section click the 'none' button and provide a branch. This will display that branches index.html page or ReadMe.md file as your webpage.
 
-## Git commands 
+## Git commands (best view on github page)
 | Command | Description |
 | --- | --- |
 | `git add filename` | Adds the file to the staging area. filename can be replaced with . to add all files. |
