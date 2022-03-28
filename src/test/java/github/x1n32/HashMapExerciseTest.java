@@ -135,7 +135,7 @@ public class HashMapExerciseTest {
 		ItemDescriptions.put("lunch box", "Only an apple is inside...");
 
 	}
-
+// ============================TEST==============================
 	@Nested
 	class HashMapTesting {
 
@@ -156,6 +156,7 @@ public class HashMapExerciseTest {
 				String expected = "A map of the street...";
 				assertEquals(expected, ItemDescriptions.get("Map"),
 						" - This should match the same text as the value of map.");
+				fileReport += " - Getting value from a key (Item Description) WORKS! \n"; //Positive comment				
 				testPassed += 1;
 			} catch (Throwable e) {
 				fileReport += " - Error getting the correct value from the key: \n";
@@ -175,6 +176,7 @@ public class HashMapExerciseTest {
 				ItemDescriptions.put("Item", "This new descpription");
 				assertEquals(expected, ItemDescriptions.get("Item"),
 						" - This should match the same text as the value of map.");
+				fileReport += " - 2nd Test: Getting value from a key (Item Description) WORKS! \n"; //Positive comment		
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -195,6 +197,8 @@ public class HashMapExerciseTest {
 				ItemDescriptions.put("Wooden Shield", newDescription);
 	
 				assertEquals(newDescription, ItemDescriptions.get("Wooden Shield"));
+
+				fileReport += " - Changing value/description (new Description) WORKS! \n"; //Positive comment	
 				testPassed += 1;
 				 
 				
@@ -218,7 +222,7 @@ public class HashMapExerciseTest {
 				ItemDescriptions.put("Item", newDescription);
 
 				assertEquals(newDescription, ItemDescriptions.get("Item"));
-
+				fileReport += " - 2nd Test: Changing value/description (new Description) WORKS! \n"; //Positive comment	
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -238,6 +242,7 @@ public class HashMapExerciseTest {
 				ItemDescriptions.put("empty", "");
 				HashMapExercise.findAndReplaceEmptyValue(ItemDescriptions);
 				assertEquals("Unknown Description", ItemDescriptions.get("empty"));
+				fileReport += " - Challenge 1: Replacing empty values(find and replace empty value method) WORKS! \n"; //Positive comment	
 				testPassed += 1;
 			} catch (Throwable e) {
 				fileReport += " - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for empty values. If you haven't started this task, ignore this message. \n   Otherwise, did you check you recieved the right input? Are you searching values correctly? \n   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. \n   Make sure you set the description to be the same as what the task requires. \n";
@@ -256,6 +261,7 @@ public class HashMapExerciseTest {
 				ItemDescriptions.put("empty2", null);
 				HashMapExercise.findAndReplaceEmptyValue(ItemDescriptions);
 				assertEquals(" - Unknown Description", ItemDescriptions.get("empty2"));
+				fileReport += " - Challenge 1: null values replaced (find and replace empty value method) WORKS! \n"; //Positive comment	
 				testPassed += 1;
 			} catch (Throwable e) {
 				fileReport += " - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for null values. If you haven't started this task, ignore this message. \n   Otherwise, did you check you recieved the right input? Are you searching values correctly? \n   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. \n   Make sure you set the description to be the same as what the task requires. \n";
@@ -272,6 +278,7 @@ public class HashMapExerciseTest {
 				System.out.println("Testing if user can create a hashmap in the method");
 				System.out.println("testHashMapCreationUnderstanding");
 				assertEquals("Abby", HashMapExercise.createNewHashMap());
+				fileReport += " - Challenge 2: Creating a new hash map(createNewHashMap) WORKS! \n"; //Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {

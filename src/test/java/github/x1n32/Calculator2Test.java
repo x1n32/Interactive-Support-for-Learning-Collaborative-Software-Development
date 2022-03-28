@@ -140,6 +140,7 @@ public class Calculator2Test {
 						() -> assertEquals(225, calculator2.squareOfB(-15)),
 						() -> assertEquals(0.25, calculator2.squareOfB(0.5f)));
 
+				fileReport += " - Square of B method WORKS! \n"; //Positive comment		
 				testPassed += 1;
 			} catch (Throwable e) {
 				fileReport += " - Error found in the squareOfB Method;  should return number * number.\n";
@@ -159,6 +160,7 @@ public class Calculator2Test {
 						() -> assertEquals(4, calculator2.fourAC(1, 1), " 4 * 1 * 1 = 4"),
 						() -> assertEquals(0, calculator2.fourAC(1, 0), " 4 * 1 * 0 = 0"),
 						() -> assertEquals(-4, calculator2.fourAC(-1, 1), "4 * -1 * 1"));
+				fileReport += " - 4AC method WORKS! \n"; //Positive comment		
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -177,6 +179,7 @@ public class Calculator2Test {
 						() -> assertEquals(4, calculator2.squareRootAnswer(20, 4), "sqrt 16 = 4"),
 						() -> assertEquals(8, calculator2.squareRootAnswer(63, -1), "sqrt 64 = 8"),
 						() -> assertEquals(10, calculator2.squareRootAnswer(90, -10), "sqrt 100 = 10"));
+						fileReport += " - Square Root method WORKS! \n"; //Positive comment		
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -207,6 +210,7 @@ public class Calculator2Test {
 						" - Using the answer form the square root function, it should ADD to -b, then divide it by 2a");
 				assertEquals(-0.8860009363293826, calculator2.negativeAnswer(a, b, c),
 						" - Using the answer form the square root function, it should SUBTRACT from -b, then divide it by 2a");
+				fileReport += " - Final check... Quadratic Formula for both answer.... WORKS! \n"; //Positive comment		
 				testPassed += 1;
 
 			} catch (Throwable e) {
