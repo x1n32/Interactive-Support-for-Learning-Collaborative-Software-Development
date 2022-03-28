@@ -19,7 +19,7 @@ To help the final method is called 'quadraticFormula' - just call the positive a
 
 Hash Map Task status:<br/>
 [See report on Hash Map Task](HashMapReport.md)<br/>
-<img src="/hashMapStatus.jpg" width="50%" height="50%"><br/>
+<img src="hashMapStatus.jpg" width="50%" height="50%"><br/>
 
 
 
