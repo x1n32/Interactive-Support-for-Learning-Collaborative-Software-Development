@@ -155,10 +155,10 @@ public class HashMapExerciseTest {
 				System.out.println("checking specific value in list");
 				String expected = "A map of the street...";
 				assertEquals(expected, ItemDescriptions.get("Map"),
-						"This should match the same text as the value of map.");
+						" - This should match the same text as the value of map.");
 				testPassed += 1;
 			} catch (Throwable e) {
-				fileReport += "Error getting the correct value from the key: \n";
+				fileReport += " - Error getting the correct value from the key: \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -174,11 +174,11 @@ public class HashMapExerciseTest {
 				String expected = "This new descpription";
 				ItemDescriptions.put("Item", "This new descpription");
 				assertEquals(expected, ItemDescriptions.get("Item"),
-						"This should match the same text as the value of map.");
+						" - This should match the same text as the value of map.");
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += "Error getting the correct value from the key: \n";
+				fileReport += " - Error getting the correct value from the key: \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -199,7 +199,7 @@ public class HashMapExerciseTest {
 				 
 				
 			} catch (Throwable e) {
-				fileReport += "Error changing the value of an existing key: \n    ";
+				fileReport += " - Error changing the value of an existing key: \n    ";
 				fileReport += e + "\n";
 				System.out.println(fileReport+ "\n");
 			}
@@ -222,7 +222,7 @@ public class HashMapExerciseTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += "Error changing the value of an existing key: \n   ";
+				fileReport += " - Error changing the value of an existing key: \n   ";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -240,7 +240,7 @@ public class HashMapExerciseTest {
 				assertEquals("Unknown Description", ItemDescriptions.get("empty"));
 				testPassed += 1;
 			} catch (Throwable e) {
-				fileReport += "Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for empty values. If you haven't started this task, ignore this message. \n   Otherwise, did you check you recieved the right input? Are you searching values correctly? \n   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. \n   Make sure you set the description to be the same as what the task requires. \n";
+				fileReport += " - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for empty values. If you haven't started this task, ignore this message. \n   Otherwise, did you check you recieved the right input? Are you searching values correctly? \n   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. \n   Make sure you set the description to be the same as what the task requires. \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -255,10 +255,10 @@ public class HashMapExerciseTest {
 				System.out.println("Testing find and replace null values");
 				ItemDescriptions.put("empty2", null);
 				HashMapExercise.findAndReplaceEmptyValue(ItemDescriptions);
-				assertEquals("Unknown Description", ItemDescriptions.get("empty2"));
+				assertEquals(" - Unknown Description", ItemDescriptions.get("empty2"));
 				testPassed += 1;
 			} catch (Throwable e) {
-				fileReport += "Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for null values. If you haven't started this task, ignore this message. \n   Otherwise, did you check you recieved the right input? Are you searching values correctly? \n   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. \n   Make sure you set the description to be the same as what the task requires. \n";
+				fileReport += " - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for null values. If you haven't started this task, ignore this message. \n   Otherwise, did you check you recieved the right input? Are you searching values correctly? \n   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. \n   Make sure you set the description to be the same as what the task requires. \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -275,7 +275,7 @@ public class HashMapExerciseTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += "Error found in CHALLENGE2: createNewHashMap(). If you haven't started this task, ignore this message. \n   Have you checked you have put two generics? \n   <> should have two data types inside that would suit 0 and Abby. \n   You only need to write one line of code to create a hash map.";
+				fileReport += " - Error found in CHALLENGE2: createNewHashMap(). If you haven't started this task, ignore this message. \n   Have you checked you have put two generics? \n   <> should have two data types inside that would suit 0 and Abby. \n   You only need to write one line of code to create a hash map.";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
