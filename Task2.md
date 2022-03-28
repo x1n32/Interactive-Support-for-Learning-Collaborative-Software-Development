@@ -19,6 +19,11 @@ The task is broken down into smaller methods. Each one is a step to do the formu
 At the bottom there are methods for positive and a negative answer, so put + - respectively.
 To help the final method is called 'quadraticFormula' - just call the positive and negative answer methods to print the results out.
 
+
+ - Remember to save your work. Copy and Paste the code below. You can see your progress on the links as well.
+```shell 
+mvn test && git add . && git commit -m "Saving" && git push
+```
 ## Hash Map Task status:<br/>
 [See report on Hash Map Task](HashMapReport.md)<br/>
 <img src="hashMapStatus.jpg" width="50%" height="50%"><br/>
