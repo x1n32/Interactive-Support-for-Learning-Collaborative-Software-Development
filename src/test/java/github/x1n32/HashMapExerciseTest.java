@@ -32,7 +32,7 @@ public class HashMapExerciseTest {
 
 	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 	static LocalDateTime now = LocalDateTime.now();
-	static String fileReport = "==================\n" + dtf.format(now) + " \n";
+	static String fileReport = "<br> \n==================\n<br>\n" + "### " + dtf.format(now) + " \n <br>\n";
 	static int beforeFileLength = fileReport.length();
 
 	// Saves an image function
@@ -111,7 +111,7 @@ public class HashMapExerciseTest {
 				saveImage(imageUrl, destinationFile);
 
 			}
-
+			Writer.write("\n <br>");
 			Writer.close();
 			System.out.println("Successfully written.");
 			System.out.println(fileReport.length());

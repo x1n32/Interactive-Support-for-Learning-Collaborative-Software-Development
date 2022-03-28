@@ -25,7 +25,7 @@ public class Calculator2Test {
 	// --File format--------------------------------------------------------
 	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 	static LocalDateTime now = LocalDateTime.now();
-	static String fileReport = "\n==================\n" + dtf.format(now) + " \n";
+	static String fileReport = "<br> \n==================\n<br>\n" + "### " + dtf.format(now) + " \n <br>\n";
 	static int beforeFileLength = fileReport.length();
 
 	static int totalTests = 0;
@@ -107,7 +107,7 @@ public class Calculator2Test {
 				saveImage(imageUrl, destinationFile);
 
 			}
-
+			Writer.write("\n <br>");
 			Writer.close();
 			System.out.println("Successfully written.");
 			System.out.println("You have passed " + testPassed + " out of " + totalTests + ". ");
