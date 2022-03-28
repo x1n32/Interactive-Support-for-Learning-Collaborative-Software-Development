@@ -20,7 +20,7 @@ To help the final method is called 'quadraticFormula' - just call the positive a
 <img src="quadraticEquation.png" width="30%" height="30%"><br/>
 
 
-Steps:
+Steps: <br>
 [] Open src/main/java/github/x1n32/Task1Calculator and look at calculator.java
 [] Run the code via the run button (right click -> run) or scroll to the main method at the bottom and click run
 [] On the add function, change 'return a + 5' to 'return a + b'.
