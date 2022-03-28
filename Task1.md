@@ -17,7 +17,7 @@ You have to make methods to do the quadratic formula (Search on the internet, li
 The task is broken down into smaller methods. Each one is a step to do the formula such as squaring b, 4AC, square root 4AC
 At the bottom there are methods for positive and a negative answer, so put + - respectively.
 To help the final method is called 'quadraticFormula' - just call the positive and negative answer methods to print the results out.
-<img src="quadraticEquation.png" width="30%" height="30%"><br/>
+<br/><img src="quadraticEquation.png" width="30%" height="30%"><br/>
 
 
 Steps: <br>
