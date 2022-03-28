@@ -115,4 +115,18 @@ For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
  - Adding two negative numbers WORKS! 
  - Adding a positive number and a negative number WORKS! 
 For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
+ <br><br> 
+==================
+<br>
+### 2022/03/28 10:11:47 
+ <br>
+ - Calculating area of a circle WORKS! 
+Error found in the Add Method;  should return the sum of two numbers 
+org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers ==> expected: <3.0> but was: <2.0>
+ - Adding Two numbers WORKS! 
+ - 50 x 2 WORKS! 
+ - Multiplying two numbers WORKS! 
+ - Adding two negative numbers WORKS! 
+ - Adding a positive number and a negative number WORKS! 
+For Calculator 1, You have passed 6 out of 7. Well done.
  <br>

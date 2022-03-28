@@ -154,7 +154,7 @@ class CalculatorTest {
 			try {
 				totalTests += 1;
 				float actual = calculator.add(1, 1);
-				float expected = 2;
+				float expected = 3;
 				assertEquals(expected, actual,
 						"Add method should return the sum of two numbers");
 				fileReport += " - Adding two positive numbers WORKS! \n"; //Positive comment
