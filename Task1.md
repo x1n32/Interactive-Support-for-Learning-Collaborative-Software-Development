@@ -51,14 +51,17 @@ Calculator 2 status:<br/>
 
 Answers are in the 'answer' branch. 
 
+
+### Optional. Embed an IDE to code here.
 Want to code on the webpage?
 Steps:
 - Go to https://replit.com/ and create an account.
 - Once you signed in click on the + icon on the top-right, then import from GitHub.
 - Once you do that, you can work on Replit to code rather than Gitpod. 
 - You can also copy the web address and paste it here.
--<br/><img src="Replit.png" width="40%" height="40%"><br/>
+<br/><img src="Replit.png" width="80%" height="80%"><br/>
 
+Don't be alarmed if there is a 404 error below. If you want, paste your link when you edit this file.
 <iframe frameborder="0" width="100%" height="500px" src=" addYourReplitWebLinkHereButKeepThe?AndEmbedPart ?embed=true"> Sorry your browser does not support inline frames.</iframe>
 
 
