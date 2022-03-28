@@ -45,7 +45,8 @@ mvn test && git add . && git commit -m "Saving" && git push
 ## Calculator 1 status:<br/>
 [See report on Calculator 1](calculator1Report.md)<br/>
 <img src="calculator1Status.jpg" width="50%" height="50%"><br/>
-Calculator 2 status:<br/>
+
+## Calculator 2 status:<br/>
 [See report on Calculator 2](calculator2Report.md)<br/>
 <img src="calculator2Status.jpg" width="50%" height="50%"><br/>
 
