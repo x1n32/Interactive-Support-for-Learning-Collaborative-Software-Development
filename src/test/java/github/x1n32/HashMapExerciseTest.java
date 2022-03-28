@@ -85,7 +85,7 @@ public class HashMapExerciseTest {
 			// percentageCleared = 0;
 
 			// Feedback
-			Writer.write("For Hash Map Exercise, You have passed " + testPassed + " out of " + totalTests + ". ");
+			Writer.write("\n <br>\nFor Hash Map Exercise, You have passed " + testPassed + " out of " + totalTests + ". ");
 			if (percentageCleared == 0) {
 				Writer.write("\nHave a try!. ");
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";

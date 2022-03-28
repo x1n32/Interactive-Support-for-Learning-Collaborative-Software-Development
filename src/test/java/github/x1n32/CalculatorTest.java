@@ -96,7 +96,7 @@ class CalculatorTest {
 //			percentageCleared = 0;
 
 			//Feedback
-			Writer.write("For Calculator 1, You have passed " + testPassed + " out of " + totalTests + ". ");
+			Writer.write("\n <br>\nFor Calculator 1, You have passed " + testPassed + " out of " + totalTests + ". ");
 			if (percentageCleared == 0) {
 				Writer.write("\nHave a try!. ");
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
@@ -154,7 +154,7 @@ class CalculatorTest {
 			try {
 				totalTests += 1;
 				float actual = calculator.add(1, 1);
-				float expected = 3;
+				float expected = 2;
 				assertEquals(expected, actual,
 						"Add method should return the sum of two numbers");
 				fileReport += " - Adding two positive numbers WORKS! \n"; //Positive comment

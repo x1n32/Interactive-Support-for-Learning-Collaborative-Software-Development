@@ -129,4 +129,19 @@ org.opentest4j.AssertionFailedError: Add method should return the sum of two num
  - Adding two negative numbers WORKS! 
  - Adding a positive number and a negative number WORKS! 
 For Calculator 1, You have passed 6 out of 7. Well done.
+ <br><br> 
+==================
+<br>
+### 2022/03/28 10:12:58 
+ <br>
+ - Calculating area of a circle WORKS! 
+ - Adding two positive numbers WORKS! 
+ - Adding Two numbers WORKS! 
+ - 50 x 2 WORKS! 
+ - Multiplying two numbers WORKS! 
+ - Adding two negative numbers WORKS! 
+ - Adding a positive number and a negative number WORKS! 
+
+ <br>
+For Calculator 1, You have passed 7 out of 7. ALL CORRECT! CONGRATULATIONS!
  <br>
