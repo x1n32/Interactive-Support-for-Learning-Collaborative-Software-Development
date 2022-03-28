@@ -1,4 +1,4 @@
-package github.x1n32;
+package github.x1n32.Task1Calculator;
 
 
 
@@ -69,7 +69,6 @@ public class Calculator {
 		System.out.println("This a java class to showcase methods and classes. ");
 		System.out.println("This Maths Utils java class has several methods/functions it can do. ");
 		
-
         System.out.println("1 + 2 =  " + calculator.add(1, 2));    
 		System.out.println("5.5 + 24.5 =  " + calculator.add(5.5f, 24.5f));  
 		System.out.println("0 - 5 =  " + calculator.subtract(0, -5));      
@@ -77,9 +76,5 @@ public class Calculator {
 		System.out.println("12 * 4  = " + calculator.multiply(12,4));  
 		System.out.println("With Radius = 4: Pi * r * r = " + calculator.computeCircleArea(4));  
 		
-	
-
-		
-
     }
 }

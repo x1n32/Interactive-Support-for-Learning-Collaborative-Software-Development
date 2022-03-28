@@ -1,4 +1,4 @@
-package github.x1n32;
+package github.x1n32.Task1Calculator;
 
 /**Try Making this class the Quadratic Formula. Search online on bbc bitesize if you don't know what it is.
 =======

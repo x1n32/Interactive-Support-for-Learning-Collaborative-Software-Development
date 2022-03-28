@@ -3,7 +3,9 @@
 [See Task 1 Page](Task1.md)<br/>
 [See Task 3 Page](Task3.md)<br/>
 [See Information Page](Info.md)<br/>
-https://x1n32.github.io/Task-1-Calculator/ 
+
+## Task Information and Instructions 
+
 This task has 2 files for you to look at.
 Calculator.java, and Calculator2.java
 
@@ -17,7 +19,7 @@ The task is broken down into smaller methods. Each one is a step to do the formu
 At the bottom there are methods for positive and a negative answer, so put + - respectively.
 To help the final method is called 'quadraticFormula' - just call the positive and negative answer methods to print the results out.
 
-Hash Map Task status:<br/>
+## Hash Map Task status:<br/>
 [See report on Hash Map Task](HashMapReport.md)<br/>
 <img src="hashMapStatus.jpg" width="50%" height="50%"><br/>
 

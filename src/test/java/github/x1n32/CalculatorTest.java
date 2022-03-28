@@ -6,6 +6,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+
+import github.x1n32.Task1Calculator.Calculator;
+
 import org.junit.Before;
 
 import java.io.File;
