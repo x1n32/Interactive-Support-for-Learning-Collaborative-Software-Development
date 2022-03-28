@@ -8,7 +8,7 @@ Go to the webpage: https://x1n32.github.io/Task-1-Calculator/ <br/>
 Go to each task in turn and have a go.
 To save your work, paste the code below to the command line:
 ```shell 
-git add . && git commit -m "Saving" && git push && mvn test
+mvn test && git add . && git commit -m "Saving" && git push
 ``` 
 
 Below is an example of a task you can practice. 
