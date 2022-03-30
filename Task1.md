@@ -4,6 +4,19 @@
 [See Task 3 Page](Task3.md)<br/>
 [See Information Page](Info.md)<br/>
 
+<style>
+.green {
+    color: green;
+    font-weight:700;
+    font-size: 30px;
+}
+</style>
+
+<div class="green">
+    Markdown css styles
+</div>
+
+
 ## Task Information and Instructions
 This task has 2 files for you to look at.
 Calculator.java, and Calculator2.java
