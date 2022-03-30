@@ -4,16 +4,38 @@
 [See Task 3 Page](Task3.md)<br/>
 [See Information Page](Info.md)<br/>
 
+
+
 <style>
 .green {
     color: green;
     font-weight:700;
     font-size: 30px;
+
+ #navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  height: 40px;
+}
 }
 </style>
 
 <div class="green">
     Markdown css styles
+</div>
+
+<div id="navbar">
+        <a class="active" href="/How-to-GitHub/index.html"> <i class="fa fa-fw fa-home"></i>Home</a>
+        <a href="/How-to-GitHub/about.html"> About Github</a>
+        <a href="/How-to-GitHub/commands.html">Commands</a>
+        <a href="/How-to-GitHub/contact.html"> FAQ and Contacts</a>
+        <a href="/How-to-GitHub/Tasks.html">Practice Tests</a>
+        <br><br><br>
 </div>
 
 
