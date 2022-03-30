@@ -1,14 +1,11 @@
 package github.x1n32.Task1Calculator;
 
-
-
 /**
- * A class that has methods to do mathematical operations.
+ * Calculator has methods to do mathematical operations.
  * Can add, subtract, multiply, divide, and can calculate area of a circle.
- * 
  */
 public class Calculator {
-	
+
 	/**
 	 * Takes 2 numbers and adds them together
 	 * @param a
@@ -16,7 +13,7 @@ public class Calculator {
 	 * @return a + b
 	 */
 	public float add(float a, float b) {
-		return a + 5;
+		return a + 5;     				//LOOK HERE
 	}
 	
 	/**
@@ -63,12 +60,20 @@ public class Calculator {
 
 
 
-
+	/**
+	 * This is where you can call the methods above. They don't do anything unless you call them.
+	 * @param args
+	 */
     public static void main(String[] args)  {
+
+		//We have created a Calculator called (lowercase) calculator.
         Calculator calculator = new Calculator();
+
 		System.out.println("This a java class to showcase methods and classes. ");
 		System.out.println("This Maths Utils java class has several methods/functions it can do. ");
 		
+		//(lowercase) calculator can use any of the methods we defined above.
+		//System.out.println() is to output anything we put in the brackets.
         System.out.println("1 + 2 =  " + calculator.add(1, 2));    
 		System.out.println("5.5 + 24.5 =  " + calculator.add(5.5f, 24.5f));  
 		System.out.println("0 - 5 =  " + calculator.subtract(0, -5));      

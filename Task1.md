@@ -4,79 +4,43 @@
 [See Task 3 Page](Task3.md)<br/>
 [See Information Page](Info.md)<br/>
 
-
-
-<style>
-.green {
-    color: green;
-    font-weight:700;
-    font-size: 30px;
-    
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  height: 40px;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-}
-</style>
-
-<div class="green">
-    Markdown css styles
-</div>
-
-<div id="navbar">
-    <a class="active" href="/How-to-GitHub/index.html"> <i class="fa fa-fw fa-home"></i>Home</a>
-    <a href="/How-to-GitHub/about.html"> About Github</a>
-    <a href="/How-to-GitHub/commands.html">Commands</a>
-    <a href="/How-to-GitHub/contact.html"> FAQ and Contacts</a>
-    <a href="/How-to-GitHub/Tasks.html">Practice Tests</a>
-    <br><br><br>
-</div>
-
-
 ## Task Information and Instructions
-This task has 2 files for you to look at.
-Calculator.java, and Calculator2.java
-
+The purpose of this task is to introduce you to Java Methods and handling with numbers.
+There are two files for you to look at: Calculator.java, and Calculator2.java
+web 
 The first one is a demo code to look at how classes and methods work.
-It does basic mathematical functions, and can calculate the area of a circle.
-Feel free to play around with it.
+Classes are like blueprints in which you can create objects out of.
+All these objects have access to the same methods. 
+Methods are subprograms that can be reused without rewriting the code.
+e.g. Class = Vehicle. An object of that can be called a car. They all have methods such as drive, brake, turn etc. 
 
-The main task is on Calculator2.java.
-You have to make methods to do the quadratic formula (Search on the internet, like BBC Bitesize, if you are unaware of this)
-The task is broken down into smaller methods. Each one is a step to do the formula such as squaring b, 4AC, square root 4AC
-At the bottom there are methods for positive and a negative answer, so put + - respectively.
-To help the final method is called 'quadraticFormula' - just call the positive and negative answer methods to print the results out.
+Most of the tasks you have to do is on Calculator2.java.
+The aim of this is to make it capable of performing the quadratic formula, by breaking it up into smaller parts.
+The setup for the methods are there. You just need to add in the right numbers: squaring b; 4AC; square root 4AC etc
 <br/><img src="quadraticEquation.png" width="30%" height="30%"><br/>
 
-
-Steps: <br>
-- [ ]  Open src/main/java/github/x1n32/Task1Calculator and look at calculator.java
-- [ ]  Run the code via the run button (right click -> run) or scroll to the main method at the bottom and click run
-- [ ]  On this page, click on the link at the calculator status link. Can you see what the error is?
-- [ ]  On the add function, change 'return a + 5' to 'return a + b'.
-- [ ]  Copy the command line code below and run it in the console of your IDE.
+### Keywords: Open in the editor to match keywords with definitions
+Keyword | Definition
+------- | ---------
+Java   |  -
+Java   |  -
+Java   |  -
+Java   |  -
+Java   |  -
+Java   |  -
+ 
+## Introductory Tasks:
+- [ ]  On another tab, go to the GitHub page (Go to GitHub Button).
+- [ ]  Then open GitPod to start programming (or gitpod.io/# where # is the web address).
+- [ ]  Click yes to anything that needs downloading.
+- [ ]  Open src/main/java/github/x1n32/Task1Calculator/calculator.java
+- [ ]  Run the code (via F5 or right-click and Run Java)
+- [ ]  On **this** page, click on the link at the calculator status link. Can you see what the error is?
+- [ ]  Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
+- [ ]  Copy the code below (the one that saves your work) and run it in the console of GitPod.
 - [ ]  Reload this page. Any differences?
+
+## Main Tasks: <br>
 - [ ]  Open calculator2.java
 - [ ]  Fix squareOfB so that it returns the square value of input B (A number multiplied by itself e.g. num1 * num1)
 - [ ]  Fix fourAC so that it returns the value of 4 x input a x input c (multiply in code uses the * key.)
@@ -86,8 +50,8 @@ Steps: <br>
 - [ ]  Now do the same for the negative answer but using - instead of +
 - [ ]  Using all the functions you have created, put it all into the final function 'quadraticFormula' so that it runs them all. This does not need to 'return' anything. Output the answers to check if you are correct. (To call a function, you type the name of the function and provide values in the brackets if required.)
 
-
- - Remember to save your work. Copy and Paste the code below. You can see your progress on the links as well.
+## Copy this to save your work
+- Remember to save your work. Copy and Paste the code in the 'Terminal' at the bottom of the screen below.
 ```shell 
 mvn test && git add . && git commit -m "Saving" && git push
 ```
