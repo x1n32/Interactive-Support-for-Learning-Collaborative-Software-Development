@@ -64,7 +64,7 @@ System.out.println(10 + 10);
 - [ ]  Now do the same for the negative answer but using - instead of +
 - [ ]  Using all the functions you have created, put it all into the final function 'quadraticFormula' so that it runs them all. This does not need to 'return' anything. Output the answers to check if you are correct. (To call a function, you type the name of the function and provide values in the brackets if required.)
 
-## Copy this to save your work
+## Code to save your work
 - Remember to save your work. Copy and Paste the code in the 'Terminal' at the bottom of the screen below.
 ```shell 
 mvn test && git add . && git commit -m "Saving" && git push

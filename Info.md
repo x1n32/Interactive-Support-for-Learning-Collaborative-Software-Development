@@ -16,10 +16,10 @@ You can use GitHub Pages to load md/html files - Go to Settings, On the left sid
 There are two ways to edit the files here.
 - Going to Gitpod and editing the file there.
 - OR editing the file on GitHub by clicking on the file and then the pen icon.
-<br/><img src="Images/fileEdit.jpg" width="50%" height="50%"><br/>
+<br/><img src="Images/fileEdit.jpg" width="70%" height="70%"><br/>
 
 ## Using Gitpod
-<br/><img src="Images/gitpodScreenshot.PNG" width="50%" height="50%"><br/>
+<br/><img src="Images/gitpodScreenshot.PNG" width="70%" height="70%"><br/>
 - On the left are all the files. 
 - The middle of the screen is where you read/write the file you opened
 - On the bottom is the terminal. This is where you paste the code to save your work.
