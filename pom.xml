@@ -121,6 +121,7 @@
             </configuration>
           </execution>
           </executions>
+          
           <dependencies>
           <dependency>
             <groupId>ant-contrib</groupId>
@@ -136,7 +137,7 @@
           <version>3.0.0</version>
           <configuration>
           <gitConfig>
-            <core.hooksPath>etc/git-hooks/</core.hooksPath>
+            <core.hooksPath>git-hooks/</core.hooksPath>
             <hooks.commitmsgregex>(\w+\s){3,}(\w+\.)</hooks.commitmsgregex>
           </gitConfig>
           </configuration>
