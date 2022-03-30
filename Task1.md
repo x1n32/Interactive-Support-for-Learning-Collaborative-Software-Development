@@ -19,16 +19,35 @@ The aim of this is to make it capable of performing the quadratic formula, by br
 The setup for the methods are there. You just need to add in the right numbers: squaring b; 4AC; square root 4AC etc
 <br/><img src="quadraticEquation.png" width="30%" height="30%"><br/>
 
-### Keywords: Open in the editor to match keywords with definitions
+### Keywords: Open in the editor - match keywords with definitions. Copy Paste.
 Keyword | Definition
 ------- | ---------
 Java   |  -
-Java   |  -
-Java   |  -
-Java   |  -
-Java   |  -
-Java   |  -
+Method   |  -
+Class   |  -
+Integer  |  -
+Float   |  -
+
+1 - A programming language
+2 - A subprogram which can be called many times
+3 - A whole number
+4 - A number that can use decimals
+5 - A 'Cookie Cutter' which can make objects of that type
  
+### Predict: 
+1)
+System.out.println("Hello World"); 
+
+- Your Guess:
+- Actual output:  [See answer here](https://learn.onlinegdb.com/846UnWowD)<br/>
+
+2)
+System.out.println(10 + 10); 
+
+- Your Guess:
+- Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
+
+
 ## Introductory Tasks:
 - [ ]  On another tab, go to the GitHub page (Go to GitHub Button).
 - [ ]  Then open GitPod to start programming (or gitpod.io/# where # is the web address).
@@ -37,7 +56,7 @@ Java   |  -
 - [ ]  Run the code (via F5 or right-click and Run Java)
 - [ ]  On **this** page, click on the link at the calculator status link. Can you see what the error is?
 - [ ]  Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
-- [ ]  Copy the code below (the one that saves your work) and run it in the console of GitPod.
+- [ ]  Copy the code below (the one that saves your work) and run it in the console of GitPod (Stuck? Go to the information page.)
 - [ ]  Reload this page. Any differences?
 
 ## Main Tasks: <br>

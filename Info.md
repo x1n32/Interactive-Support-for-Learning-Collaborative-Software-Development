@@ -12,7 +12,14 @@ It makes use of branches, where you make 'alternate timelines' to test out code 
 Anyone can create repositories where it gets stored on GitHub to back-up code or to share!
 You can use GitHub Pages to load md/html files - Go to Settings, On the left side-bar click 'pages', then on source section click the 'none' button and provide a branch. This will display that branches index.html page or ReadMe.md file as your webpage.
 
+## Using Gitpod
+<br/><img src="/Images/gitpodScreenshot.PNG" width="50%" height="50%"><br/>
+- On the left are all the files. 
+- The middle of the screen is where you read/write the file you opened
+- On the bottom is the terminal. This is where you paste the code to save your work.
+
 ## Git commands (best view on github page)
+These are commands you can type into the terminal.
 | Command | Description |
 | --- | --- |
 | `git add filename` | Adds the file to the staging area. filename can be replaced with . to add all files. |
@@ -30,5 +37,5 @@ To generate a personal access token to sign in instead of password:
  - Go on GitHub
  - settings
  - developer settings
- -Personal Access Token
+ - Personal Access Token
  - Generate. Write this code down somewhere if you need it again.
