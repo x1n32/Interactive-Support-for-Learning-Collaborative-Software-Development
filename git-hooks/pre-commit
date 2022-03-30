@@ -1,9 +1,12 @@
 #!/bin/sh
 
-# Run all scripts defined in the pre-commit-hooks directory.
-# This allows individual operations/verifications/restriction to be stored in their own files.
-set -e
-basedir=$(git-hooks "$0")
-for f in "$basedir"/pre-commit-hooks/*.sh; do
-  sh "$f"
+echo "You are about to commit" $(git diff --cached --name-only --diff-filter=ACM)
+echo "to" $(git branch --show-current)
+
+while : ; do
+    read -p "Do you really want to do this? [y/n] " RESPONSE < /dev/tty
+    case "${RESPONSE}" in
+        [Yy]* ) exit 0; break;;
+        [Nn]* ) exit 1;;
+    esac
 done
