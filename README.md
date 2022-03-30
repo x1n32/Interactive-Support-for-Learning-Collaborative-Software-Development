@@ -1,15 +1,11 @@
 # Interactive Support for Learning Collaborative Software Development
 Go to the webpage: https://x1n32.github.io/Interactive-Support-for-Learning-Collaborative-Software-Development/ <br/>
-[See Task 1 Page](/Task1.md)<br/>
-[See Task 2 Page](/Task2.md)<br/>
-[See Task 3 Page](/Task3.md)<br/>
-[See Information Page](/Info.md)<br/>
 
 Welcome!
 Here there are some coding tasks you can do. 
 FIRST, make sure this repository is your own (either cloned from [Classrooms](https://classroom.github.com/a/SN5PqZFQ ) or Forking it. )
 
-Set this repository as a webpage - go to settings, pages, on the none button click the main branch.
+Set this repository as a webpage - go to settings, pages, on the none button click the main branch. The link it generates is yours.
 <br/><img src="pagesScreenshot.jpg" width="60%" height="60%"><br/>
 
 

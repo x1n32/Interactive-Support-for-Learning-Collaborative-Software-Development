@@ -1,9 +1,4 @@
 # Task-2-Data-Structures
-[See Home Page](README.md)<br/>
-[See Task 1 Page](Task1.md)<br/>
-[See Task 3 Page](Task3.md)<br/>
-[See Information Page](Info.md)<br/>
-
 ## Task Information and Instructions 
 
 This task has 2 files for you to look at.

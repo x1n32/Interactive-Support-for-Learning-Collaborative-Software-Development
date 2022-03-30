@@ -1,9 +1,4 @@
 # Task-1-Calculator
-[See Home Page](README.md)<br/>
-[See Task 2 Page](Task2.md)<br/>
-[See Task 3 Page](Task3.md)<br/>
-[See Information Page](Info.md)<br/>
-
 ## Task Information and Instructions
 The purpose of this task is to introduce you to Java Methods and handling with numbers.
 There are two files for you to look at: Calculator.java, and Calculator2.java
@@ -19,7 +14,8 @@ The aim of this is to make it capable of performing the quadratic formula, by br
 The setup for the methods are there. You just need to add in the right numbers: squaring b; 4AC; square root 4AC etc
 <br/><img src="quadraticEquation.png" width="30%" height="30%"><br/>
 
-### Keywords: Open in the editor - match keywords with definitions. Copy Paste.
+### Keywords: 
+- Open this file in the GitHub editor - match keywords with definitions. Copy Paste.
 Keyword | Definition
 ------- | ---------
 Java   |  -
@@ -28,25 +24,20 @@ Class   |  -
 Integer  |  -
 Float   |  -
 
-1 - A programming language
-2 - A subprogram which can be called many times
-3 - A whole number
-4 - A number that can use decimals
-5 - A 'Cookie Cutter' which can make objects of that type
+- A programming language
+- A subprogram which can be called many times
+- A whole number
+- A number that can use decimals
+- A 'Cookie Cutter' which can make objects of that type
  
 ### Predict: 
-1)
-System.out.println("Hello World"); 
-
-- Your Guess:
+1)System.out.println("Hello World"); 
+- Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/846UnWowD)<br/>
 
-2)
-System.out.println(10 + 10); 
-
-- Your Guess:
+2)System.out.println(10 + 10); 
+- Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
-
 
 ## Introductory Tasks:
 - [ ]  On another tab, go to the GitHub page (Go to GitHub Button).
@@ -75,11 +66,11 @@ System.out.println(10 + 10);
 mvn test && git add . && git commit -m "Saving" && git push
 ```
 
-## Calculator 1 status:<br/>
+# Calculator 1 status:<br/>
 [See report on Calculator 1](calculator1Report.md)<br/>
 <img src="calculator1Status.jpg" width="50%" height="50%"><br/>
 
-## Calculator 2 status:<br/>
+# Calculator 2 status:<br/>
 [See report on Calculator 2](calculator2Report.md)<br/>
 <img src="calculator2Status.jpg" width="50%" height="50%"><br/>
 
