@@ -12,7 +12,7 @@ e.g. Class = Vehicle. An object of that can be called a car. They all have metho
 Most of the tasks you have to do is on Calculator2.java.
 The aim of this is to make it capable of performing the quadratic formula, by breaking it up into smaller parts.
 The setup for the methods are there. You just need to add in the right numbers: squaring b; 4AC; square root 4AC etc
-<br/><img src="quadraticEquation.png" width="30%" height="30%"><br/>
+<br/><img src="/Images/quadraticEquation.png" width="30%" height="30%"><br/>
 
 ### Keywords: 
 - Open this file in the GitHub editor - match keywords with definitions. Copy Paste.
@@ -31,11 +31,15 @@ Float   |  -
 - A 'Cookie Cutter' which can make objects of that type
  
 ### Predict: 
-1)System.out.println("Hello World"); 
+'''java
+System.out.println("Hello World"); 
+'''
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/846UnWowD)<br/>
 
-2)System.out.println(10 + 10); 
+'''
+System.out.println(10 + 10); 
+'''
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
@@ -47,7 +51,7 @@ Float   |  -
 - [ ]  Run the code (via F5 or right-click and Run Java)
 - [ ]  On **this** page, click on the link at the calculator status link. Can you see what the error is?
 - [ ]  Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
-- [ ]  Copy the code below (the one that saves your work) and run it in the console of GitPod (Stuck? Go to the information page.)
+- [ ]  Copy the 'Save your work code' and run it in the console of GitPod (Look at the info page for help)
 - [ ]  Reload this page. Any differences?
 
 ## Main Tasks: <br>
