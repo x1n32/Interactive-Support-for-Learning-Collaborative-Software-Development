@@ -11,8 +11,13 @@
     color: green;
     font-weight:700;
     font-size: 30px;
+    
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
 
- #navbar a {
+#navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -22,6 +27,16 @@
   font-size: 20px;
   height: 40px;
 }
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 }
 </style>
 
@@ -30,12 +45,12 @@
 </div>
 
 <div id="navbar">
-        <a class="active" href="/How-to-GitHub/index.html"> <i class="fa fa-fw fa-home"></i>Home</a>
-        <a href="/How-to-GitHub/about.html"> About Github</a>
-        <a href="/How-to-GitHub/commands.html">Commands</a>
-        <a href="/How-to-GitHub/contact.html"> FAQ and Contacts</a>
-        <a href="/How-to-GitHub/Tasks.html">Practice Tests</a>
-        <br><br><br>
+    <a class="active" href="/How-to-GitHub/index.html"> <i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="/How-to-GitHub/about.html"> About Github</a>
+    <a href="/How-to-GitHub/commands.html">Commands</a>
+    <a href="/How-to-GitHub/contact.html"> FAQ and Contacts</a>
+    <a href="/How-to-GitHub/Tasks.html">Practice Tests</a>
+    <br><br><br>
 </div>
 
 
