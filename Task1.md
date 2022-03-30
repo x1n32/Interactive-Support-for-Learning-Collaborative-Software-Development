@@ -12,7 +12,7 @@ e.g. Class = Vehicle. An object of that can be called a car. They all have metho
 Most of the tasks you have to do is on Calculator2.java.
 The aim of this is to make it capable of performing the quadratic formula, by breaking it up into smaller parts.
 The setup for the methods are there. You just need to add in the right numbers: squaring b; 4AC; square root 4AC etc
-<br/><img src="/Images/quadraticEquation.png" width="30%" height="30%"><br/>
+<br/><img src="Images/quadraticEquation.png" width="30%" height="30%"><br/>
 
 ### Keywords: 
 - Open this file in the GitHub editor - match keywords with definitions. Copy Paste.

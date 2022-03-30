@@ -6,7 +6,7 @@ Here there are some coding tasks you can do.
 FIRST, make sure this repository is your own (either cloned from [Classrooms](https://classroom.github.com/a/SN5PqZFQ ) or Forking it. )
 
 Set this repository as a webpage - go to settings, pages, on the none button click the main branch. The link it generates is yours.
-<br/><img src="/Images/pagesScreenshot.jpg" width="60%" height="60%"><br/>
+<br/><img src="Images/pagesScreenshot.jpg" width="60%" height="60%"><br/>
 
 
 Open this repository on Gitpod. Also look at the Task pages to know what to do. 
