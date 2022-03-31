@@ -2,9 +2,11 @@
 Go to the webpage: https://x1n32.github.io/Interactive-Support-for-Learning-Collaborative-Software-Development/ <br/>
 
 ## Welcome!
-This repository has some programming tasks you can from more beginner level tasks to more harder ones in terms of concepts. While attempting the tasks, you can save your work, and this can provide feedback on how you are doing. 
-You can edit these files in GitHub or in Gitpod to make notes or answer some questions. 
-There is an information page to help answer general questions as well.
+- This repository has some programming tasks you can from more beginner level tasks to more harder ones in terms of concepts. 
+- While attempting the tasks, you can save your work, and this can provide feedback on how you are doing. 
+- You can edit these files in GitHub or in Gitpod to make notes or answer some questions. 
+- There is an information page to help answer general questions as well.
+- Feel free to work in pairs or in a group.
 
 ## Instructions
 - FIRST, make sure this repository is your own (either cloned from [Classrooms](https://classroom.github.com/a/SN5PqZFQ ) or Forking it.
