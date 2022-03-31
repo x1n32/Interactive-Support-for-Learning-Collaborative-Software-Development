@@ -1,4 +1,4 @@
-package github.x1n32;
+package github.x1n32.Task1Calculator;
 
 
 public class Calculator2 extends Calculator{
