@@ -28,13 +28,11 @@ for line in file:
     line = line.strip()
 
     if scoreFind in line:
+        score = line[-17];
       break;
     scoreIndex += 1
-
-
-
 print(index)
-print(scoreIndex)
+print(scoreIndex , "The number found: " , score)
 file.close()
 # opening the file in write mode
 
