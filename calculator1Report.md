@@ -7,14 +7,14 @@
 
 my lucky number is seven.
 Situation right here.
-- [ ] Test Normal 1
-- [] Test 2 no space
-- [ ] Test 3 with x
-- [ ] Test Normal2
-- [ ] Test Normal3
-- [ ] Test Normal4
-- [ ] Test Normal5
-- 6[ ] Test Num before[ ]
+- [ ]1 Test Normal 1
+- []2 Test 2 no space
+- [ ]3 Test 3 with x
+- [ ]4 Test Normal2
+- [ ]5 Test Normal3
+- [ ]6 Test Normal4
+- [ ]7 Test Normal5
+- 6[ ]8 Test Num before[ ]
 <br>
 ==================
 <br>

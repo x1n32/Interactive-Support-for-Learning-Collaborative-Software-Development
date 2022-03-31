@@ -16,7 +16,7 @@ for line in file:
 
     if string1 in line:
       index += 1 
-    changes = line.replace("[x]", "[ ]")
+    changes = line.replace("[ ", "[x")
     newFileReplacement = newFileReplacement + changes + "\n"
 
 print(index)
