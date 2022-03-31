@@ -41,14 +41,13 @@ for line in file:
         if foundLine == False:
             startline = 1
             foundLine = True
-        if startline >= int(score):
-            print("here")
-            newFileReplacement = newFileReplacement + line + "\n"
-        else: 
+        if startline <= int(score):
             startline += 1
             changes = line.replace("- [ ]", "- [x]")
             newFileReplacement = newFileReplacement + changes + "\n"
-
+        else: 
+            print("here")
+            newFileReplacement = newFileReplacement + line + "\n"
         index += 1
 file.close()
 # opening the file in write mode
