@@ -12,7 +12,7 @@ for line in file:
     line = line.strip()
 
     print(line)
-    changes = line.replace("[ ]", "[x]")
+    changes = line.replace("[x]", "[ ]")
     newFileReplacement = newFileReplacement + changes + "\n"
 
 file.close()
