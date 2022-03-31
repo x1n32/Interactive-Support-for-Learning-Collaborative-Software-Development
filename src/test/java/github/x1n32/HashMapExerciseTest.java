@@ -272,7 +272,7 @@ public class HashMapExerciseTest {
 				ItemDescriptions.put("empty2", null);
 				HashMapExercise.findAndReplaceEmptyValue(ItemDescriptions);
 				assertEquals(" - Unknown Description", ItemDescriptions.get("empty2"));
-				fileReport += " - Challenge 1: null values replaced (find and replace empty value method) WORKS! \n"; // Positive
+				fileReport += " - Challenge 1.2: null values replaced (find and replace empty value method) WORKS! \n"; // Positive
 																														// comment
 				testPassed += 1;
 			} catch (Throwable e) {
