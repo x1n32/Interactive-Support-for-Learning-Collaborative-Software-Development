@@ -36,7 +36,7 @@ Match the keywords with the definitions: (copy and paste)
 ```shell 
 int[] myNum = {10, 20, 30, 40};
 System.out.println(myNum[1]);
-'''
+```
 - Guess what the output is from the code above:
 - Actual output:  
 
@@ -44,7 +44,7 @@ System.out.println(myNum[1]);
 int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} }; //2D array
 int x = myNumbers[1][2];
 System.out.println(x);
-'''
+```
 - Guess what the output is from the code above:
 - Actual output:  
 
@@ -56,7 +56,7 @@ System.out.println(x);
 		myNum.add(30);
 		Collections.sort(myNum);
 		System.out.println(myNum.get(3));
-'''
+```
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/JU4zjIoMc)<br/>
 
