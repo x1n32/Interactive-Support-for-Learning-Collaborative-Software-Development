@@ -1,0 +1,20 @@
+For this Demo, we have 3 classes:
+1. StreamingSite.java
+2. Subscriber.java
+3. Channel.java
+
+An observer pattern is useful for when we want to notify changes.
+We have an observer and an observable.
+
+If we take a Streaming Site as an analogy:
+ we have people who make content, called Channel (observable)
+ and the people who watch their content, Subscriber (observers)
+
+Subscribers want to know when a new video gets released
+and the Channel wants to let everyone know that they released a new video.
+
+Subscribers have a function called "update()"
+The Channel calls this update when they 'upload' a video 
+Not everyone gets this alert, as only the ones who subscribed to their specific channel gets alerted.
+
+StreamingSite.java is to show how to run the program.
