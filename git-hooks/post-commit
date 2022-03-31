@@ -21,7 +21,9 @@ for line in file:
     if string1 in line:
       break;
     index += 1
+file.close()
 
+file = open("calculator1Report.md", "r")
 for line in file:
     line = line.strip()
 
