@@ -33,14 +33,14 @@ Match the keywords with the definitions: (copy and paste)
 
 ### Predict the output
 
-'''java
+```shell 
 int[] myNum = {10, 20, 30, 40};
 System.out.println(myNum[1]);
 '''
 - Guess what the output is from the code above:
 - Actual output:  
 
-'''java
+```shell 
 int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} }; //2D array
 int x = myNumbers[1][2];
 System.out.println(x);
@@ -48,7 +48,7 @@ System.out.println(x);
 - Guess what the output is from the code above:
 - Actual output:  
 
-'''java
+```shell 
         ArrayList<Integer> myNum = new ArrayList<>();
 		myNum.add(20);
 		myNum.add(10);
@@ -67,6 +67,8 @@ System.out.println(x);
 - [ ] Familiarise yourself with the arrayExample and listExample. Look at how they are created.
 - [ ] Run the code. Then try to change some numbers around.
 - [ ] Optional: Add some extenstions to it: Make a bubble sort, or create another array/list, Search for specific values etc
+	
+	
 ## HashMapExercise.java Steps:
 - [ ] Read the code and leave a comment on what you think it does
 - [ ] Check your guesses by running the code.
@@ -74,6 +76,8 @@ System.out.println(x);
 - [ ] Challenge 2: Comment out the code in createNewHashMap;
 - [ ] Create a new hashmap with the right name and generic so that the rest of that method works.
 - [ ] Make the method return "Abby" (Hint: use the get method)
+	
+	
 ## ComicBooks.java
 - [ ] Challenge 1: On quality.put(), change the string text (i.e. mint) to enumerated versions (Condition.MINT) instead.
             
