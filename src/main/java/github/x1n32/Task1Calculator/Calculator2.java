@@ -61,6 +61,7 @@ public class Calculator2 extends Calculator{
      * Output the answer here so you can just call this funtion in the main method below.
      */
     public void quadraticFormula(float a, float b, float c) {
+        
 	}
 
     

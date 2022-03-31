@@ -75,7 +75,18 @@ public class Calculator2Test {
 
 		try {
 
-			FileWriter Writer = new FileWriter("calculator2Report.md", true);
+			FileWriter Writer = new FileWriter("calculator2Report.md", false);
+
+			// Setting header and links
+			String titleText = "# Calculator2 Report: \n <br/>";
+			titleText += "[See Home Page ](/README.md)\n <br/>";
+			titleText += "[See Task 1 Page ](/Task1.md)\n <br/>";
+			titleText += "[See Task 2 Page ](/Task2.md)\n <br/>";
+			titleText += "[See Task 3 Page ](/Task3.md)\n <br/>";
+			titleText += "[See Information Page ](/Info.md)\n <br/>";
+			Writer.write(titleText);
+
+			// Appendng report
 			Writer.write(fileReport);
 
 			System.out.println("Test passed: " + testPassed + " total = " + totalTests);
@@ -84,9 +95,10 @@ public class Calculator2Test {
 			percentageCleared = 0;
 
 			// Feedback
-			Writer.write("\n <br>\nFor Calculator 2, You have passed " + testPassed + " out of " + totalTests + ". ");
+			Writer.write("\n <br>\nFor Calculator 2, You have passed " + testPassed + " out of " + totalTests
+					+ " tests. \n <br>\n");
 			if (percentageCleared == 0) {
-				Writer.write("\nHave a try!." );
+				Writer.write("\nHave a try!.");
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
 				String destinationFile = "calculator2Status.jpg";
 				saveImage(imageUrl, destinationFile);
@@ -143,7 +155,7 @@ public class Calculator2Test {
 						() -> assertEquals(225, calculator2.squareOfB(-15)),
 						() -> assertEquals(0.25, calculator2.squareOfB(0.5f)));
 
-				fileReport += " - Square of B method WORKS! \n"; //Positive comment		
+				fileReport += " - Square of B method WORKS! \n"; // Positive comment
 				testPassed += 1;
 			} catch (Throwable e) {
 				fileReport += " - Error found in the squareOfB Method;  should return number * number.\n";
@@ -163,7 +175,7 @@ public class Calculator2Test {
 						() -> assertEquals(4, calculator2.fourAC(1, 1), " 4 * 1 * 1 = 4"),
 						() -> assertEquals(0, calculator2.fourAC(1, 0), " 4 * 1 * 0 = 0"),
 						() -> assertEquals(-4, calculator2.fourAC(-1, 1), "4 * -1 * 1"));
-				fileReport += " - 4AC method WORKS! \n"; //Positive comment		
+				fileReport += " - 4AC method WORKS! \n"; // Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -182,7 +194,7 @@ public class Calculator2Test {
 						() -> assertEquals(4, calculator2.squareRootAnswer(20, 4), "sqrt 16 = 4"),
 						() -> assertEquals(8, calculator2.squareRootAnswer(63, -1), "sqrt 64 = 8"),
 						() -> assertEquals(10, calculator2.squareRootAnswer(90, -10), "sqrt 100 = 10"));
-						fileReport += " - Square Root method WORKS! \n"; //Positive comment		
+				fileReport += " - Square Root method WORKS! \n"; // Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -194,7 +206,7 @@ public class Calculator2Test {
 		}
 
 		@Test
-		public void OverallQuadraticFormulaCheck() {
+		public void negativeAnswerCheck() {
 
 			try {
 				totalTests += 1;
@@ -209,19 +221,77 @@ public class Calculator2Test {
 				assertEquals(8.54400374531753,
 						calculator2.squareRootAnswer(calculator2.squareOfB(b), calculator2.fourAC(a, c)),
 						" - This should return the square root of b^2 - 4ac. Can use Math.sqrt to square root the answer.");
-				assertEquals(3.3860009363293826, calculator2.positiveAnswer(a, b, c),
-						" - Using the answer form the square root function, it should ADD to -b, then divide it by 2a");
 				assertEquals(-0.8860009363293826, calculator2.negativeAnswer(a, b, c),
 						" - Using the answer form the square root function, it should SUBTRACT from -b, then divide it by 2a");
-				fileReport += " - Final check... Quadratic Formula for both answer.... WORKS! \n"; //Positive comment		
+
+				fileReport += " - Negative answer check... WORKS! \n"; // Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += " - Error found in the Add Method;  should return the sum of two numbers \n";
+				fileReport += " - Positive answer of the quadraticFormula method: failed. \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
 		}
+	}
 
+	@Test
+	public void positiveAnswerCheck() {
+
+		try {
+			totalTests += 1;
+			float a = 2;
+			float b = -5;
+			float c = -6;
+			calculator2.quadraticFormula(a, b, c);
+			assertEquals((b * b), calculator2.squareOfB(b),
+					" - This should return the value of b * b. e.g. 5 * 5 which equals 25");
+			assertEquals((4 * a * c), calculator2.fourAC(a, c),
+					" - This should return the result of 4 * a * c. If a = 2 and c = -6: 4*2*-6 = -48");
+			assertEquals(8.54400374531753,
+					calculator2.squareRootAnswer(calculator2.squareOfB(b), calculator2.fourAC(a, c)),
+					" - This should return the square root of b^2 - 4ac. Can use Math.sqrt to square root the answer.");
+			assertEquals(3.3860009363293826, calculator2.positiveAnswer(a, b, c),
+					" - Using the answer form the square root function, it should ADD to -b, then divide it by 2a");
+			fileReport += " - Positive answer check... WORKS! \n"; // Positive comment
+			testPassed += 1;
+
+		} catch (Throwable e) {
+			fileReport += " - Positive answer of the quadraticFormula method: failed. \n";
+			fileReport += e + "\n";
+			System.out.println(fileReport + "\n");
+		}
+	}
+
+	
+
+	@Test
+	public void OverallQuadraticFormulaCheck() {
+
+		try {
+			totalTests += 1;
+			float a = 2;
+			float b = -5;
+			float c = -6;
+			calculator2.quadraticFormula(a, b, c);
+			assertEquals((b * b), calculator2.squareOfB(b),
+					" - This should return the value of b * b. e.g. 5 * 5 which equals 25");
+			assertEquals((4 * a * c), calculator2.fourAC(a, c),
+					" - This should return the result of 4 * a * c. If a = 2 and c = -6: 4*2*-6 = -48");
+			assertEquals(8.54400374531753,
+					calculator2.squareRootAnswer(calculator2.squareOfB(b), calculator2.fourAC(a, c)),
+					" - This should return the square root of b^2 - 4ac. Can use Math.sqrt to square root the answer.");
+			assertEquals(3.3860009363293826, calculator2.positiveAnswer(a, b, c),
+					" - Using the answer form the square root function, it should ADD to -b, then divide it by 2a");
+			assertEquals(-0.8860009363293826, calculator2.negativeAnswer(a, b, c),
+					" - Using the answer form the square root function, it should SUBTRACT from -b, then divide it by 2a");
+			fileReport += " - Final check... Quadratic Formula for both answers.... WORKS! \n"; // Positive comment
+			testPassed += 1;
+
+		} catch (Throwable e) {
+			fileReport += " - quadraticFormula method: Overall, the final function doesn't give the right answer \n";
+			fileReport += e + "\n";
+			System.out.println(fileReport + "\n");
+		}
 	}
 }

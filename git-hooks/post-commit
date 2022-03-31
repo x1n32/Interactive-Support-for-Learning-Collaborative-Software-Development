@@ -3,34 +3,30 @@
 import sys
 
 print ("Starting commit-msg hook")
-
-# opening the file in read mode
-
 newFileReplacement = ""
 scoreFind = "You have passed"
-string1 = "- ["
-
 scoreIndex = 1
-index = 1
-
+startline = 99999
+foundLine = False
+string1 = "Main Task:"
 
 
 #Finding score from report page 
-file = open("calculator1Report.md", "r")
+file = open("calculator2Report.md", "r")
 for line in file:
     line = line.strip()
-
     if scoreFind in line:
         score = line[-17];
         break;
     scoreIndex += 1
-print(index)
-print(scoreIndex , "The number found: " , score)
+
 file.close()
 
-file = open("calculator1Report.md", "r")
-startline = 99999
-foundLine = False
+print(scoreIndex , "The number found: " , score)
+
+
+#The report file
+file = open("Task1.md", "r")
 
 #using the for loop to find the line where it displays the tasks
 for line in file:
@@ -39,7 +35,7 @@ for line in file:
     #If user got 4 test passed, reads 4 lines from where the first - [ is
     if string1 in line:
         if foundLine == False:
-            startline = 1
+            startline = 1 - 2 #This is hard coded.. Main Task: ;another line; next line has -[ ]
             foundLine = True
         if startline <= int(score):
             startline += 1

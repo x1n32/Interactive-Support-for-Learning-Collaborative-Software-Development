@@ -34,7 +34,7 @@ import java.net.URL;
  */
 class CalculatorTest {
 
-	//--File format--------------------------------------------------------
+	// --File format--------------------------------------------------------
 	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 	static LocalDateTime now = LocalDateTime.now();
 	static String fileReport = "<br> \n==================\n<br>\n" + "### " + dtf.format(now) + " \n <br>\n";
@@ -42,8 +42,6 @@ class CalculatorTest {
 
 	static int totalTests = 0;
 	static int testPassed = 0;
-
-
 
 	private Calculator calculator;
 
@@ -93,7 +91,7 @@ class CalculatorTest {
 		try {
 
 			FileWriter Writer = new FileWriter("calculator1Report.md", false);
-
+			// Setting header and links
 			String titleText = "# Calculator Report: \n <br/>";
 			titleText += "[See Home Page ](/README.md)\n <br/>";
 			titleText += "[See Task 1 Page ](/Task1.md)\n <br/>";
@@ -102,15 +100,18 @@ class CalculatorTest {
 			titleText += "[See Information Page ](/Info.md)\n <br/>";
 			Writer.write(titleText);
 
+			// Appendng report
+
 			Writer.write(fileReport);
 
 			System.out.println("Test passed: " + testPassed + " total = " + totalTests);
 			double percentageCleared = ((float) testPassed / totalTests);
 			percentageCleared = percentageCleared * 100;
-//			percentageCleared = 0;
+			// percentageCleared = 0;
 
-			//Feedback
-			Writer.write("\n <br>\nFor Calculator 1, You have passed " + testPassed + " out of " + totalTests + " tests. \n <br>\n");
+			// Feedback
+			Writer.write("\n <br>\nFor Calculator 1, You have passed " + testPassed + " out of " + totalTests
+					+ " tests. \n <br>\n");
 			if (percentageCleared == 0) {
 				Writer.write("\nHave a try!. ");
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
@@ -171,7 +172,7 @@ class CalculatorTest {
 				float expected = 2;
 				assertEquals(expected, actual,
 						"Add method should return the sum of two numbers");
-				fileReport += " - Adding two positive numbers WORKS! \n"; //Positive comment
+				fileReport += " - Adding two positive numbers WORKS! \n"; // Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -191,7 +192,7 @@ class CalculatorTest {
 				float expected = -2;
 				assertEquals(expected, actual,
 						"Add method should return the sum of two numbers. Tested with 2 negative numbers failed.");
-				fileReport += " - Adding two negative numbers WORKS! \n"; //Positive comment		
+				fileReport += " - Adding two negative numbers WORKS! \n"; // Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -211,7 +212,7 @@ class CalculatorTest {
 				assertEquals(expected, actual,
 						"Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed.");
 				testPassed += 1;
-				fileReport += " - Adding a positive number and a negative number WORKS! \n"; //Positive comment
+				fileReport += " - Adding a positive number and a negative number WORKS! \n"; // Positive comment
 
 			} catch (Throwable e) {
 				fileReport += "Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers\n";
@@ -231,7 +232,7 @@ class CalculatorTest {
 								"1*0 = 0. Numbers must have been changed if there's an error."),
 						() -> assertEquals(1, calculator.multiply(1, 1), "1*1 = 1"),
 						() -> assertEquals(6, calculator.multiply(2, 3), "2*3 = 6"));
-				fileReport += " - Multiplying two numbers WORKS! \n"; //Positive comment
+				fileReport += " - Multiplying two numbers WORKS! \n"; // Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -250,7 +251,7 @@ class CalculatorTest {
 				float actual = calculator.multiply(50, 2);
 				float expected = 100;
 				assertEquals(actual, expected, "Should return 100. 50 x 2 = 100");
-				fileReport += " - 50 x 2 WORKS! \n"; //Posotive comment
+				fileReport += " - 50 x 2 WORKS! \n"; // Posotive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -269,7 +270,7 @@ class CalculatorTest {
 				double expected = 314.1592653589793;
 				assertEquals(expected, actual,
 						"Should return area of circle, pi x radius x radius.");
-				fileReport += " - Calculating area of a circle WORKS! \n"; //Positive comment
+				fileReport += " - Calculating area of a circle WORKS! \n"; // Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
@@ -289,7 +290,7 @@ class CalculatorTest {
 						() -> assertEquals(10, calculator.divide(100, 10)),
 						() -> assertEquals(100, calculator.divide(150, 1.5f)),
 						() -> assertEquals(0.5, calculator.divide(50, 100)));
-				fileReport += " - Adding Two numbers WORKS! \n"; //Positive comment
+				fileReport += " - Adding Two numbers WORKS! \n"; // Positive comment
 				testPassed += 1;
 
 			} catch (Throwable e) {
