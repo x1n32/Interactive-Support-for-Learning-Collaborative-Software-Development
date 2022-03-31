@@ -10,8 +10,8 @@ newFileReplacement = ""
 scoreFind = "You have passed"
 string1 = "Task:"
 
-scoreIndex = 0
-index = 0
+scoreIndex = 1
+index = 1
 
 
 #using the for loop
