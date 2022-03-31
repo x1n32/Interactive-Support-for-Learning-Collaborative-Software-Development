@@ -101,10 +101,10 @@ Questions to think about:
 ```shell 
 mvn test && git add . && git commit -m "Saving" && git push
 ```
+<br> 
 # Hash Map Task status:<br/>
 [See report on Hash Map Task](HashMapReport.md)<br/>
 <img src="hashMapStatus.jpg" width="50%" height="50%"><br/>
-
 
 
 Answers are in the 'answer' branch. 
