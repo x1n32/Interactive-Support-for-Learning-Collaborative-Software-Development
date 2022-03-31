@@ -94,12 +94,12 @@ class CalculatorTest {
 
 			FileWriter Writer = new FileWriter("calculator1Report.md", false);
 
-			String titleText = "# Calculator Report:";
-			titleText += "[See Home Page ](/README.md)<br/>";
-			titleText += "[See Task 1 Page ](/Task1.md)<br/>";
-			titleText += "[See Task 2 Page ](/Task2.md)<br/>";
-			titleText += "[See Task 3 Page ](/Task3.md)<br/>";
-			titleText += "[See Information Page ](/Info.md)<br/>";
+			String titleText = "# Calculator Report: \n <br/>";
+			titleText += "[See Home Page ](/README.md)\n <br/>";
+			titleText += "[See Task 1 Page ](/Task1.md)\n <br/>";
+			titleText += "[See Task 2 Page ](/Task2.md)\n <br/>";
+			titleText += "[See Task 3 Page ](/Task3.md)\n <br/>";
+			titleText += "[See Information Page ](/Info.md)\n <br/>";
 			Writer.write(titleText);
 
 			Writer.write(fileReport);

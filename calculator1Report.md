@@ -1,35 +1,27 @@
-# Calculator Report:
-[See Home Page ](/README.md)<br/>
-[See Task 1 Page ](/Task1.md)<br/>
-[See Task 2 Page ](/Task2.md)<br/>
-[See Task 3 Page ](/Task3.md)<br/>
-[See Information Page ](/Info.md)<br/>
-
-Task:
-- [ ]1. Test Normal 1
-- [ ]2. Test 2 no space
-- [ ]3 Test 3 with x
-- [ ]4 Test Normal2
-- [ ]5 Test Normal3
-- [ ]6 Test Normal4
-- [ ]7 Test Normal5
-- [ ]8 Test Num before[x]
-<br>
+# Calculator Report: 
+ <br/>[See Home Page ](/README.md)
+ <br/>[See Task 1 Page ](/Task1.md)
+ <br/>[See Task 2 Page ](/Task2.md)
+ <br/>[See Task 3 Page ](/Task3.md)
+ <br/>[See Information Page ](/Info.md)
+ <br/><br> 
 ==================
 <br>
-### 2022/03/31 17:27:41
-<br>
-- Calculating area of a circle WORKS!
-Error found in the Add Method;  should return the sum of two numbers
+### 2022/03/31 18:46:22 
+ <br>
+ - Calculating area of a circle WORKS! 
+Error found in the Add Method;  should return the sum of two numbers 
 org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers ==> expected: <2.0> but was: <6.0>
-- Adding Two numbers WORKS!
-- 50 x 2 WORKS!
-- Multiplying two numbers WORKS!
-- Error found in the Add Method;  should return the sum of two numbers. Failed with both negative numbers
+ - Adding Two numbers WORKS! 
+ - 50 x 2 WORKS! 
+ - Multiplying two numbers WORKS! 
+ - Error found in the Add Method;  should return the sum of two numbers. Failed with both negative numbers
 org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 2 negative numbers failed. ==> expected: <-2.0> but was: <4.0>
 Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
 org.opentest4j.AssertionFailedError: Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed. ==> expected: <0.0> but was: <4.0>
 
-<br>
-For Calculator 1, You have passed 4 out of 7. Well done.
-<br>
+ <br>
+For Calculator 1, You have passed 4 out of 7 tests. 
+ <br>
+Well done.
+ <br>
