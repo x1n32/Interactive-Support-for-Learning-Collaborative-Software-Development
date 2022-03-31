@@ -59,9 +59,6 @@ fout.close()
 #--------------------------------------------------------------
 #Task 2 file 
 
-# Reading file to see if test passed
-file = open("motivation.txt", "r")
-
 checkbox1 = False #Corresponds to each of the checkboxes/tasks
 checkbox2 = False
 checkbox3 = False
@@ -70,6 +67,7 @@ lineToFind1 = "Challenge 1: Replacing empty values(find and replace empty value 
 lineToFind2 = "Challenge 1.2: null values replaced (find and replace empty value method) WORKS!"
 lineToFind3 = "Challenge 2: Creating a new hash map(createNewHashMap) WORKS!"
 
+# Reading file to see if test passed
 file = open("HashMapReport.md", "r")
 for line in file:
     line = line.strip()
