@@ -1,5 +1,9 @@
 # Interactive Support for Learning Collaborative Software Development
 Go to the webpage: https://x1n32.github.io/Interactive-Support-for-Learning-Collaborative-Software-Development/ <br/>
+[See Task 1 Page ](/Task1.md)<br/>
+[See Task 2 Page ](/Task2.md)<br/>
+[See Task 3 Page ](/Task3.md)<br/>
+[See Information Page ](/Info.md)<br/>
 
 ## Welcome!
 - This repository has some programming tasks you can from more beginner level tasks to more harder ones in terms of concepts. 
