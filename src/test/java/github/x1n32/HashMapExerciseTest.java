@@ -117,7 +117,7 @@ public class HashMapExerciseTest {
 				saveImage(imageUrl, destinationFile);
 
 			} else if (percentageCleared <= 50 && percentageCleared > 0) {
-				Writer.write("\nHave another go." + percentageCleared);
+				Writer.write("\nHave another go.");
 				String imageUrl = "http://comealivein365.com/wp-content/uploads/2013/08/keep-calm-try-again.jpg";
 				String destinationFile = "hashMapStatus.jpg";
 				saveImage(imageUrl, destinationFile);

@@ -7,7 +7,7 @@
  <br/><br> 
 ==================
 <br>
-### 2022/03/31 23:24:11 
+### 2022/03/31 23:26:06 
  <br>
  - 2nd Test: Changing value/description (new Description) WORKS! 
  - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for empty values. If you haven't started this task, ignore this message. 
@@ -29,5 +29,5 @@ org.opentest4j.AssertionFailedError: expected: < - Unknown Description> but was:
 For Hash Map Exercise, You have passed 1 out of 3 tests. 
  <br>
 
-Have another go.33.33333432674408
+Have another go.
  <br>
