@@ -47,6 +47,7 @@ for line in file:
             changes = line.replace("- [ ]", "- [x]")
             newFileReplacement = newFileReplacement + changes + "\n"
         else: 
+            print("here")
             newFileReplacement = newFileReplacement + line + "\n"
         index += 1
   
