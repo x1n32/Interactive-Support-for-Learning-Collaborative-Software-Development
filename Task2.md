@@ -64,13 +64,13 @@ System.out.println(x);
 ## Introductory Steps:
 - [x] Read everything above.
 - [ ] Keep this tab open, and open Gitpod
-- [ ] Familiarise yourself with the arrayExample and listExample.
+- [ ] Familiarise yourself with the arrayExample and listExample. Look at how they are created.
 - [ ] Run the code. Then try to change some numbers around.
+- [ ] Optional: Add some extenstions to it: Make a bubble sort, or create another array/list, Search for specific values etc
 ## HashMapExercise.java Steps:
 - [ ] Read the code and leave a comment on what you think it does
 - [ ] Check your guesses by running the code.
-- [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description'
-	(Hint: if hMap.get(i) == .......) (Hint 2: empty values can be "" or null) (Hint 3: Look at the put methods)
+- [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description' (Hint: if hMap.get(i) == .......) (Hint 2: empty values can be "" or null) (Hint 3: Look at the put methods)
 - [ ] Challenge 2: Comment out the code in createNewHashMap;
 - [ ] Create a new hashmap with the right name and generic so that the rest of that method works.
 - [ ] Make the method return "Abby" (Hint: use the get method)
@@ -84,6 +84,13 @@ System.out.println(x);
 - [ ] Display the contents of your new Array List by using a method. 
 - [ ] Copy the for-loop in the main code below it and paste it into the method - remember to change the name comix1
 	
+	
+If you are ever stuck, ask a friend and look at the examples. While they may be different data structures they handle data very similarly.
+Look at w3schools too.
+
+Questions to think about:
+- Which data structures are appropriate for what kinds of tasks?
+- Do they have varying speeds?
 
 ## Code to save your work
  - Remember to save your work. Copy and Paste the code below. You can see your progress on the links as well.
