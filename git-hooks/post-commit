@@ -45,7 +45,7 @@ for line in file:
             startline += 1
             changes = line.replace("- [ ]", "- [x]")
             newFileReplacement = newFileReplacement + changes + "\n"
-        else: 
+        elif startline > int(score): 
             print("here")
             newFileReplacement = newFileReplacement + line + "\n"
         index += 1
