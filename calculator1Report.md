@@ -6,6 +6,17 @@
  <br/>[See Information Page ](/Info.md)
  <br/><br> 
 ==================
+
+
+Main Tasks:
+- [x] 1. Fix squareOfB so that it returns the square value of input B (A number multiplied by itself e.g. num1 * num1)
+- [ ]  2. Fix fourAC so that it returns the value of 4 x input a x input c (multiply in code uses the * key.)
+- [ ] 3. Fix squareRootAnswer so that it returns the square root of (square of B - 4AC) (hint: Math.sqrt(X))
+- [ ]  4. There are two answers to the quadratic formula. The +- on the image use either of them. 
+- [ ]  5. Fix positive answer method/function by looking at the image above using +
+- [ ]  6. Now do the same for the negative answer but using - instead of +
+- [ ]  7. Using all the functions you have created, put it all into the final function 
+
 <br>
 ### 2022/03/31 18:46:22 
  <br>
