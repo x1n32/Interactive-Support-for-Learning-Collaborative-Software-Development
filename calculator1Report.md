@@ -14,7 +14,7 @@ Situation right here.
 - [ ] Test Normal3
 - [ ] Test Normal4
 - [ ] Test Normal5
-- 6[ ] Test Num before[]
+- 6[ ] Test Num before[ ]
 <br>
 ==================
 <br>
