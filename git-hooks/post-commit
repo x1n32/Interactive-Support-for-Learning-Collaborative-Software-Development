@@ -13,7 +13,8 @@ for line in file:
     if (line == "[ ]"):
         print(line)
     #changes = line.replace("[ ]", "[x]")
-    newFileReplacement = newFileReplacement + changes + "\n"
+    newFileReplacement = newFileReplacement \n"
+   #newFileReplacement = newFileReplacement + changes + "\n"
 
 file.close()
 # opening the file in write mode
