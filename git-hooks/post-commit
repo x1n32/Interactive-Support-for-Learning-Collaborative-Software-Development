@@ -35,15 +35,15 @@ startCounting = False
 for line in file:
     line = line.strip()
     
-    if index < int(score): #Change while the line read is under the score value
+    #Change while the line read is under the score value
     #If user got 4 test passed, reads 4 lines from where the first - [ is
-        if string1 in line:
-            startCounting = True
+    if string1 in line:
+        startCounting = True
+        if index <= int(score):
             changes = line.replace("- [ ]", "- [x]")
             newFileReplacement = newFileReplacement + changes + "\n"
-            print(newFileReplacement, index)
-    else:
-        newFileReplacement = newFileReplacement + line + "\n"
+        else: 
+            newFileReplacement = newFileReplacement + line + "\n"
     if startCounting == True:
         index += 1
 
