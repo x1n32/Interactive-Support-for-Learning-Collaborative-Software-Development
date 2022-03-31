@@ -37,8 +37,8 @@ for line in file:
     #If user got 4 test passed, reads 4 lines from where the first - [ is
         if string1 in line:
             startCounting = True
-            changes = line.replace("- [", "- [x]")
-            newFileReplacement = newFileReplacement + changes + "\n"
+            changes = line.replace("- [ ]", "- [x]")
+    newFileReplacement = newFileReplacement + changes + "\n"
     if startCounting == True:
         index += 1
 
