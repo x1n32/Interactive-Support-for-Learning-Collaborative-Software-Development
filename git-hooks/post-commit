@@ -13,14 +13,9 @@ for line in file:
     if (line == "[ ]"):
         print(line)
         newFileReplacement = newFileReplacement 
-    #changes = line.replace("[ ]", "[x]")
-     #newFileReplacement = newFileReplacement + changes + "\n"
+
 
 file.close()
-# opening the file in write mode
-fout = open("calculator1Report.md", "w")
-fout.write(newFileReplacement)
-fout.close()
 
 
 sys.exit(0) #0 indicates success
