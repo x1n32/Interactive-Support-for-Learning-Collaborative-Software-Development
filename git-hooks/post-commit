@@ -40,10 +40,10 @@ for line in file:
     #If user got 4 test passed, reads 4 lines from where the first - [ is
     if string1 in line:
         if foundLine == False:
-            startline = index
+            startline = 1
             foundLine = True
         if startline <= int(score):
-            index += 1
+            startline += 1
             changes = line.replace("- [ ]", "- [x]")
             newFileReplacement = newFileReplacement + changes + "\n"
         else: 
