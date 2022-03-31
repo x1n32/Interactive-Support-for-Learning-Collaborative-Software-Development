@@ -49,7 +49,7 @@ System.out.println(10 + 10);
 
 ## Introductory Tasks:
 - [ ]  On another tab, go to the GitHub page (Go to GitHub Button).
-- [ ]  Then open GitPod to start programming (or gitpod.io/# where # is the web address).
+- [ ]  Then open GitPod to start programming (In the search bar: gitpod.io/# where # is the web address).
 - [ ]  Click yes to anything that needs downloading.
 - [ ]  Open src/main/java/github/x1n32/Task1Calculator/calculator.java
 - [ ]  Run the code (via F5 or right-click and Run Java)
