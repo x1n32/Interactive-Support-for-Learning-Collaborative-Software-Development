@@ -101,9 +101,10 @@ for line in file:
 file.close()
 
 #Write to file 
-fout = open("calculator1Report.md", "w")
+fout = open("Task2.md", "w")
 fout.write(newFile)
 fout.close()
+#-----------End of task 2 checkbox edit------------------------------------------
 
 sys.exit(0) #0 indicates success
 
