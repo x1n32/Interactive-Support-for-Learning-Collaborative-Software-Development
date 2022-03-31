@@ -82,6 +82,7 @@ file.close()
 
 #Append to file:
 file = open("Task2.md", "r")
+newFile = ""
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
