@@ -10,7 +10,7 @@ newFileReplacement = ""
 #using the for loop
 for line in file:
     line = line.strip()
-    changes = line.replace("situations", "seven")
+    changes = line.replace("[ ]", "[x]")
     newFileReplacement = newFileReplacement + changes + "\n"
 
 file.close()
