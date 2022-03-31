@@ -14,8 +14,9 @@ index = 0
 for line in file:
     line = line.strip()
 
-    if string1 !in line:
-      index += 1 
+    if string1 in line:
+      break;
+    index += 1
 
 
 print(index)
