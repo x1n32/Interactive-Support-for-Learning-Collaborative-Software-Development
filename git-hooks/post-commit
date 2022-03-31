@@ -7,23 +7,22 @@ print ("Starting commit-msg hook")
 # opening the file in read mode
 file = open("calculator1Report.md", "r")
 newFileReplacement = ""
-string1 = "- [ ]"
+string1 = "Task:"
 index = 0
 
 #using the for loop
 for line in file:
     line = line.strip()
 
-    if string1 in line:
+    if string1! in line:
       index += 1 
-    changes = line.replace("[ ", "[x")
-    newFileReplacement = newFileReplacement + changes + "\n"
+
 
 print(index)
 file.close()
 # opening the file in write mode
 fout = open("calculator1Report.md", "w")
-fout.write(newFileReplacement)
+#fout.write(newFileReplacement)
 fout.close()
 
 
