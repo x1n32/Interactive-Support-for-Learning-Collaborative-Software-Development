@@ -69,7 +69,7 @@ public class HashMapExercise {
 
 //        name.put(0,"Abby"); //Don't change these.
   //      name.put(1,"Becky");
-        return null ; //Make it return Abby
+        return "Abby" ; //Make it return Abby
 
     }
 

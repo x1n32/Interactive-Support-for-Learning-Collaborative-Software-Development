@@ -7,7 +7,7 @@
  <br/><br> 
 ==================
 <br>
-### 2022/03/31 23:22:50 
+### 2022/03/31 23:24:11 
  <br>
  - 2nd Test: Changing value/description (new Description) WORKS! 
  - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for empty values. If you haven't started this task, ignore this message. 
@@ -22,15 +22,12 @@ org.opentest4j.AssertionFailedError: expected: <Unknown Description> but was: <>
    Make sure you set the description to be the same as what the task requires. 
 org.opentest4j.AssertionFailedError: expected: < - Unknown Description> but was: <null>
  - 2nd Test: Getting value from a key (Item Description) WORKS! 
- - Error found in CHALLENGE2: createNewHashMap(). If you haven't started this task, ignore this message. 
-   Have you checked you have put two generics? 
-   <> should have two data types inside that would suit 0 and Abby. 
-   You only need to write one line of code to create a hash map.org.opentest4j.AssertionFailedError: expected: <Abby> but was: <null>
+ - Challenge 2: Creating a new hash map(createNewHashMap) WORKS! 
  - Changing value/description (new Description) WORKS! 
 
  <br>
-For Hash Map Exercise, You have passed 0 out of 3 tests. 
+For Hash Map Exercise, You have passed 1 out of 3 tests. 
  <br>
 
-Have a try!. 
+Have another go.33.33333432674408
  <br>
