@@ -80,7 +80,7 @@ for line in file:
         checkbox2 = True
     if lineToFind in line:
         checkbox3 = True
-        
+print(checkbox1,checkbox2,checkbox3)
 file.close()
 
 #Append to file:
@@ -89,11 +89,11 @@ file = open("Task2.md", "r")
 for line in file:
     line = line.strip()
     if (lineToFind1 == True):
-        changeline = line.replace("- [ ] Challenge 1: ", "- [x] Challenge 1:")
+        changeline = line.replace("- [ ] Challenge 1:", "- [x] Challenge 1:")
     if (lineToFind2 == True):
-        changeline = line.replace("- [ ] Challenge 1.2: ", "- [x] Challenge 1.2:")
+        changeline = line.replace("- [ ] Challenge 1.2:", "- [x] Challenge 1.2:")
     if (lineToFind3 == True):
-        changeline = line.replace("- [ ] Challenge 2: ", "- [x] Challenge 2:")
+        changeline = line.replace("- [ ] Challenge 2:", "- [x] Challenge 2:")
     newFile = newFile + changeline + "\n"
 file.close()
 
