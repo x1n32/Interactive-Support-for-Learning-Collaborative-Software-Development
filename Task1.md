@@ -48,25 +48,25 @@ System.out.println(10 + 10);
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
 ## Introductory Tasks:
-- [ ]  On another tab, go to the GitHub page (Go to GitHub Button).
-- [ ]  Then open GitPod to start programming (In the search bar: gitpod.io/# where # is the web address).
-- [ ]  Click yes to anything that needs downloading.
-- [ ]  Open src/main/java/github/x1n32/Task1Calculator/calculator.java
-- [ ]  Run the code (via F5 or right-click and Run Java)
-- [ ]  On **this** page, click on the link at the calculator status link. Can you see what the error is?
-- [ ]  Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
-- [ ]  Copy the 'Save your work code' and run it in the console of GitPod (Look at the info page for help)
-- [ ]  Reload this page. Any differences?
+- On another tab, go to the GitHub page (Go to GitHub Button).
+- Then open GitPod to start programming (In the search bar: gitpod.io/# where # is the web address).
+- Click yes to anything that needs downloading.
+- Open src/main/java/github/x1n32/Task1Calculator/calculator.java
+- Run the code (via F5 or right-click and Run Java)
+- On **this** page, click on the link at the calculator status link. Can you see what the error is?
+-[ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
+- Copy the 'Save your work code' and run it in the console of GitPod (Look at the info page for help)
+- Reload this page. Any differences?
 
 ## Main Tasks: <br>
-- [ ]  Open calculator2.java
-- [ ]  Fix squareOfB so that it returns the square value of input B (A number multiplied by itself e.g. num1 * num1)
-- [ ]  Fix fourAC so that it returns the value of 4 x input a x input c (multiply in code uses the * key.)
-- [ ]  Fix squareRootAnswer so that it returns the square root of (square of B - 4AC) (hint: Math.sqrt(X))
-- [ ]  There are two answers to the quadratic formula. The +- on the image use either of them. 
-- [ ]  Fix positive answer method/function by looking at the image above using +
-- [ ]  Now do the same for the negative answer but using - instead of +
-- [ ]  Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
+Open calculator2.java
+- [ ]  1. Fix squareOfB so that it returns the square value of input B (A number multiplied by itself e.g. num1 * num1)
+- [ ]  2. Fix fourAC so that it returns the value of 4 x input a x input c (multiply in code uses the * key.)
+- [ ] 3. Fix squareRootAnswer so that it returns the square root of (square of B - 4AC) (hint: Math.sqrt(X))
+- [ ]  4. There are two answers to the quadratic formula. The +- on the image use either of them. 
+- [ ]  5. Fix positive answer method/function by looking at the image above using +
+- [ ]  6. Now do the same for the negative answer but using - instead of +
+- [ ]  7. Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
 
 ## Code to save your work
 - Remember to save your work. Copy and Paste the code in the 'Terminal' at the bottom of the screen below.
