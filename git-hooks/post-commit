@@ -71,11 +71,11 @@ lineToFind3 = "Challenge 2: Creating a new hash map(createNewHashMap) WORKS!"
 file = open("HashMapReport.md", "r")
 for line in file:
     line = line.strip()
-    if lineToFind in line:
+    if lineToFind1 in line:
         checkbox1 = True
-    if lineToFind in line:
+    if lineToFind2 in line:
         checkbox2 = True
-    if lineToFind in line:
+    if lineToFind3 in line:
         checkbox3 = True
 print("checkbox status", checkbox1,checkbox2,checkbox3)
 file.close()
