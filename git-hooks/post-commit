@@ -7,7 +7,7 @@ print ("Starting commit-msg hook")
 # opening the file in read mode
 file = open("calculator1Report.md", "r")
 newFileReplacement = ""
-scoreFind = "out of"
+scoreFind = "You have passed"
 string1 = "Task:"
 
 scoreIndex = 0
