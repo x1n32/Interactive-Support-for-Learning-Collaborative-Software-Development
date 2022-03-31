@@ -2,6 +2,6 @@
 
 import sys
 
-print "Starting commit-msg hook"
+print ("Starting commit-msg hook")
 
 sys.exit(0) #0 indicates success
