@@ -60,11 +60,11 @@ System.out.println(10 + 10);
 
 ## Main Tasks: <br>
 Open calculator2.java
-- 1.[ ]  Fix squareOfB so that it returns the square value of input B (A number multiplied by itself e.g. num1 * num1)
+- 1.[x]  Fix squareOfB so that it returns the square value of input B (A number multiplied by itself e.g. num1 * num1)
 - 2.[ ]  2. Fix fourAC so that it returns the value of 4 x input a x input c (multiply in code uses the * key.)
 - 3.[ ] 3. Fix squareRootAnswer so that it returns the square root of (square of B - 4AC) (hint: Math.sqrt(X))
 - 4.[ ]  4. There are two answers to the quadratic formula. The +- on the image use either of them. 
-- 5[ ]  5. Fix positive answer method/function by looking at the image above using +
+- 5[x]  5. Fix positive answer method/function by looking at the image above using +
 - 6[ ]  6. Now do the same for the negative answer but using - instead of +
 - 7[ ]  7. Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
 
