@@ -51,7 +51,7 @@ for line in file:
 file.close()
 # opening the file in write mode
 
-fout = open("calculator1Report.md", "w")
+fout = open("Task1.md.md", "w")
 fout.write(newFileReplacement)
 fout.close()
 
@@ -87,13 +87,13 @@ newFile = ""
 for line in file:
     line = line.strip()
     if (lineToFind1 == True):
-        changeline = line.replace("- [ ] Challenge 1:", "- [x] Challenge 1:")
+        changeline = line.replace("- [ ] Challenge 1", "- [x] Challenge 1")
         newFile = newFile + changeline + "\n"
     if (lineToFind2 == True):
-        changeline = line.replace("- [ ] Challenge 1.2:", "- [x] Challenge 1.2:")
+        changeline = line.replace("- [ ] Challenge 1.2", "- [x] Challenge 1.2")
         newFile = newFile + changeline + "\n"
     if (lineToFind3 == True):
-        changeline = line.replace("- [ ] Challenge 2:", "- [x] Challenge 2:")
+        changeline = line.replace("- [ ] Challenge 2", "- [x] Challenge 2")
         newFile = newFile + changeline + "\n"
     else:
         newFile = newFile + line + "\n"
