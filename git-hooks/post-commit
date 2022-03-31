@@ -30,7 +30,7 @@ file.close()
 
 file = open("calculator1Report.md", "r")
 startline = 99999
-foundLine = false
+foundLine = False
 
 #using the for loop to find the line where it displays the tasks
 for line in file:
