@@ -3,13 +3,12 @@
 import sys
 
 print ("Starting commit-msg hook")
+
+# opening the file in read mode
+
 newFileReplacement = ""
 scoreFind = "You have passed"
 scoreIndex = 1
-startline = 99999
-foundLine = False
-string1 = "Main Task:"
-
 
 #Finding score from report page 
 file = open("calculator2Report.md", "r")
@@ -27,7 +26,9 @@ print(scoreIndex , "The number found: " , score)
 
 #The report file
 file = open("Task1.md", "r")
-
+startline = 99999
+foundLine = False
+string1 = "Main Task:"
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()

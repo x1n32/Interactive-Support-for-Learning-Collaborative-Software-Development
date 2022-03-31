@@ -73,17 +73,14 @@ System.out.println(x);
 - Read the code and leave a comment on what you think it does
 - Check your guesses by running the code.
 - [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description' (Hint: if hMap.get(i) == .......) (Hint 2: empty values can be "" or null) (Hint 3: Look at the put methods)
-- [ ] Challenge 2: Comment out the code in createNewHashMap;
-- [ ] Create a new hashmap with the right name and generic so that the rest of that method works.
-- [ ] Make the method return "Abby" (Hint: use the get method)
+- Challenge 2: Comment out the code in createNewHashMap;
+- [ ] Create a new hashmap with the right name and generic so that the rest of that method works.(Make the method return "Abby") (Hint: use the get method)
 	
 	
 ## Optional: ComicBooks.java
 - [ ] Challenge 1: On quality.put(), change the string text (i.e. mint) to enumerated versions (Condition.MINT) instead.
-            
 - [ ] Challenge 2: add two more conditions/enumerations: PRISTINE_MINT where it sells for 5 times the price, and COVERLESS that sells for 0.1 times the price.
 - [ ] Then create two new comics that use those conditons. (NOTE: Remember you have to change the size of the comix array.)
-        
 - [ ] Challenge 3: Create an ArrayList to store comics rather than a array 
 - [ ] Display the contents of your new Array List by using a method. 
 - [ ] Copy the for-loop in the main code below it and paste it into the method - remember to change the name comix1

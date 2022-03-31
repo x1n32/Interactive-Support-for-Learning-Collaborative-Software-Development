@@ -164,13 +164,13 @@ public class HashMapExerciseTest {
 		public void checkValue() {
 
 			try {
-				totalTests += 1;
+
 				System.out.println("checking specific value in list");
 				String expected = "A map of the street...";
 				assertEquals(expected, ItemDescriptions.get("Map"),
 						" - This should match the same text as the value of map.");
 				fileReport += " - Getting value from a key (Item Description) WORKS! \n"; // Positive comment
-				testPassed += 1;
+
 			} catch (Throwable e) {
 				fileReport += " - Error getting the correct value from the key: \n";
 				fileReport += e + "\n";
@@ -183,15 +183,14 @@ public class HashMapExerciseTest {
 		@DisplayName("checkValue2")
 		public void checkValue2() {
 			try {
-				totalTests += 1;
+	
 				System.out.println("checking specific value in list 2");
 				String expected = "This new descpription";
 				ItemDescriptions.put("Item", "This new descpription");
 				assertEquals(expected, ItemDescriptions.get("Item"),
 						" - This should match the same text as the value of map.");
 				fileReport += " - 2nd Test: Getting value from a key (Item Description) WORKS! \n"; // Positive comment
-				testPassed += 1;
-
+		
 			} catch (Throwable e) {
 				fileReport += " - Error getting the correct value from the key: \n";
 				fileReport += e + "\n";
@@ -204,7 +203,7 @@ public class HashMapExerciseTest {
 		@DisplayName("testChangeinValue")
 		public void testChangeinValue() {
 			try {
-				totalTests += 1;
+		
 				System.out.println("Testing new Description");
 				String newDescription = "Testing change in description";
 				ItemDescriptions.put("Wooden Shield", newDescription);
@@ -212,7 +211,7 @@ public class HashMapExerciseTest {
 				assertEquals(newDescription, ItemDescriptions.get("Wooden Shield"));
 
 				fileReport += " - Changing value/description (new Description) WORKS! \n"; // Positive comment
-				testPassed += 1;
+	
 
 			} catch (Throwable e) {
 				fileReport += " - Error changing the value of an existing key: \n    ";
@@ -226,7 +225,7 @@ public class HashMapExerciseTest {
 		@DisplayName("testChangeinValue2")
 		public void testChangeinValue2() {
 			try {
-				totalTests += 1;
+		
 				System.out.println("Testing new Description 2");
 				ItemDescriptions.put("Item", "This descpription");
 				String newDescription = "Chango description";
@@ -234,7 +233,7 @@ public class HashMapExerciseTest {
 
 				assertEquals(newDescription, ItemDescriptions.get("Item"));
 				fileReport += " - 2nd Test: Changing value/description (new Description) WORKS! \n"; // Positive comment
-				testPassed += 1;
+
 
 			} catch (Throwable e) {
 				fileReport += " - Error changing the value of an existing key: \n   ";
