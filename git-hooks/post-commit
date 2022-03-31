@@ -33,7 +33,7 @@ startCounting = False
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
-    if index < score: #Change while the line read is under the score value
+    if index < int(score): #Change while the line read is under the score value
     #If user got 4 test passed, reads 4 lines from where the first - [ is
         if string1 in line:
             startCounting = True
