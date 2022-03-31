@@ -35,24 +35,21 @@ foundLine = False
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
-
     #Change while the line read is under the score value
     #If user got 4 test passed, reads 4 lines from where the first - [ is
     if string1 in line:
         if foundLine == False:
             startline = 1
             foundLine = True
-        if startline <= int(score):
+        if startline => int(score):
+            print("here")
+            newFileReplacement = newFileReplacement + line + "\n"
+        else: 
             startline += 1
             changes = line.replace("- [ ]", "- [x]")
             newFileReplacement = newFileReplacement + changes + "\n"
-        else: 
-            print("here")
-            newFileReplacement = newFileReplacement + line + "\n"
-        index += 1
-  
-        
 
+        index += 1
 file.close()
 # opening the file in write mode
 
