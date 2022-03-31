@@ -46,7 +46,6 @@ for line in file:
             newFileReplacement = newFileReplacement + line + "\n"
     else : 
         newFileReplacement = newFileReplacement + line + "\n"
-    index += 1
 
 
 file.close()
