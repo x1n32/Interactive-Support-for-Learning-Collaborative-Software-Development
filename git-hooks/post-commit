@@ -39,7 +39,7 @@ for line in file:
     #Change while the line read is under the score value
     #If user got 4 test passed, reads 4 lines from where the first - [ is
     if string1 in line:
-        if foundLine = false:
+        if foundLine == false:
             startline = index
         if startline <= int(score):
             index += 1
