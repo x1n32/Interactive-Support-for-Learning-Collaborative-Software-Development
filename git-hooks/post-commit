@@ -12,9 +12,9 @@ for line in file:
     line = line.strip()
     if (line == "[ ]"):
         print(line)
+        newFileReplacement = newFileReplacement 
     #changes = line.replace("[ ]", "[x]")
-    newFileReplacement = newFileReplacement 
-   #newFileReplacement = newFileReplacement + changes + "\n"
+     #newFileReplacement = newFileReplacement + changes + "\n"
 
 file.close()
 # opening the file in write mode
