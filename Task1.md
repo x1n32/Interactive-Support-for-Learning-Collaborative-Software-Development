@@ -1,13 +1,17 @@
 # Task-1-Calculator
+[See Home Page ](/README.md)<br/>
+[See Task 2 Page ](/Task2.md)<br/>
+[See Task 3 Page ](/Task3.md)<br/>
+[See Information Page ](/Info.md)<br/>
 ## Task Information and Instructions
 The purpose of this task is to introduce you to Java Methods and handling with numbers.
 There are two files for you to look at: Calculator.java, and Calculator2.java
 web 
 The first one is a demo code to look at how classes and methods work.
-Classes are like blueprints in which you can create objects out of.
-All these objects have access to the same methods. 
-Methods are subprograms that can be reused without rewriting the code.
-e.g. Class = Vehicle. An object of that can be called a car. They all have methods such as drive, brake, turn etc. 
+- Classes are like blueprints in which you can create objects out of.
+- All these objects have access to the same methods. 
+- Methods are subprograms that can be reused without rewriting the code.
+- e.g. Class = Vehicle. An object of that can be called a car. They all have methods such as drive, brake, turn etc. 
 
 Most of the tasks you have to do is on Calculator2.java.
 The aim of this is to make it capable of performing the quadratic formula, by breaking it up into smaller parts.
@@ -15,15 +19,15 @@ The setup for the methods are there. You just need to add in the right numbers: 
 <br/><img src="Images/quadraticEquation.png" width="30%" height="30%"><br/>
 
 ### Keywords: 
-- Open this file in the GitHub editor - match keywords with definitions. Copy Paste.
-Keyword | Definition
-------- | ---------
-Java   |  -
-Method   |  -
-Class   |  -
-Integer  |  -
-Float   |  -
+Open this file in the GitHub editor - match keywords with definitions. Copy Paste.<br>
+Keywords:
+- Java   
+- Method   
+- Class   
+- Integer  
+- Float  
 
+Definitions:
 - A programming language
 - A subprogram which can be called many times
 - A whole number
