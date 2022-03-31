@@ -16,7 +16,6 @@ Main Tasks:
 - [ ]  5. Fix positive answer method/function by looking at the image above using +
 - [ ]  6. Now do the same for the negative answer but using - instead of +
 - [ ]  7. Using all the functions you have created, put it all into the final function 
-
 <br>
 ### 2022/03/31 18:46:22 
  <br>
