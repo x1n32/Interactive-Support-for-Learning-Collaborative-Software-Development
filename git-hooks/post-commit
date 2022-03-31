@@ -88,11 +88,16 @@ for line in file:
     line = line.strip()
     if (lineToFind1 == True):
         changeline = line.replace("- [ ] Challenge 1:", "- [x] Challenge 1:")
+        newFile = newFile + changeline + "\n"
     if (lineToFind2 == True):
         changeline = line.replace("- [ ] Challenge 1.2:", "- [x] Challenge 1.2:")
+        newFile = newFile + changeline + "\n"
     if (lineToFind3 == True):
         changeline = line.replace("- [ ] Challenge 2:", "- [x] Challenge 2:")
-    newFile = newFile + changeline + "\n"
+        newFile = newFile + changeline + "\n"
+    else:
+        newFile = newFile + line + "\n"
+    
 file.close()
 
 #Write to file 
