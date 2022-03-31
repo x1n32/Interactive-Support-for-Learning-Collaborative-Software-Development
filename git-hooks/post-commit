@@ -8,7 +8,7 @@ print ("Starting commit-msg hook")
 file = open("calculator1Report.md", "r")
 newFileReplacement = ""
 scoreFind = "You have passed"
-string1 = "Task:"
+string1 = "Main Tasks:"
 
 scoreIndex = 1
 index = 1
