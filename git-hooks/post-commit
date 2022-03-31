@@ -80,7 +80,7 @@ for line in file:
         checkbox2 = True
     if lineToFind in line:
         checkbox3 = True
-print(checkbox1,checkbox2,checkbox3)
+print("checkbox status", checkbox1,checkbox2,checkbox3)
 file.close()
 
 #Append to file:
