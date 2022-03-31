@@ -41,6 +41,7 @@ for line in file:
     if string1 in line:
         if foundLine == False:
             startline = index
+            foundLine = True
         if startline <= int(score):
             index += 1
             changes = line.replace("- [ ]", "- [x]")
