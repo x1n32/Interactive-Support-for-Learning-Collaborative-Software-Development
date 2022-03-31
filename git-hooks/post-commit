@@ -29,7 +29,7 @@ print(scoreIndex , "The number found: " , score)
 file.close()
 
 file = open("calculator1Report.md", "r")
-startCounting = false
+startCounting = False
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
