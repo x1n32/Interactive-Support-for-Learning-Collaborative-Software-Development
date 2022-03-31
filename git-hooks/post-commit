@@ -15,7 +15,7 @@ for line in file:
     line = line.strip()
 
     if string1 in line:
-      index + = 1 
+      index += 1 
       break 
     changes = line.replace("[x]", "[ ]")
     newFileReplacement = newFileReplacement + changes + "\n"
