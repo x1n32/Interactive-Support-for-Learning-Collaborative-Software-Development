@@ -31,15 +31,15 @@ Float   |  -
 - A 'Cookie Cutter' which can make objects of that type
  
 ### Predict: 
-'''java
+```java 
 System.out.println("Hello World"); 
-'''
+```
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/846UnWowD)<br/>
 
-'''
+```java 
 System.out.println(10 + 10); 
-'''
+``` 
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
@@ -62,7 +62,7 @@ System.out.println(10 + 10);
 - [ ]  There are two answers to the quadratic formula. The +- on the image use either of them. 
 - [ ]  Fix positive answer method/function by looking at the image above using +
 - [ ]  Now do the same for the negative answer but using - instead of +
-- [ ]  Using all the functions you have created, put it all into the final function 'quadraticFormula' so that it runs them all. This does not need to 'return' anything. Output the answers to check if you are correct. (To call a function, you type the name of the function and provide values in the brackets if required.)
+- [ ]  Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
 
 ## Code to save your work
 - Remember to save your work. Copy and Paste the code in the 'Terminal' at the bottom of the screen below.
@@ -78,8 +78,15 @@ mvn test && git add . && git commit -m "Saving" && git push
 [See report on Calculator 2](calculator2Report.md)<br/>
 <img src="calculator2Status.jpg" width="50%" height="50%"><br/>
 
-Answers are in the 'answer' branch. 
 
+Answers to the programming tasks are in the 'answer' branch.
+
+Predict answers:
+- Java = A programming language
+- Method = A subprogram which can be called many times
+- Class = A 'Cookie Cutter' which can make objects of that type
+- Integer = A whole number
+- Float = A number that can use decimals
 
 ### Optional. Embed an IDE to code here.
 Want to code on the webpage?
