@@ -19,6 +19,7 @@ There are two ways to edit the files here.
 <br/><img src="Images/fileEdit.jpg" width="70%" height="70%"><br/>
 
 ## Using Gitpod
+To load Gitpod: search gitpod.io/#  where # is your GitHub web address.<br>
 <br/><img src="Images/gitpodScreenshot.PNG" width="70%" height="70%"><br/>
 - On the left are all the files. 
 - The middle of the screen is where you read/write the file you opened

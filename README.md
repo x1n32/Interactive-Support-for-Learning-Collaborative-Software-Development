@@ -19,6 +19,7 @@ Go to the webpage: https://x1n32.github.io/Interactive-Support-for-Learning-Coll
 <br/><img src="Images/pagesScreenshot.jpg" width="60%" height="60%"><br/>
 
 - Now load up your webpage, and open gitpod on another tab. 
+(gitpod can be loaded in the address bar with gitpod.io/# -# is your web address)
 - It is advised to keep both tabs open, as you can see feedback on what you have done.
 
 ## Code to save work
