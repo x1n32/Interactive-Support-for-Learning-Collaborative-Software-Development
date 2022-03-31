@@ -29,7 +29,7 @@ for line in file:
 
     if scoreFind in line:
         score = line[-17];
-      break;
+        break;
     scoreIndex += 1
 print(index)
 print(scoreIndex , "The number found: " , score)
