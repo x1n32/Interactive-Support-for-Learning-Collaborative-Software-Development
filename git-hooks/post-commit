@@ -5,24 +5,17 @@ import sys
 print ("Starting commit-msg hook")
 
 # opening the file in read mode
-file = open("calculator1Report.md", "r")
+
 newFileReplacement = ""
 scoreFind = "You have passed"
-string1 = "Main Tasks:"
+string1 = "- ["
 
 scoreIndex = 1
 index = 1
 
 
-#using the for loop
-for line in file:
-    line = line.strip()
 
-    if string1 in line:
-      break;
-    index += 1
-file.close()
-
+#Finding score from report page 
 file = open("calculator1Report.md", "r")
 for line in file:
     line = line.strip()
@@ -34,11 +27,27 @@ for line in file:
 print(index)
 print(scoreIndex , "The number found: " , score)
 file.close()
+
+file = open("calculator1Report.md", "r")
+startCounting = false
+#using the for loop to find the line where it displays the tasks
+for line in file:
+    line = line.strip()
+    if index < score: #Change while the line read is under the score value
+    #If user got 4 test passed, reads 4 lines from where the first - [ is
+        if string1 in line:
+            startCounting = True
+            changes = line.replace("- [", "- [x]")
+            newFileReplacement = newFileReplacement + changes + "\n"
+    if startCounting == True:
+        index += 1
+
+file.close()
 # opening the file in write mode
 
-#fout = open("calculator1Report.md", "w")
-#fout.write(newFileReplacement)
-#fout.close()
+fout = open("calculator1Report.md", "w")
+fout.write(newFileReplacement)
+fout.close()
 
 
 sys.exit(0) #0 indicates success
