@@ -30,7 +30,7 @@ file.close()
 
 file = open("calculator1Report.md", "r")
 startCounting = False
-changes = ""
+
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
@@ -39,7 +39,9 @@ for line in file:
         if string1 in line:
             startCounting = True
             changes = line.replace("- [ ]", "- [x]")
-    newFileReplacement = newFileReplacement + changes + "\n"
+            newFileReplacement = newFileReplacement + changes + "\n"
+    else:
+        newFileReplacement = newFileReplacement + line + "\n"
     if startCounting == True:
         index += 1
 
