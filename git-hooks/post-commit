@@ -30,6 +30,7 @@ file.close()
 
 file = open("calculator1Report.md", "r")
 startCounting = False
+changes = ""
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
