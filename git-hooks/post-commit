@@ -41,7 +41,7 @@ for line in file:
         if foundLine == False:
             startline = 1
             foundLine = True
-        if startline => int(score):
+        if startline >= int(score):
             print("here")
             newFileReplacement = newFileReplacement + line + "\n"
         else: 
