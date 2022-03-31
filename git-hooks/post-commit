@@ -30,6 +30,7 @@ file.close()
 
 file = open("calculator1Report.md", "r")
 startline = 99999
+foundLine = false
 
 #using the for loop to find the line where it displays the tasks
 for line in file:
@@ -38,7 +39,8 @@ for line in file:
     #Change while the line read is under the score value
     #If user got 4 test passed, reads 4 lines from where the first - [ is
     if string1 in line:
-        startline = index
+        if foundLine = false:
+            startline = index
         if startline <= int(score):
             index += 1
             changes = line.replace("- [ ]", "- [x]")
