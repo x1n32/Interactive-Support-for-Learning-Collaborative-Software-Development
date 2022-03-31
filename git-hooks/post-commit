@@ -6,12 +6,12 @@ print ("Starting commit-msg hook")
 
 # opening the file in read mode
 file = open("calculator1Report.md", "r")
-replacement = "Seven"
+newFileReplacement = ""
 #using the for loop
 for line in file:
     line = line.strip()
-    changes = line.replace("7", "situations")
-    replacement = replacement + changes + "\n"
+    changes = line.replace("situations", "seven")
+    newFileReplacement = newFileReplacement + changes + "\n"
 
 file.close()
 # opening the file in write mode
