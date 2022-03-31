@@ -1,29 +1,33 @@
 # Task-2-Data-Structures
+[See Home Page ](/README.md)<br/>
+[See Task 1 Page ](/Task1.md)<br/>
+[See Task 3 Page ](/Task3.md)<br/>
+[See Information Page ](/Info.md)<br/>
 ## Task Information and Instructions 
-
 There are four files in this task: ArrayExample, ComicBooks, HashMapExercise, and ListExample.
 It shows basic functions on how to add more values, and how to create them. 
-
 The purpose of this task is to show how data structures are used.
+A variable is a container to hold a value that can change.
+A data structure like an array can hold muliple variables.
 
-Two coding tasks have been given: HashMapExercise, and ComicBook. Look at HashMapExercise first and have a go at doing the tasks provided on the comments. Comic book uses a hash map to store 'quality' with a 'price'. It also uses an enumeration which are like constants.
+Two coding tasks have been given: HashMapExercise, and ComicBook. Comic book uses a hash map to store 'quality' with a 'price' as key-value pairs.It also uses an enumeration which are like constants.
 
-Remember to save your work, and push your changes. Some feedback can be given but don't be alarmed if you see a lot of red text before you have started, as it is just checking that the tasks have yet to be completed.
+Remember to save your work and to check the feedback provided under this document.
 
 ### Keywords
 Match the keywords with the definitions: (copy and paste)
--Data Structure
--Array
--element
--Storage
--List
--Map
+- Data Structure
+- Array
+- element
+- Storage
+- List
+- Map
 
-=A set of data values of the same type, stored in a sequence in a computer program.
-= contains values on the basis of key, i.e. key and value pair. Each key and value pair is known as an entry. Contains unique keys.
-=The way that data is stored in a database or program.
-=An individual component of an array.
-= found in the java.util package and inherits the Collection interface.
+- A set of data values of the same type, stored in a sequence in a computer program.
+- contains values on the basis of key, i.e. key and value pair. Each key and value pair is known as an entry. Contains unique keys.
+- The way that data is stored in a database or program.
+- An individual component of an array.
+- found in the java.util package and inherits the Collection interface.
   Has the facility to maintain the ordered collection. It contains the index-based methods to insert, update, delete and search the elements.
   It can have the duplicate elements also. We can also store the null elements in the list.
 
@@ -57,8 +61,29 @@ System.out.println(x);
 - Actual output:  [See answer here](https://learn.onlinegdb.com/JU4zjIoMc)<br/>
 
 
-
-
+## Introductory Steps:
+- [x] Read everything above.
+- [ ] Keep this tab open, and open Gitpod
+- [ ] Familiarise yourself with the arrayExample and listExample.
+- [ ] Run the code. Then try to change some numbers around.
+## HashMapExercise.java Steps:
+- [ ] Read the code and leave a comment on what you think it does
+- [ ] Check your guesses by running the code.
+- [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description'
+	(Hint: if hMap.get(i) == .......) (Hint 2: empty values can be "" or null) (Hint 3: Look at the put methods)
+- [ ] Challenge 2: Comment out the code in createNewHashMap;
+- [ ] Create a new hashmap with the right name and generic so that the rest of that method works.
+- [ ] Make the method return "Abby" (Hint: use the get method)
+## ComicBooks.java
+- [ ] Challenge 1: On quality.put(), change the string text (i.e. mint) to enumerated versions (Condition.MINT) instead.
+            
+- [ ] Challenge 2: add two more conditions/enumerations: PRISTINE_MINT where it sells for 5 times the price, and COVERLESS that sells for 0.1 times the price.
+- [ ] Then create two new comics that use those conditons. (NOTE: Remember you have to change the size of the comix array.)
+        
+- [ ] Challenge 3: Create an ArrayList to store comics rather than a array 
+- [ ] Display the contents of your new Array List by using a method. 
+- [ ] Copy the for-loop in the main code below it and paste it into the method - remember to change the name comix1
+	
 
 ## Code to save your work
  - Remember to save your work. Copy and Paste the code below. You can see your progress on the links as well.
