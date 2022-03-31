@@ -43,6 +43,8 @@ class CalculatorTest {
 	static int totalTests = 0;
 	static int testPassed = 0;
 
+
+
 	private Calculator calculator;
 
 	// Saves an image function
@@ -90,7 +92,16 @@ class CalculatorTest {
 
 		try {
 
-			FileWriter Writer = new FileWriter("calculator1Report.md", true);
+			FileWriter Writer = new FileWriter("calculator1Report.md", false);
+
+			String titleText = "# Calculator Report:";
+			titleText += "[See Home Page ](/README.md)<br/>";
+			titleText += "[See Task 1 Page ](/Task1.md)<br/>";
+			titleText += "[See Task 2 Page ](/Task2.md)<br/>";
+			titleText += "[See Task 3 Page ](/Task3.md)<br/>";
+			titleText += "[See Information Page ](/Info.md)<br/>";
+			Writer.write(titleText);
+
 			Writer.write(fileReport);
 
 			System.out.println("Test passed: " + testPassed + " total = " + totalTests);
@@ -99,7 +110,7 @@ class CalculatorTest {
 //			percentageCleared = 0;
 
 			//Feedback
-			Writer.write("\n <br>\nFor Calculator 1, You have passed " + testPassed + " out of " + totalTests + ". ");
+			Writer.write("\n <br>\nFor Calculator 1, You have passed " + testPassed + " out of " + totalTests + " tests. \n <br>\n");
 			if (percentageCleared == 0) {
 				Writer.write("\nHave a try!. ");
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
@@ -128,7 +139,7 @@ class CalculatorTest {
 			Writer.write("\n <br>");
 			Writer.close();
 			System.out.println("Successfully written.");
-			System.out.println("You have passed " + testPassed + " out of " + totalTests + ". ");
+			System.out.println("You have passed " + testPassed + " out of " + totalTests + " tests. ");
 			// System.out.println(fileReport.length());
 
 		} catch (IOException e) {
