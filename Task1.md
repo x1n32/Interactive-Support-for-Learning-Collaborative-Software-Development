@@ -57,7 +57,7 @@ System.out.println(10 + 10);
 - You should be on calculator.java (src/main/java/github/x1n32/Task1Calculator/calculator.java)
 - Run the code
 - On **this** page, click on the link at the calculator status link. Can you see what the error is?
--[ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
+- [ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
 - Copy the 'Save your work code' and run it in the console of GitPod
 - Reload this page. Any differences?
 
