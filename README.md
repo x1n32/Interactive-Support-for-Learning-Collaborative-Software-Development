@@ -6,6 +6,7 @@ Go to the webpage: https://x1n32.github.io/Interactive-Support-for-Learning-Coll
 [See Information Page ](/Info.md)<br/>
 
 ## Welcome!
+The aim of the project is to improve awareness of collaboration tools by teaching programming, showcasing unit testing and continuous integration.
 - This repository has some programming tasks you can from more beginner level tasks to more harder ones in terms of concepts. 
 - While attempting the tasks, you can save your work, and this can provide feedback on how you are doing. 
 - You can edit these files in GitHub or in Gitpod to make notes or answer some questions. 
