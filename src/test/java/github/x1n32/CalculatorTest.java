@@ -115,25 +115,25 @@ class CalculatorTest {
 			if (percentageCleared == 0) {
 				Writer.write("\nHave a try!. ");
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
-				String destinationFile = "calculator1Status.jpg";
+				String destinationFile = "Images/calculator1Status.jpg";
 				saveImage(imageUrl, destinationFile);
 
 			} else if (percentageCleared == 100) {
 				Writer.write("ALL CORRECT! CONGRATULATIONS!");
 				String imageUrl = "https://www.rubberstampking.co.uk/assets/images/fullmarks.png";
-				String destinationFile = "calculator1Status.jpg";
+				String destinationFile = "Images/calculator1Status.jpg";
 				saveImage(imageUrl, destinationFile);
 
 			} else if (percentageCleared > 50) {
 				Writer.write("Well done.");
 				String imageUrl = "https://cdn3.vectorstock.com/i/1000x1000/94/02/well-done-stamp-vector-1469402.jpg";
-				String destinationFile = "calculator1Status.jpg";
+				String destinationFile = "Images/calculator1Status.jpg";
 				saveImage(imageUrl, destinationFile);
 
 			} else if (percentageCleared <= 50 && percentageCleared > 0) {
 				Writer.write("\nHave another go." + percentageCleared);
 				String imageUrl = "http://comealivein365.com/wp-content/uploads/2013/08/keep-calm-try-again.jpg";
-				String destinationFile = "calculator1Status.jpg";
+				String destinationFile = "Images/calculator1Status.jpg";
 				saveImage(imageUrl, destinationFile);
 
 			}

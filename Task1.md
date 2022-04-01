@@ -50,22 +50,22 @@ System.out.println(10 + 10);
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
 ## Introductory Tasks:
-- On another tab, go to the GitHub page 
-- Then open GitPod to start programming 
+- On another tab, go to the GitHub page
+- Then open GitPod to start programming
 - Click yes to anything that needs downloading.
 - Open src/main/java/github/x1n32/Task1Calculator/calculator.java
-- Run the code 
+- Run the code
 - On **this** page, click on the link at the calculator status link. Can you see what the error is?
 -[ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
-- Copy the 'Save your work code' and run it in the console of GitPod 
+- Copy the 'Save your work code' and run it in the console of GitPod
 - Reload this page. Any differences?
 
 ## Main Tasks: <br>
 Open calculator2.java
-- [ ] Fix squareOfB so that it returns the square value of input B 
-- [ ] Fix fourAC so that it returns the value of 4 x input a x input c 
-- [ ] Fix squareRootAnswer so that it returns the square root of (B squared - 4AC) 
-- [ ] Fix positive answer method/function 
+- [ ] Fix squareOfB so that it returns the square value of input B
+- [ ] Fix fourAC so that it returns the value of 4 x input a x input c
+- [ ] Fix squareRootAnswer so that it returns the square root of (B squared - 4AC)
+- [ ] Fix positive answer method/function
 - [ ] Now do the same for the negative answer but use - instead of +
 - [ ] Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
 
@@ -88,11 +88,11 @@ mvn test && git add . && git commit -m "Saving" && git push
 
 # Calculator 1 status:<br/>
 [See report on Calculator 1](calculator1Report.md)<br/>
-<img src="calculator1Status.jpg" width="50%" height="50%"><br/>
+<img src="Images/calculator1Status.jpg" width="50%" height="50%"><br/>
 
 # Calculator 2 status:<br/>
 [See report on Calculator 2](calculator2Report.md)<br/>
-<img src="calculator2Status.jpg" width="50%" height="50%"><br/>
+<img src="Images/calculator2Status.jpg" width="50%" height="50%"><br/>
 
 
 Answers to the programming tasks are in the 'answer' branch.

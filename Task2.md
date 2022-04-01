@@ -82,7 +82,7 @@ System.out.println(myNum.get(3));
 **Not currently marked**
 - [ ]  1: On quality.put(), change the string text (i.e. mint) to enumerated versions (Condition.MINT) instead.
 - [ ]  2: add two more conditions/enumerations: PRISTINE_MINT where it sells for 5 times the price, and COVERLESS that sells for 0.1 times the price.
-- [ ] 3.Then create two new comics that use those conditons. 
+- [ ] 3.Then create two new comics that use those conditons.
 - [ ] 4: Create an ArrayList to store comics rather than a array
 - [ ] 5: Display the contents of your new Array List by using a method.
 - [ ] 6: copy the for-loop in the main code below it and paste it into the method - remember to change the name comix1
@@ -112,7 +112,7 @@ mvn test && git add . && git commit -m "Saving" && git push
 <br>
 # Hash Map Task status:<br/>
 [See report on Hash Map Task](HashMapReport.md)<br/>
-<img src="hashMapStatus.jpg" width="50%" height="50%"><br/>
+<img src="Images/hashMapStatus.jpg" width="50%" height="50%"><br/>
 
 
 Answers are in the 'answer' branch.
