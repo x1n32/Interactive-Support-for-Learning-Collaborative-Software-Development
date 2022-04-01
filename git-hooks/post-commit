@@ -2,20 +2,19 @@
 #File Appending to check the checkboxes
 import sys
 
-print ("Starting commit-msg hook")
+print ("Starting post commit hook")
 
 #Task 1 file 
-
-#calc1 ---------------------------------------
+#calc1 -----------------------------------------
 #Corresponds to each of the checkboxes/tasks
 checkbox1 = False #Calc 1
-checkbox1.2 = False #Calc 1
-checkbox1.3 = False #Calc 1
+checkbox2 = False #Calc 1
+checkbox3 = False #Calc 1
 
 #The add test has 3 checks in calculator(1)
 lineToFind1 = "Adding two positive numbers WORKS!"
-lineToFind1.2 = "Adding two negative numbers WORKS!"
-lineToFind1.3 = "Adding a positive number and a negative number WORKS!"
+lineToFind2 = "Adding two negative numbers WORKS!"
+lineToFind3 = "Adding a positive number and a negative number WORKS!"
 
 
 # Reading file to see if test passed
@@ -24,10 +23,10 @@ for line in file:
     line = line.strip()
     if lineToFind1 in line:
         checkbox1 = True
-    if lineToFind1.2 in line:
-        checkbox1.2 = True
-    if lineToFind1.3 in line:
-        checkbox1.3 = True
+    if lineToFind2 in line:
+        checkbox2 = True
+    if lineToFind3 in line:
+        checkbox3 = True
 file.close()
 
 #Append to file:
@@ -36,13 +35,13 @@ newFile = ""
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
-    if (checkbox1 == True) and (checkbox1.2 == True) and (checkbox1.3 == True) :
+    if (checkbox1 == True) and (checkbox2 == True) and (checkbox3 == True) :
         changeline = line.replace("-[ ] Back on GitPod,", "-[x] Back on GitPod,")
         newFile = newFile + changeline + "\n"
     else:
         newFile = newFile + line + "\n"
 file.close()
-#Calc 2-----------------------------
+#Calc 2---------------------------------
 
 #Calculator 2 positive test comments
 lineToFind1 = "Square of B method WORKS!"
