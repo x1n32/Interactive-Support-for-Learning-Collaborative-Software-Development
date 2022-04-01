@@ -9,7 +9,7 @@
 ## Task Information and Instructions
 The purpose of this task is to introduce you to Java Methods and handling with numbers.
 There are two files for you to look at: Calculator.java, and Calculator2.java
-web
+web.
 The first one is a demo code to look at how classes and methods work.
 - Classes are like blueprints in which you can create objects out of.
 - All these objects have access to the same methods.
