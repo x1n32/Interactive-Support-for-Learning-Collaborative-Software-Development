@@ -4,57 +4,117 @@ import sys
 
 print ("Starting commit-msg hook")
 
+#Task 1 file 
+
+#calc1 ---------------------------------------
+#Corresponds to each of the checkboxes/tasks
+checkbox1 = False #Calc 1
+checkbox1.2 = False #Calc 1
+checkbox1.3 = False #Calc 1
+
+#The add test has 3 checks in calculator(1)
+lineToFind1 = "Adding two positive numbers WORKS!"
+lineToFind1.2 = "Adding two negative numbers WORKS!"
+lineToFind1.3 = "Adding a positive number and a negative number WORKS!"
 
 
-
-newFileReplacement = ""
-scoreFind = "You have passed"
-scoreIndex = 1
-
-#Finding score from report page 
-file = open("calculator2Report.md", "r")
+# Reading file to see if test passed
+file = open("calculator1Report.md", "r")
 for line in file:
     line = line.strip()
-    if scoreFind in line:
-        score = line[-17];
-        break;
-    scoreIndex += 1
-
+    if lineToFind1 in line:
+        checkbox1 = True
+    if lineToFind1.2 in line:
+        checkbox1.2 = True
+    if lineToFind1.3 in line:
+        checkbox1.3 = True
 file.close()
-print(scoreIndex , "The number found: " , score)
 
-
-#The report file
+#Append to file:
 file = open("Task1.md", "r")
-startline = 99999
-foundLine = False
-string1 = "Main Task:"
+newFile = ""
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
-    #Change while the line read is under the score value
-    #If user got 4 test passed, reads 4 lines from where the first - [ is
-    if string1 in line:
-        if foundLine == False:
-            startline = 1 - 2 #This is hard coded.. Main Task: ;another line; next line has -[ ]
-            foundLine = True
-        if startline <= int(score):
-            startline += 1
-            changes = line.replace("- [ ]", "- [x]")
-            newFileReplacement = newFileReplacement + changes + "\n"
-        else : 
-            newFileReplacement = newFileReplacement + line + "\n"
-    else : 
-        newFileReplacement = newFileReplacement + line + "\n"
-
-
+    if (checkbox1 == True) and (checkbox1.2 == True) and (checkbox1.3 == True) :
+        changeline = line.replace("-[ ] Back on GitPod,", "-[x] Back on GitPod,")
+        newFile = newFile + changeline + "\n"
+    else:
+        newFile = newFile + line + "\n"
 file.close()
-# opening the file in write mode
+#Calc 2-----------------------------
 
-fout = open("Task1.md", "w")
-fout.write(newFileReplacement)
+#Calculator 2 positive test comments
+lineToFind1 = "Square of B method WORKS!"
+lineToFind2 = "4AC method WORKS!"
+lineToFind3 = "Square Root method WORKS!"
+lineToFind4 = "Positive answer check... WORKS!"
+lineToFind5 = "Negative answer check... WORKS!"
+lineToFind6 = "Final check... Quadratic Formula for both answers.... WORKS!"
+
+checkbox1 = False #Calc 2 
+checkbox2 = False
+checkbox3 = False 
+checkbox4 = False
+checkbox5 = False
+checkbox6 = False
+
+file = open("calculator2Report.md", "r")
+for line in file:
+    line = line.strip()
+    if lineToFind1 in line:
+        checkbox1 = True
+    if lineToFind2 in line:
+        checkbox2 = True
+    if lineToFind3 in line:
+        checkbox3 = True
+    if lineToFind4 in line:
+        checkbox4 = True
+    if lineToFind5 in line:
+        checkbox5 = True
+    if lineToFind6 in line:
+        checkbox6 = True
+file.close()
+
+#Append to file:
+file = open("Task1.md", "r")
+newFile = ""
+#using the for loop to find the line where it displays the tasks
+for line in file:
+    line = line.strip()
+    if (checkbox1 == True):
+        changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
+        newFile = newFile + changeline + "\n"
+
+    if (checkbox2 == True):
+        changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
+        newFile = newFile + changeline + "\n"
+
+    if (checkbox3 == True):
+        changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
+        newFile = newFile + changeline + "\n"
+
+    if (checkbox4 == True):
+        changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
+        newFile = newFile + changeline + "\n"
+
+    if (checkbox5 == True):
+        changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
+        newFile = newFile + changeline + "\n"
+
+    if (checkbox6 == True):
+        changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
+        newFile = newFile + changeline + "\n"
+
+    else:
+        newFile = newFile + line + "\n"
+    
+file.close()
+
+#Write to file 
+fout = open("Task2.md", "w")
+fout.write(newFile)
 fout.close()
-
 
 #--------------------------------------------------------------
 #Task 2 file 
@@ -77,7 +137,7 @@ for line in file:
         checkbox2 = True
     if lineToFind3 in line:
         checkbox3 = True
-print("checkbox status", checkbox1,checkbox2,checkbox3)
+
 file.close()
 
 #Append to file:

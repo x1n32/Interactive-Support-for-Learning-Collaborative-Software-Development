@@ -7,7 +7,7 @@
  <br/><br> 
 ==================
 <br>
-### 2022/03/31 23:42:35 
+### 2022/04/01 00:07:43 
  <br>
  - Positive answer of the quadraticFormula method: failed. 
 org.opentest4j.AssertionFailedError:  - This should return the value of b * b. e.g. 5 * 5 which equals 25 ==> expected: <25.0> but was: <0.0>
@@ -27,7 +27,7 @@ org.opentest4j.MultipleFailuresError: Multiple Failures (3 failures)
 	org.opentest4j.AssertionFailedError: expected: <10000.0> but was: <0.0>
 	org.opentest4j.AssertionFailedError: expected: <225.0> but was: <0.0>
 	org.opentest4j.AssertionFailedError: expected: <0.25> but was: <0.0>
- - Positive answer of the quadraticFormula method: failed. 
+ - Negative answer of the quadraticFormula method: failed. 
 org.opentest4j.AssertionFailedError:  - This should return the value of b * b. e.g. 5 * 5 which equals 25 ==> expected: <25.0> but was: <0.0>
 
  <br>

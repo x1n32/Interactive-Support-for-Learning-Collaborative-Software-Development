@@ -228,7 +228,7 @@ public class Calculator2Test {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += " - Positive answer of the quadraticFormula method: failed. \n";
+				fileReport += " - Negative answer of the quadraticFormula method: failed. \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}

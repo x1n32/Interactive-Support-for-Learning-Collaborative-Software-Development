@@ -6,26 +6,26 @@
 ## Task Information and Instructions
 The purpose of this task is to introduce you to Java Methods and handling with numbers.
 There are two files for you to look at: Calculator.java, and Calculator2.java
-web 
+web
 The first one is a demo code to look at how classes and methods work.
 - Classes are like blueprints in which you can create objects out of.
-- All these objects have access to the same methods. 
+- All these objects have access to the same methods.
 - Methods are subprograms that can be reused without rewriting the code.
-- e.g. Class = Vehicle. An object of that can be called a car. They all have methods such as drive, brake, turn etc. 
+- e.g. Class = Vehicle. An object of that can be called a car. They all have methods such as drive, brake, turn etc.
 
 Most of the tasks you have to do is on Calculator2.java.
 The aim of this is to make it capable of performing the quadratic formula, by breaking it up into smaller parts.
 The setup for the methods are there. You just need to add in the right numbers: squaring b; 4AC; square root 4AC etc
 <br/><img src="Images/quadraticEquation.png" width="30%" height="30%"><br/>
 
-### Keywords: 
+### Keywords:
 Open this file in the GitHub editor - match keywords with definitions. Copy Paste.<br>
 Keywords:
-- Java   
-- Method   
-- Class   
-- Integer  
-- Float  
+- Java
+- Method
+- Class
+- Integer
+- Float
 
 Definitions:
 - A programming language
@@ -33,17 +33,17 @@ Definitions:
 - A whole number
 - A number that can use decimals
 - A 'Cookie Cutter' which can make objects of that type
- 
-### Predict: 
-```java 
-System.out.println("Hello World"); 
+
+### Predict:
+```java
+System.out.println("Hello World");
 ```
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/846UnWowD)<br/>
 
-```java 
-System.out.println(10 + 10); 
-``` 
+```java
+System.out.println(10 + 10);
+```
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
@@ -63,13 +63,13 @@ Open calculator2.java
 - [ ] Fix squareOfB so that it returns the square value of input B (A number multiplied by itself e.g. num1 * num1)
 - [ ] Fix fourAC so that it returns the value of 4 x input a x input c (multiply in code uses the * key.)
 - [ ] Fix squareRootAnswer so that it returns the square root of (square of B - 4AC) (hint: Math.sqrt(X))
-- [ ] Fix positive answer method/function by looking at the image above using +
+- [ ] Fix positive answer method/function (use + where the image has +-)
 - [ ] Now do the same for the negative answer but using - instead of +
 - [ ] Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
 
 ## Code to save your work
 - Remember to save your work. Copy and Paste the code in the 'Terminal' at the bottom of the screen below.
-```shell 
+```shell
 mvn test && git add . && git commit -m "Saving" && git push
 ```
 
@@ -96,7 +96,7 @@ Want to code on the webpage?
 Steps:
 - Go to https://replit.com/ and create an account.
 - Once you signed in click on the + icon on the top-right, then import from GitHub.
-- Once you do that, you can work on Replit to code rather than Gitpod. 
+- Once you do that, you can work on Replit to code rather than Gitpod.
 - You can also copy the web address and paste it here.
 <br/><img src="Replit.png" width="80%" height="80%"><br/>
 
