@@ -1,5 +1,4 @@
 # Interactive Support for Learning Collaborative Software Development
-Go to the webpage: https://x1n32.github.io/Interactive-Support-for-Learning-Collaborative-Software-Development/ <br/>
 [See Task 1 Page ](/Task1.md)<br/>
 [See Task 2 Page ](/Task2.md)<br/>
 [See Task 3 Page ](/Task3.md)<br/>
@@ -18,16 +17,15 @@ The aim of the project is to improve awareness of collaboration tools by teachin
 
 - Then set this repository as a webpage - go to settings, pages, on the none button click the main branch. The link it generates is yours.
 <br/><img src="Images/pagesScreenshot.jpg" width="60%" height="60%"><br/>
+Your web address would be https://x1n32-how-to-guide.github.io/coding-tasks-<team-name-here>/
 
-- Now load up your webpage, and open gitpod on another tab. 
-(gitpod can be loaded in the address bar with gitpod.io/# -# is your web address)
+- Now open your webpage, and open gitpod on another tab. 
 - It is advised to keep both tabs open, as you can see feedback on what you have done.
 
-## Code to save work
-To save your work, paste the code below to the command line:
-```shell 
-mvn test && git add . && git commit -m "Saving" && git push
-``` 
+## Save your work
+To save your work, enter **submit** to the command line.
+<br/><img src="Images/submit.PNG" width="70%" height="70%"><br/>
+
 
 ### Demo code 
 On the IDE click on the Show Files tab and go to 

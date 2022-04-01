@@ -107,7 +107,7 @@ Questions to think about:
 
 # Save your work
 - Remember to save your work. You can see your progress on the links as well by saving.
-- Simply enter 'submit'
+- To save your work, enter **submit** to the command line.
 <br/><img src="Images/submit.PNG" width="70%" height="70%"><br/>
 
 <br>
