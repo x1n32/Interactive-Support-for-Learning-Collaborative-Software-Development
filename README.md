@@ -21,17 +21,11 @@ Your web address would be https://x1n32-how-to-guide.github.io/coding-tasks-<edi
 
 - Now open your webpage, and open gitpod on another tab. 
 - It is advised to keep both tabs open, as you can see feedback on what you have done.
+- Now have a look at the task 1 page.
 
 ## Save your work
 To save your work, enter **submit** to the command line.
 <br/><img src="Images/submit.PNG" width="70%" height="70%"><br/>
-
-
-### Demo code 
-On the IDE click on the Show Files tab and go to 
-src/main/java/github/x1n32/DemoTest.jav to see what has been coded. Click the green run button. 
-When it finishes running, it will report the test results to check if what you programmed is correct! </br>
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@MatthewChau3/DemoCode?embed=true"> Sorry your browser does not support inline frames.</iframe>
 
 ## Feedback form
 [Feel free to leave feedback here](https://forms.gle/YRE2fK2rzNPmKfcg9)<br/>
