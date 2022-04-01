@@ -27,7 +27,7 @@ The tasks involve creating code that involves the character.java code using deco
 - Knight takes functionality from CharacterImp, and adds some of its own.
 - KnightWithLightBoots and KnightWith Sword stem from the basic Knight class, by taking features of the knight class, with its own properties.
 
-### Obserer is a behaviorial design pattern. 
+### Observer is a behaviorial design pattern. 
 - Observer design pattern works with 3 classes which are Subject, Observer and Client.
 - Subjects consists of list of observers and methods to attach and detach observers to a client object. 
 - It also contains a method to notify all the observers of any change. 
