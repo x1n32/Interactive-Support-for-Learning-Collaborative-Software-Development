@@ -25,10 +25,10 @@ To load Gitpod: search gitpod.io/#  where # is your GitHub web address.<br>
 - The middle of the screen is where you read/write the file you opened
 - On the bottom is the terminal. This is where you paste the code to save your work.
 
-## Git commands (best view on github page)
+## Git commands 
 These are commands you can type into the terminal.
-| Command || Description |
 
+| Command || Description |
 | `git add filename` || Adds the file to the staging area. filename can be replaced with . to add all files. |
 | `git commit -m meaningfullDescriptionHereInQuotes` || Used after add. This is to give it a comment on what you have changed. |
 | `git add push origin main` || Pushes all your changes to the repository in the main branch |
