@@ -17,7 +17,7 @@ The aim of the project is to improve awareness of collaboration tools by teachin
 
 - Then set this repository as a webpage - go to settings, pages, on the none button click the main branch. The link it generates is yours.
 <br/><img src="Images/pagesScreenshot.jpg" width="60%" height="60%"><br/>
-Your web address would be https://x1n32-how-to-guide.github.io/coding-tasks-team-name-here>/
+Your web address would be https://x1n32-how-to-guide.github.io/coding-tasks-<team-name-here/
 
 - Now open your webpage, and open gitpod on another tab. 
 - It is advised to keep both tabs open, as you can see feedback on what you have done.
