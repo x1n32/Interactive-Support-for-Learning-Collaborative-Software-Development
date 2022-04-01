@@ -1,10 +1,11 @@
 # Task-3-Design-Patterns
-## Task Information and Instructions
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#https://github.com/x1n32-How-to-Guide/coding-tasks-<your-team-name-here>)
 [See Home Page ](/README.md)<br/>
 [See Task 1 Page ](/Task1.md)<br/>
 [See Task 2 Page ](/Task2.md)<br/>
 [See Information Page ](/Info.md)<br/>
 
+## Task Information and Instructions
 The foucs of this task is on Design Patterns.
 In 1994 a book was created by four authors, collectively known as the Gang of Four (GoF), called:
 Design Patterns - Elements of Reusable Object-Oriented Software <br>
