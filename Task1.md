@@ -1,5 +1,5 @@
 # Task-1-Calculator
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#https://github.com/x1n32-How-to-Guide/coding-tasks-<your-team-name-here>)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#https://github.com/x1n32-How-to-Guide/coding-tasks-<your-team-name-here>)<br/>
 [See Home Page ](/README.md)<br/>
 [See Task 2 Page ](/Task2.md) <br/>
 [See Task 3 Page ](/Task3.md)<br/>
@@ -19,7 +19,7 @@ The first one is a demo code to look at how classes and methods work.
 Most of the tasks you have to do is on Calculator2.java.
 The aim of this is to make it capable of performing the quadratic formula, by breaking it up into smaller parts.
 The setup for the methods are there. You just need to add in the right numbers: squaring b; 4AC; square root 4AC etc
-<br/><img src="Images/quadraticEquation.png" width="30%" height="30%"><br/>
+<br/><img src="Images/quadraticEquation.png" width="50%" height="50%"><br/>
 
 ### Keywords:
 Open this file in the GitHub editor - match keywords with definitions. Copy Paste.<br>
@@ -51,10 +51,10 @@ System.out.println(10 + 10);
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
 ## Introductory Tasks:
-- On another tab, go to the GitHub page
-- Then open GitPod to start programming
+- Keep this tab open; click on the GitPod button to start programming.
+- Edit <Your-team-name-here> in the link to your team name
 - Click yes to anything that needs downloading.
-- Open src/main/java/github/x1n32/Task1Calculator/calculator.java
+- You should be on calculator.java (src/main/java/github/x1n32/Task1Calculator/calculator.java)
 - Run the code
 - On **this** page, click on the link at the calculator status link. Can you see what the error is?
 -[ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
@@ -81,12 +81,15 @@ Open calculator2.java
 - Multiply in java is the * key
 - Square Root: Math.sqrt(X)
 
-## Code to save your work
-- Remember to save your work. Copy and Paste the code in the 'Terminal' at the bottom of the screen below.
+# Save your work
+- Remember to save your work. You can see your progress on the links as well by saving.
+- Simply enter 'submit'
+<br/><img src="Images/submit.PNG" width="70%" height="70%"><br/>
+<!--
 ```shell
 mvn test && git add . && git commit -m "Saving" && git push
 ```
-
+-->
 # Calculator 1 status:<br/>
 [See report on Calculator 1](calculator1Report.md)<br/>
 <img src="Images/calculator1Status.jpg" width="50%" height="50%"><br/>
