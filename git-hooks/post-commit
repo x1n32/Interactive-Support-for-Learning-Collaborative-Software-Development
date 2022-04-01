@@ -111,7 +111,7 @@ for line in file:
 file.close()
 
 #Write to file 
-fout = open("Task2.md", "w")
+fout = open("Task1.md", "w")
 fout.write(newFile)
 fout.close()
 
