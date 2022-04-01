@@ -62,19 +62,21 @@ Definitions
 6. Represents the best practices used by experienced object-oriented software developers. They are solutions to general problems that software developers faced during software development.
 
 ## Tasks
+**Not currently marked**
 1. Look at the demo code provided in the Decorator and Observer folders to get familiar.
 2. Create a KnightWithAShield.java class, that extends knightClass, that provides 10 extra defence, and returns " + shield " when the job function is called.
 3. Let's create a new Decorator class like Knight, this time, lets have a Wizard class. Create a "WizardDecorator.java" that extends Character. Set its base magic to 20. Create a String method called magicSpell().
 4. Get a friend to join your repository to create a "fireWizard.java" that extends WizardDecorator. Make magicSpell() output "Fireball!"
 
 ### EXT Tasks:
+**Not currently marked**
 5. Create an "apprentice.java" file. This will be your observer class.
 6. Create a "Master.java" which will be another Decorator Class. This will also be our Observable class.
 7. Set "Master" base stats all to 30. Create a method called "advice" similar to Channel.java's upload() method.
 8. Can you notify "apprentice" when the "master" is going to call the "advice" method"
 
 ## Check Report
-TO BE ADDED
+**TO BE ADDED**
 
 ## Code to save work
  - Remember to save your work. Copy and Paste the code below. You can see your progress on the links as well.

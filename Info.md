@@ -38,6 +38,27 @@ These are commands you can type into the terminal.
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
 
+
+## General Workflow
+- Attempt task
+- save work (git add.)
+- comment save (git commit -m "meaningful message")
+- push changes to repository (git push origin main)
+- check answer/ read feedback
+- Fix code/ attempt new task
+- Optionally, create new branch to test code on, then merge with main branch.
+
+<br/><img src="Images/gitAdd.jpg" width="70%" height="70%"><br/>
+<br/><img src="Images/git_push.jpg" width="70%" height="70%"><br/>
+
+## How to fork
+Forking a repository copies the whole repository into your own account.
+<br/><img src="Images/Forking1.jpg" width="70%" height="70%"><br/>
+
+## Pull Request
+When you want to edit a file on GitHub, you'll create a pull request where you suggest to the host to push your changes to add more functionality or fix bugs.
+<br/><img src="Images/pullRequest.png" width="70%" height="70%"><br/>
+
 ## Personal Access Token
 I cannot push my changes as I need an access token?
 To generate a personal access token to sign in instead of password: 

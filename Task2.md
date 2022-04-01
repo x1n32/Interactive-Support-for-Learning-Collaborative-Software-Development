@@ -75,7 +75,7 @@ System.out.println(myNum.get(3));
 - [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description' (Hint: if hMap.get(i) == .......) (Hint 2: empty values can be "") (Hint 3: Look at the put methods)
 - [ ] Challenge 1.2: Now make it so that it does the same for null values (Hint: Use || so that if it is a OR b it will still do the same)
 
-- [x] Challenge 2: Comment out the code in createNewHashMap and create a new hashmap with the right name and generic so that the rest of that method works.(Make the method return "Abby") (Hint: use the get method)
+- [] Challenge 2: Comment out the code in createNewHashMap and create a new hashmap with the right name and generic so that the rest of that method works.(Make the method return "Abby") (Hint: use the get method)
 
 
 ## Optional: ComicBooks.java
