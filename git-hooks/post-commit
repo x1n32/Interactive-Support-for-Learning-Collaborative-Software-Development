@@ -117,7 +117,6 @@ fout.close()
 
 #--------------------------------------------------------------
 #Task 2 file 
-
 checkbox1 = False #Corresponds to each of the checkboxes/tasks
 checkbox2 = False
 checkbox3 = False
@@ -136,7 +135,6 @@ for line in file:
         checkbox2 = True
     if lineToFind3 in line:
         checkbox3 = True
-
 file.close()
 
 #Append to file:
@@ -155,8 +153,7 @@ for line in file:
         changeline = line.replace("- [ ] Challenge 2", "- [x] Challenge 2")
         newFile = newFile + changeline + "\n"
     else:
-        newFile = newFile + line + "\n"
-    
+        newFile = newFile + line + "\n"    
 file.close()
 
 #Write to file 
