@@ -52,7 +52,7 @@ System.out.println(10 + 10);
 
 ## Introductory Tasks:
 - Keep this tab open; click on the GitPod button to start programming.
-- Edit <Your-team-name-here> in the link to your team name
+- Edit 'Your-team-name-here' in the link to your team name
 - Click yes to anything that needs downloading.
 - You should be on calculator.java (src/main/java/github/x1n32/Task1Calculator/calculator.java)
 - Run the code
