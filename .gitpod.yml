@@ -5,5 +5,7 @@
 tasks:
   - init: mvn install -DskipTests=false
     command: git config core.hooksPath git-hooks/
+  - command: gp open src/main/java/github/x1n32/Task1Calculator/Calculator.java
+  - init: alias submit="mvn test && git add . && git commit -m \"Saving\" && git push"
 
 

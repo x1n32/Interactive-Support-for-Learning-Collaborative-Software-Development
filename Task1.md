@@ -3,6 +3,8 @@
 [See Task 2 Page ](/Task2.md)<br/>
 [See Task 3 Page ](/Task3.md)<br/>
 [See Information Page ](/Info.md)<br/>
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#https://github.com/x1n32-How-to-Guide/coding-tasks-<your-team-name-here>)
+
 ## Task Information and Instructions
 The purpose of this task is to introduce you to Java Methods and handling with numbers.
 There are two files for you to look at: Calculator.java, and Calculator2.java
