@@ -48,24 +48,35 @@ System.out.println(10 + 10);
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
 ## Introductory Tasks:
-- On another tab, go to the GitHub page (Go to GitHub Button).
-- Then open GitPod to start programming (In the search bar: gitpod.io/# where # is the web address).
+- On another tab, go to the GitHub page 
+- Then open GitPod to start programming 
 - Click yes to anything that needs downloading.
 - Open src/main/java/github/x1n32/Task1Calculator/calculator.java
-- Run the code (via F5 or right-click and Run Java)
+- Run the code 
 - On **this** page, click on the link at the calculator status link. Can you see what the error is?
 -[ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
-- Copy the 'Save your work code' and run it in the console of GitPod (Look at the info page for help)
+- Copy the 'Save your work code' and run it in the console of GitPod 
 - Reload this page. Any differences?
 
 ## Main Tasks: <br>
 Open calculator2.java
-- [ ] Fix squareOfB so that it returns the square value of input B (A number multiplied by itself e.g. num1 * num1)
-- [ ] Fix fourAC so that it returns the value of 4 x input a x input c (multiply in code uses the * key.)
-- [ ] Fix squareRootAnswer so that it returns the square root of (square of B - 4AC) (hint: Math.sqrt(X))
-- [ ] Fix positive answer method/function (use + where the image has +-)
-- [ ] Now do the same for the negative answer but using - instead of +
+- [ ] Fix squareOfB so that it returns the square value of input B 
+- [ ] Fix fourAC so that it returns the value of 4 x input a x input c 
+- [ ] Fix squareRootAnswer so that it returns the square root of (B squared - 4AC) 
+- [ ] Fix positive answer method/function 
+- [ ] Now do the same for the negative answer but use - instead of +
 - [ ] Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
+
+### Tips/Hints
+- This webpage has a link to check your progress below, and a link to GitHub.
+- Going to Github can be easily accessed via the 'View on GitHub Button'.
+- Gitpod can be accessed in the search bar via gitpod.io/# where # is the web address.
+- Run code can be done via F5 or right-click and Run Java
+- Save your work after each subtask
+- Stuck on something else? Look at the information page for help
+- A square of a number is a number multiplied by itself (e.g. num1 * num1)
+- Multiply in java is the * key
+- Square Root: Math.sqrt(X)
 
 ## Code to save your work
 - Remember to save your work. Copy and Paste the code in the 'Terminal' at the bottom of the screen below.
