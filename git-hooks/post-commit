@@ -36,7 +36,7 @@ newFile = ""
 for line in file:
     line = line.strip()
     if (checkbox1 == True) and (checkbox2 == True) and (checkbox3 == True) :
-        changeline = line.replace("-[ ] Back on GitPod,", "-[x] Back on GitPod,")
+        changeline = line.replace("- [ ] Back on GitPod,", "- [x] Back on GitPod,")
         newFile = newFile + changeline + "\n"
     else:
         newFile = newFile + line + "\n"
