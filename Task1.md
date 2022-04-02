@@ -21,7 +21,7 @@ The setup for the methods are there. You just need to add in the right numbers: 
 <br/><img src="Images/quadraticEquation.png" width="50%" height="50%"><br/>
 
 ### Keywords:
-Open this file in the GitHub editor - match keywords with definitions. Copy Paste.<br>
+Open this file in the GitHub editor/ Gitpod (Task1.md file) - match keywords with definitions. Copy and Paste.<br>
 Keywords:
 - Java
 - Method

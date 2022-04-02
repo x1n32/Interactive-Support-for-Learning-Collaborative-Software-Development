@@ -19,14 +19,16 @@ public class Calculator2 extends Calculator{
 
     /**
      * Return the value of b squared.
+     *  Which is b * b
      */
     public float squareOfB(float b){
-        return 0;
+        return 0; // Change 0 to: b * b
     }
 
     /**
      * For the quadratic formula, it requires the value of 4ac.
      * Have it done here, so it can be tested.
+     * Which is 4 * a * c
      */
     public float fourAC(float a, float c){
         return 0;
@@ -35,6 +37,7 @@ public class Calculator2 extends Calculator{
     /**
      * Take the value of the square of b, and the value of 4ac
      * then square root it.
+     * Hint: Math.sqrt(X)
      */
     public double squareRootAnswer(float squareOfB, float fourAC){
         return 0;
