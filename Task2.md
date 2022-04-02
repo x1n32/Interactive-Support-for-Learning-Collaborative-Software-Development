@@ -1,5 +1,4 @@
 # Task-2-Data-Structures
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#https://github.com/x1n32-How-to-Guide/coding-tasks-<your-team-name-here>)<br/>
 [See Home Page ](/README.md)<br/>
 [See Task 1 Page ](/Task1.md)<br/>
 [See Task 3 Page ](/Task3.md)<br/>

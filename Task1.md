@@ -1,5 +1,4 @@
 # Task-1-Calculator
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#https://github.com/x1n32-How-to-Guide/coding-tasks-<your-team-name-here>)<br/>
 [See Home Page ](/README.md)<br/>
 [See Task 2 Page ](/Task2.md) <br/>
 [See Task 3 Page ](/Task3.md)<br/>
@@ -52,7 +51,6 @@ System.out.println(10 + 10);
 
 ## Introductory Tasks:
 - Keep this tab open; click on the GitPod button to start programming.
-- Edit 'Your-team-name-here' in the link to your team name
 - Click yes to anything that needs downloading.
 - You should be on calculator.java (src/main/java/github/x1n32/Task1Calculator/calculator.java)
 - Run the code
@@ -73,7 +71,6 @@ Open calculator2.java
 ### Tips/Hints
 - This webpage has a link to check your progress below, and a link to GitHub.
 - Going to Github can be easily accessed via the 'View on GitHub Button'.
-- Gitpod can be accessed in the search bar via gitpod.io/# where # is the web address.
 - Run code can be done via F5 or right-click and Run Java
 - Save your work after each subtask
 - Stuck on something else? Look at the information page for help

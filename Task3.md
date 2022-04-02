@@ -1,5 +1,4 @@
 # Task-3-Design-Patterns
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](http://gitpod.io/#https://github.com/x1n32-How-to-Guide/coding-tasks-<your-team-name-here>)<br/>
 [See Home Page ](/README.md)<br/>
 [See Task 1 Page ](/Task1.md)<br/>
 [See Task 2 Page ](/Task2.md)<br/>
