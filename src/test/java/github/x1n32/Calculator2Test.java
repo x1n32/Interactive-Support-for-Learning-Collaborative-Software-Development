@@ -105,6 +105,7 @@ public class Calculator2Test {
 
 			} else if (percentageCleared == 100) {
 				Writer.write("ALL CORRECT! CONGRATULATIONS!");
+				//String imageUrl = "https://cdn.pixabay.com/photo/2020/08/17/14/08/perfect-5495532_1280.png";
 				String imageUrl = "https://www.rubberstampking.co.uk/assets/images/fullmarks.png";
 				String destinationFile = "Images/calculator2Status.jpg";
 				saveImage(imageUrl, destinationFile);
