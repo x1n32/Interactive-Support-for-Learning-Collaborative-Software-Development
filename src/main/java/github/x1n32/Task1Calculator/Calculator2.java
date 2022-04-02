@@ -66,9 +66,17 @@ public class Calculator2 extends Calculator{
      * x = (-b - sqrt(b^2 - 4ac) )/2a
      */
     public double negativeAnswer(float a, float b, float c){
+        //All the code you need is here, but with some values missing
+        //Look at positive answer if you are struggling
+
+        //float square = squareOfB(_);
+        //float fourac = fourAC(a, c);
+        //double sqr = squareRootAnswer(______, fourac);
+        //double negativeAns = (________) /(2*a);
+        //return negativeAns;
 
     
-        return 0;
+        return 0; //DELETE THIS LINE
     }
 
 
