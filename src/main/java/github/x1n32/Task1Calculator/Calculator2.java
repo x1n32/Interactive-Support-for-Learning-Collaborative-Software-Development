@@ -48,7 +48,17 @@ public class Calculator2 extends Calculator{
      * x = (-b + sqrt(b^2 - 4ac) )/2a
      */
     public double positiveAnswer(float a, float b, float c){
-        return 0;
+        //To help: all the code you need is here but in the wrong order.
+        //Reorder the code to make it work:
+
+
+        return positiveAns;
+
+        double sqr = squareRootAnswer(square, fourac); //Takes values square and 4ac to be square rooted. They need to be initialised first in order for this to be used.
+        float square = squareOfB(b);                   //Initialising the variable square with the value of b * b
+        float fourac = fourAC(a, c);                   //Initialising the variable fourac with the value of 4 * a * c
+        double positiveAns = (-b + sqr) /(2*a);        //
+        
     }
 
     /**
