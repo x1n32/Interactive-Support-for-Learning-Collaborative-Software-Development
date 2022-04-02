@@ -52,11 +52,12 @@ System.out.println(10 + 10);
 - Keep this tab open; click on the GitPod button to start programming.
 - Click yes to anything that needs downloading.
 - You should be on calculator.java (src/main/java/github/x1n32/Task1Calculator/calculator.java)
-- Run the code
-- On **this** page, click on the link at the calculator status link. Can you see what the error is?
+- This code is mostly finished, but contains a bug.
+- Try running the code (Press F5)
+- Now go to Calculator 1 Status and click the link to see the report. Can you see the error?
 - [ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
-- Copy the 'Save your work code' and run it in the console of GitPod
-- Reload this page. Any differences?
+- Now type 'submit' into the console of GitPod
+- Reload the status page. Any differences?
 
 ## Main Tasks: <br>
 Open calculator2.java

@@ -6,11 +6,12 @@
 
 ## Welcome!
 The aim of the project is to improve awareness of collaboration tools by teaching programming, showcasing unit testing and continuous integration.
-- This repository has some programming tasks you can from more beginner level tasks to more harder ones in terms of concepts. 
+- There are three pages to look at: Task 1, Task 2, and Task 3.
+- Each page has some starter activies such as keyword match-up and code prediction.
+- Then there are the coding tasks. 
 - While attempting the tasks, you can save your work, and this can provide feedback on how you are doing. 
-- You can edit these files in GitHub or in Gitpod to make notes or answer some questions. 
-- There is an information page to help answer general questions as well.
-- Feel free to work in pairs or in a group.
+- In each page there is an status section to show how you are doing. It has a link to see any errors/ unattempted tasks and passed tasks
+
 
 ## Instructions
 - FIRST, make sure this repository is your own (either cloned from [Classrooms](https://classroom.github.com/a/SN5PqZFQ ) or Forking it.
