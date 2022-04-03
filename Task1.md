@@ -59,6 +59,7 @@ System.out.println(10 + 10);
 - [ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
 - Now type 'submit' into the console of GitPod
 - Reload the status page. Any differences?
+- NOTE: The page may take a while to update before you notice anything. 
 
 ## Main Tasks: <br>
 Open calculator2.java
