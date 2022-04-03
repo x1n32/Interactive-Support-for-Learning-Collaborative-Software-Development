@@ -49,7 +49,7 @@ System.out.println(10 + 10);
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
-# Introductory Tasks:
+# Introductory Task, Calculator1.java:
 - Keep this tab open; click on the GitPod button to start programming.
 - Click yes to anything that needs downloading.
 - You should be on calculator.java (src/main/java/github/x1n32/Task1Calculator/calculator.java)
@@ -67,7 +67,7 @@ System.out.println(10 + 10);
 <img src="Images/calculator1Status.jpg" width="50%" height="50%"><br/>
 
 
-# Main Tasks: <br>
+# Main Task, Calculator2.java: <br>
 Open calculator2.java
 - [ ] Fix squareOfB so that it returns the square value of input B
 - [ ] Fix fourAC so that it returns the value of 4 x input a x input c

@@ -62,15 +62,14 @@ System.out.println(myNum.get(3));
 - Actual output:  [See answer here](https://learn.onlinegdb.com/JU4zjIoMc)<br/>
 
 
-## Introductory Steps:
+# Introductory Steps:
 - Read everything above.
 - Keep this tab open, and open Gitpod
 - Familiarise yourself with the arrayExample and listExample. Look at how they are created.
 - Run the code. Then try to change some numbers around.
 - Optional: Add some extenstions to it: Make a bubble sort, or create another array/list, Search for specific values etc
 
-
-## HashMapExercise.java Steps:
+# HashMapExercise.java Steps:
 - Read the code and leave a comment on what you think it does
 - Check your guesses by running the code.
 - [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description'
@@ -78,7 +77,6 @@ System.out.println(myNum.get(3));
 
 - [ ] Challenge 2: Comment out the code in createNewHashMap and create a new hashmap; Make the method return "Abby".
 
-<br>
 # Hash Map Task status:<br/>
 [See report on Hash Map Task](HashMapReport.md)<br/>
 <img src="Images/hashMapStatus.jpg" width="50%" height="50%"><br/>
