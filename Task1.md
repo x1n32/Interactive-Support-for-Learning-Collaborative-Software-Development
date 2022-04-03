@@ -115,7 +115,7 @@ Predict answers:
 ### Optional. Embed an IDE to code here.
 Want to code on the webpage?
 Steps:
-- Go to https://replit.com/ and create an account.
+- Go to [https://replit.com](https://replit.com)and create an account.
 - Once you signed in click on the + icon on the top-right, then import from GitHub.
 - Once you do that, you can work on Replit to code rather than Gitpod.
 - You can also copy the web address and paste it here.
