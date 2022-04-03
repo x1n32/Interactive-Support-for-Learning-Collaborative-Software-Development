@@ -1,5 +1,5 @@
 # Task-2-Data-Structures
-**intermediate Level** <br/>
+**Intermediate Level** <br/>
 [See Home Page ](/README.md)<br/>
 [See Task 1 Page ](/Task1.md)<br/>
 [See Task 3 Page ](/Task3.md)<br/>
@@ -78,6 +78,10 @@ System.out.println(myNum.get(3));
 
 - [ ] Challenge 2: Comment out the code in createNewHashMap and create a new hashmap; Make the method return "Abby".
 
+<br>
+# Hash Map Task status:<br/>
+[See report on Hash Map Task](HashMapReport.md)<br/>
+<img src="Images/hashMapStatus.jpg" width="50%" height="50%"><br/>
 
 ## Optional: ComicBooks.java
 **Not currently marked**
@@ -96,8 +100,6 @@ System.out.println(myNum.get(3));
 -  Name the HashMap to what the rest of the code calls from.
 -  Optional task 3 NOTE: Remember you have to change the size of the comix array.)
 
-
-
 If you are ever stuck, ask a friend and look at the examples. While they may be different data structures they handle data very similarly.
 Look at w3schools too.
 
@@ -109,12 +111,6 @@ Questions to think about:
 - Remember to save your work. You can see your progress on the links as well by saving.
 - To save your work, enter **submit** to the command line.
 <br/><img src="Images/submit.PNG" width="70%" height="70%"><br/>
-
-<br>
-# Hash Map Task status:<br/>
-[See report on Hash Map Task](HashMapReport.md)<br/>
-<img src="Images/hashMapStatus.jpg" width="50%" height="50%"><br/>
-
 
 Answers are in the 'answer' branch.
 

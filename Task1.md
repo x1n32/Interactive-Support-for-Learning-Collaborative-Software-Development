@@ -57,9 +57,15 @@ System.out.println(10 + 10);
 - Try running the code (Press F5)
 - Now go to Calculator 1 Status and click the link to see the report. Can you see the error?
 - [ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
-- Now type 'submit' into the console of GitPod
+- Now type **'submit'** into the console of GitPod
 - Reload the status page. Any differences?
 - NOTE: The page may take a while to update before you notice anything. 
+- After you make some coding progress, remember to input **submit** to save and check your work
+
+# Calculator 1 status:<br/>
+[See report on Calculator 1](calculator1Report.md)<br/>
+<img src="Images/calculator1Status.jpg" width="50%" height="50%"><br/>
+
 
 ## Main Tasks: <br>
 Open calculator2.java
@@ -69,6 +75,11 @@ Open calculator2.java
 - [ ] Fix positive answer method/function
 - [ ] Now do the same for the negative answer but use - instead of +
 - [ ] Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
+
+# Calculator 2 status:<br/>
+[See report on Calculator 2](calculator2Report.md)<br/>
+<img src="Images/calculator2Status.jpg" width="50%" height="50%"><br/>
+
 
 ### Tips/Hints
 - This webpage has a link to check your progress below, and a link to GitHub.
@@ -90,13 +101,6 @@ mvn test && git add . && git commit -m "Saving" && git push
 ```
 -->
 
-# Calculator 1 status:<br/>
-[See report on Calculator 1](calculator1Report.md)<br/>
-<img src="Images/calculator1Status.jpg" width="50%" height="50%"><br/>
-
-# Calculator 2 status:<br/>
-[See report on Calculator 2](calculator2Report.md)<br/>
-<img src="Images/calculator2Status.jpg" width="50%" height="50%"><br/>
 
 
 Answers to the programming tasks are in the 'answer' branch.
