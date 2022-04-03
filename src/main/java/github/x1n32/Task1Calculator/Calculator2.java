@@ -48,8 +48,10 @@ public class Calculator2 extends Calculator{
      * x = (-b + sqrt(b^2 - 4ac) )/2a
      */
     public double positiveAnswer(float a, float b, float c){
+        //Want to check if it works? Type 'submit' into the terminal, and check the status page! 
+        
         //To help: all the code you need is here but in the wrong order.
-        //Remove // below and reorder the code to make it work:
+        //Remove the // below and reorder the code to make it work:
 
 
         // return positiveAns;

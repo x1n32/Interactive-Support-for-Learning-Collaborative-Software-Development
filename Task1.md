@@ -49,7 +49,7 @@ System.out.println(10 + 10);
 - Guess what the output is from the code above:
 - Actual output:  [See answer here](https://learn.onlinegdb.com/1IHVeidxO)<br/>
 
-# Introductory Task, Calculator1.java:
+## Introductory Task, Calculator1.java:
 - Keep this tab open; click on the GitPod button to start programming.
 - Click yes to anything that needs downloading.
 - You should be on calculator.java (src/main/java/github/x1n32/Task1Calculator/calculator.java)
@@ -62,9 +62,9 @@ System.out.println(10 + 10);
 - NOTE: The page may take a while to update before you notice anything.
 - After you make some coding progress, remember to input **submit** to save and check your work
 
-# Calculator 1 status:<br/>
+## Calculator 1 status:<br/>
 [See report on Calculator 1](calculator1Report.md)<br/>
-<img src="Images/calculator1Status.jpg" width="50%" height="50%"><br/>
+<img src="Images/calculator1Status.jpg" width="50%" height="50%"><br/> <br/>
 
 
 # Main Task, Calculator2.java: <br>
