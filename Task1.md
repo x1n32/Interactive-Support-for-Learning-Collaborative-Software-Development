@@ -1,4 +1,4 @@
-# Task-1-Calculator
+# Task-1-Calculator 
 **Beginner Level** <br/>
 [See Home Page ](/README.md)<br/>
 [See Task 2 Page ](/Task2.md) <br/>
@@ -88,9 +88,9 @@ Open calculator2.java
 mvn test && git add . && git commit -m "Saving" && git push
 ```
 -->
+
 # Calculator 1 status:<br/>
 [See report on Calculator 1](calculator1Report.md)<br/>
-<iframe src="/calculator1Report.md" title="report file"></iframe>
 <img src="Images/calculator1Status.jpg" width="50%" height="50%"><br/>
 
 # Calculator 2 status:<br/>

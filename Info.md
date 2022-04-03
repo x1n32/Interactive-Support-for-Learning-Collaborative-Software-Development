@@ -59,6 +59,12 @@ Forking a repository copies the whole repository into your own account.
 When you want to edit a file on GitHub, you'll create a pull request where you suggest to the host to push your changes to add more functionality or fix bugs.
 <br/><img src="Images/pullRequest.png" width="70%" height="70%"><br/>
 
+
+## Checking Answers
+Solutions are in the answer branch. To switch branches you can use git branch, or by clicking main at the bottom of Gitpod then branch.
+<br/><img src="answerBranch.png" width="70%" height="70%"><br/>
+
+
 ## Personal Access Token
 I cannot push my changes as I need an access token?
 To generate a personal access token to sign in instead of password: 
