@@ -176,7 +176,7 @@ class CalculatorTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += "Error found in the Add Method;  should return the sum of two numbers \n";
+				fileReport += "Error found in the Add Method;  should return the sum of a and b. Make sure that values a and b are used. \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -196,7 +196,7 @@ class CalculatorTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += " - Error found in the Add Method;  should return the sum of two numbers. Failed with both negative numbers\n";
+				fileReport += " - Error found in the Add Method; should return the sum of two numbers. Failed with both negative numbers\n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}

@@ -1,4 +1,4 @@
-# Task-1-Calculator 
+# Task-1-Calculator
 **Beginner Level** <br/>
 [See Home Page ](/README.md)<br/>
 [See Task 2 Page ](/Task2.md) <br/>
@@ -59,7 +59,7 @@ System.out.println(10 + 10);
 - [ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
 - Now type **'submit'** into the console of GitPod
 - Reload the status page. Any differences?
-- NOTE: The page may take a while to update before you notice anything. 
+- NOTE: The page may take a while to update before you notice anything.
 - After you make some coding progress, remember to input **submit** to save and check your work
 
 # Calculator 1 status:<br/>
