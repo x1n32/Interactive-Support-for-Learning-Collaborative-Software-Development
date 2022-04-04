@@ -1,6 +1,4 @@
-package github.x1n32.Task2DataStructures;
-
-
+package github.x1n32;
 import java.util.HashMap;
 
 
@@ -56,22 +54,23 @@ public class HashMapExercise {
     public static void findAndReplaceEmptyValue (HashMap<String, String> hMap){
         //CHALLENGE: Loop through the hash map for empty values (descriptions) and replace it with "Unknown Description"
         for (String i : hMap.keySet()) {
-
-            System.out.println("Make this replace empty values to Unknown Description. " + i);
+            if (hMap.get(i) == "" || hMap.get(i) == null ){
+                System.out.println("empty description found!");
+                hMap.put(i, "Unknown Description");
+            }
         }
-
     }
 
     public static String createNewHashMap (){
         //CHALLENGE 2: Create a Hash Map with suitable Generics for the commented code below.
 
-        //Create new Hash map here called 'name' and uncomment the code below.
+        //Create new Hash map here:
+        HashMap<Integer, String> name = new HashMap<>();
 
 
-
-//        name.put(0,"Abby"); //Don't change these.
-  //      name.put(1,"Becky");
-        return null ; //Make it return Abby
+        name.put(0,"Abby"); //Don't change these.
+        name.put(1,"Becky");
+        return(name.get(0)); //Make it return Abby
 
     }
 
@@ -91,7 +90,7 @@ public class HashMapExercise {
         ItemDescriptions.put("void item?", "");
         ItemDescriptions.put("Unknown?", null);
        
-        //Can add more items here?
+        //Can add more items here.
 
 
         displayKeys(ItemDescriptions);
