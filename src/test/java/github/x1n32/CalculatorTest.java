@@ -170,8 +170,7 @@ class CalculatorTest {
 				totalTests += 1;
 				float actual = calculator.add(1, 1);
 				float expected = 2;
-				assertEquals(expected, actual,
-						"Add method should return the sum of two numbers");
+				assertEquals(expected, actual);
 				fileReport += " - Adding two positive numbers WORKS! \n"; // Positive comment
 				testPassed += 1;
 
@@ -208,8 +207,7 @@ class CalculatorTest {
 				totalTests += 1;
 				float actual = calculator.add(-1, 1);
 				float expected = 0;
-				assertEquals(expected, actual,
-						"Add method should return the sum of two numbers. Tested with 1 positive and 1 negative numbers failed.");
+				assertEquals(expected, actual);
 				testPassed += 1;
 				fileReport += " - Adding a positive number and a negative number WORKS! \n"; // Positive comment
 
