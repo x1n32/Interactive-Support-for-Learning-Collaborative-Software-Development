@@ -80,35 +80,42 @@ for line in file:
         checkbox6 = True
 file.close()
 
+print("check",checkbox1,checkbox2,checkbox3,checkbox4,checkbox5,checkbox6)
 #Append to file:
 file = open("Task1.md", "r")
 newFile = ""
 #using the for loop to find the line where it displays the tasks
 for line in file:
     line = line.strip()
-    if (checkbox1 == True):
-        changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
-        newFile = newFile + changeline + "\n"
+    if '- [ ] Fix squareOfB' in line:
+        if (checkbox1 == True):
+            changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
+            newFile = newFile + changeline + "\n"
+        
+    elif '- [ ] Fix fourAC' in line:
+        if (checkbox2 == True):       
+            changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
+            newFile = newFile + changeline + "\n"
 
-    if (checkbox2 == True):
-        changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
-        newFile = newFile + changeline + "\n"
+    elif '- [ ] Fix squareRootAnswer' in line:
+        if (checkbox3 == True):
+            changeline = line.replace("- [ ] Fix squareRootAnswer", "- [x] Fix squareRootAnswer")
+            newFile = newFile + changeline + "\n"
 
-    if (checkbox3 == True):
-        changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
-        newFile = newFile + changeline + "\n"
+    elif '- [ ] Fix positive answer' in line:
+        if (checkbox4 == True):
+            changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
+            newFile = newFile + changeline + "\n"
 
-    if (checkbox4 == True):
-        changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
-        newFile = newFile + changeline + "\n"
-
-    if (checkbox5 == True):
-        changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
-        newFile = newFile + changeline + "\n"
-
-    if (checkbox6 == True):
-        changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
-        newFile = newFile + changeline + "\n"
+    elif '- [ ] Now do the' in line:
+        if (checkbox5 == True):
+            changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
+            newFile = newFile + changeline + "\n"
+            
+    elif '- [ ] Using all the functions' in line:
+        if (checkbox6 == True):
+            changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
+            newFile = newFile + changeline + "\n"
 
     else:
         newFile = newFile + line + "\n"
@@ -151,10 +158,10 @@ for line in file:
     if (checkbox1 == True):
         changeline = line.replace("- [ ] Challenge 1", "- [x] Challenge 1")
         newFile = newFile + changeline + "\n"
-    if (checkbox2 == True):
+    elif (checkbox2 == True):
         changeline = line.replace("- [ ] Challenge 1.2", "- [x] Challenge 1.2")
         newFile = newFile + changeline + "\n"
-    if (checkbox3 == True):
+    elif (checkbox3 == True):
         changeline = line.replace("- [ ] Challenge 2", "- [x] Challenge 2")
         newFile = newFile + changeline + "\n"
     else:
