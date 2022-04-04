@@ -56,7 +56,8 @@ public class HashMapExercise {
         for (String i : hMap.keySet()) {
 
             System.out.println("Make this replace empty values to Unknown Description. " + i);
-            //To check for empty " " and null values, use the boolean OR operator
+            //Use i as the key for hMap to get their values
+            //To check for empty "" and null values, use the boolean OR operator
             // statement A == x || statement b == y
             //Is the same as if A OR B is true. 
         }
