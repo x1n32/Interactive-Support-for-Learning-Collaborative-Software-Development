@@ -176,7 +176,7 @@ class CalculatorTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += "Error found in the Add Method;  should return the sum of a and b. Make sure that values a and b are used. \n";
+				fileReport += "Error found in the Add Method;  should return the sum of a and b. Make sure that values a and b are used. \n -";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -190,8 +190,7 @@ class CalculatorTest {
 				totalTests += 1;
 				float actual = calculator.add(-1, -1);
 				float expected = -2;
-				assertEquals(expected, actual,
-						"Add method should return the sum of two numbers. Tested with 2 negative numbers failed.");
+				assertEquals(expected, actual);
 				fileReport += " - Adding two negative numbers WORKS! \n"; // Positive comment
 				testPassed += 1;
 
@@ -215,7 +214,7 @@ class CalculatorTest {
 				fileReport += " - Adding a positive number and a negative number WORKS! \n"; // Positive comment
 
 			} catch (Throwable e) {
-				fileReport += "Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers\n";
+				fileReport += "- Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers\n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -274,7 +273,7 @@ class CalculatorTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += "Error found in the computeCircleArea Method; Should return area of circle, pi x radius x radius.\n";
+				fileReport += "- Error found in the computeCircleArea Method; Should return area of circle, pi x radius x radius.\n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -294,7 +293,7 @@ class CalculatorTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += "Error found in the divide Method; Should return the value of num1 divided by num 2 \n";
+				fileReport += "- Error found in the divide Method; Should return the value of num1 divided by num 2 \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
