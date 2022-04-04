@@ -7,17 +7,17 @@
  <br/><br> 
 ==================
 <br>
-### 2022/04/04 14:01:22 
+### 2022/04/04 14:07:16 
  <br>
  - Calculating area of a circle WORKS! 
-Error found in the Add Method;  should return the sum of a and b. Make sure that values a and b are used. 
+- Error found in the Add Method;  should return the sum of a and b. Make sure that values a and b are used. Tested with a = 1 and b = 1
  -org.opentest4j.AssertionFailedError: expected: <2.0> but was: <6.0>
  - Adding Two numbers WORKS! 
  - 50 x 2 WORKS! 
  - Multiplying two numbers WORKS! 
- - Error found in the Add Method; should return the sum of two numbers. Failed with both negative numbers
+ - Error found in the Add Method; should return the sum of two numbers. Failed with both negative numbers. Tested with -1 - 1 
 org.opentest4j.AssertionFailedError: expected: <-2.0> but was: <4.0>
-- Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers
+- Error found in the Add Method; should return the sum of two numbers. Failed with one positive and one negative numbers. Tested with -1 + 1 
 org.opentest4j.AssertionFailedError: expected: <0.0> but was: <4.0>
 
  <br>

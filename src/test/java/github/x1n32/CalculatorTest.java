@@ -175,7 +175,7 @@ class CalculatorTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += "Error found in the Add Method;  should return the sum of a and b. Make sure that values a and b are used. \n -";
+				fileReport += "- Error found in the Add Method;  should return the sum of a and b. Make sure that values a and b are used. Tested with a = 1 and b = 1\n -";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -194,7 +194,7 @@ class CalculatorTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += " - Error found in the Add Method; should return the sum of two numbers. Failed with both negative numbers\n";
+				fileReport += " - Error found in the Add Method; should return the sum of two numbers. Failed with both negative numbers. Tested with -1 - 1 \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -212,7 +212,7 @@ class CalculatorTest {
 				fileReport += " - Adding a positive number and a negative number WORKS! \n"; // Positive comment
 
 			} catch (Throwable e) {
-				fileReport += "- Error found in the Add Method;  should return the sum of two numbers. Failed with one positive and one negative numbers\n";
+				fileReport += "- Error found in the Add Method; should return the sum of two numbers. Failed with one positive and one negative numbers. Tested with -1 + 1 \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
