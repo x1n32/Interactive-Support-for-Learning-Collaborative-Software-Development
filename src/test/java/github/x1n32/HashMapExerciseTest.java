@@ -256,7 +256,7 @@ public class HashMapExerciseTest {
 																														// comment
 				testPassed += 1;
 			} catch (Throwable e) {
-				fileReport += " - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for empty values. If you haven't started this task, ignore this message. \n   Otherwise, did you check you recieved the right input? Are you searching values correctly? \n   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. \n   Make sure you set the description to be the same as what the task requires. \n";
+				fileReport += " - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for empty values. Did you recieve the right input from the map? \n   Look for empty values with no spaces, and null values. \n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -276,7 +276,7 @@ public class HashMapExerciseTest {
 																														// comment
 				testPassed += 1;
 			} catch (Throwable e) {
-				fileReport += " - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for null values. If you haven't started this task, ignore this message. \n   Otherwise, did you check you recieved the right input? Are you searching values correctly? \n   Look for empty values with no spaces, and null values. Remember to add a new value, you just set it again, like how you add a new key/value. \n   Make sure you set the description to be the same as what the task requires. \n";
+				fileReport += " - Error found in CHALLENGE1: findAndReplaceEmptyValue() when looking for null values. Look for empty values with no spaces, and null values. Remember: to add a new value, you just set it again, like how you add a new key/value.\n";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}
@@ -294,7 +294,7 @@ public class HashMapExerciseTest {
 				testPassed += 1;
 
 			} catch (Throwable e) {
-				fileReport += " - Error found in CHALLENGE2: createNewHashMap(). If you haven't started this task, ignore this message. \n   Have you checked you have put two generics? \n   <> should have two data types inside that would suit 0 and Abby. \n   You only need to write one line of code to create a hash map.";
+				fileReport += " - Error found in CHALLENGE2: createNewHashMap(). Have you checked you have put two generics? \n   <> should have two data types inside that would suit 0 and Abby. \n   You only need to write one line of code to create a hash map.";
 				fileReport += e + "\n";
 				System.out.println(fileReport + "\n");
 			}

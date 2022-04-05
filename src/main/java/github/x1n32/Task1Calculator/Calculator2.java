@@ -95,8 +95,9 @@ public class Calculator2 extends Calculator{
     public static void main(String[] args) {
         System.out.println("Have a go at creating functions to perform the quadratic formula.");
         System.out.println("There are some empty methods to break down the steps to do it.");
-        System.out.println("Once done, have a check at the testing: on the test folder");
-        
+        System.out.println("Enter submit to the terminal to save.");
+
+        System.out.println("========= Running quadratic formula with values -2, -5, and -6 =================");
         Calculator2 cal = new Calculator2();
         cal.quadraticFormula(-2,-5,-6); // Answer: x = 3.860.... and x = -0.88....
     }

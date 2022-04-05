@@ -84,7 +84,7 @@ public class HashMapExercise {
         //Creating a HashMap with String generics.
         HashMap<String, String> ItemDescriptions = new HashMap<>();
 
-        //Adding values to the HashMap
+        //Adding values to the HashMap ItemDescriptions
         ItemDescriptions.put("Rusty Sword", "Weak and Rusty. Perhaps a bit of polish would make it shine");
         ItemDescriptions.put("Rusty Dagger", "Weak and Rusty. Perhaps a bit of polish would make it shine");
         ItemDescriptions.put("Wooden Shield", "Wooden but durable. Can take a few hits. Be careful around fire");
@@ -96,14 +96,27 @@ public class HashMapExercise {
         //Can add more items here?
 
 
+
+
+        System.out.println("========= Display Keys =================");
         displayKeys(ItemDescriptions);
+        System.out.println("========= Display Item Descriptions =================");
         displayValues(ItemDescriptions);
+        System.out.println("======== Finding description of Rusty Sword =================");
         displayFindDes(ItemDescriptions, "Rusty Sword");
+        System.out.println("========= Changing Description of Wooden Shield  =================");
         changeDescription(ItemDescriptions, "Wooden Shield", "wooden it is!");
+
+        System.out.println("========= Display Hash Map =================");
         displayHashMap(ItemDescriptions); //Run this a few times. Notice anything about the order?
+
+        System.out.println("========= Challenge 1: Finding and changing empty or null descriptions to Unknown Description =================");
         findAndReplaceEmptyValue(ItemDescriptions);
+
+        System.out.println("========= Display Hash Map again =================");
         displayHashMap(ItemDescriptions);
 
+        System.out.println("========= Challenge 2: Creating New Hash Map and Returning the value Abby =================");
         createNewHashMap();
         
 
