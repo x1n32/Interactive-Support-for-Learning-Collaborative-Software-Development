@@ -67,12 +67,12 @@ System.out.println(myNum.get(3));
 - Keep this tab open, and open Gitpod
 - Familiarise yourself with the arrayExample and listExample. Look at how they are created.
 - Run the code. Then try to change some numbers around.
-- Optional: Add some extenstions to it: Make a bubble sort, or create another array/list, Search for specific values etc
+- Optional: Add some extenstions to it: Create another array/list; have a look at other sorting algorithms etc
 
 # HashMapExercise.java Steps:
 - Read the code and leave a comment on what you think it does.
 - Check your guesses by running the code.
-- This file has some unfinished code.
+- This file has some unfinished code: 
 - [ ] Challenge 1: fix findAndReplaceEmptyValue so it loops through the hashmap and replaces empty values with the value 'Unknown Description'
 - [ ] Challenge 1.2: Now make it so that it does the same for null values
 
