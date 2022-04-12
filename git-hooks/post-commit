@@ -213,7 +213,7 @@ file.close()
 
 print("check decorator",checkbox1,checkbox2,checkbox3,checkbox4,checkbox5,checkbox6)
 #Append to file:
-file = open("decorator.md", "r")
+file = open("Task3.md", "r")
 newFile = ""
 #using the for loop to find the line where it displays the tasks
 for line in file:
