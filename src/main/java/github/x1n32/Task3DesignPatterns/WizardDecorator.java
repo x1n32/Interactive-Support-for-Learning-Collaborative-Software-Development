@@ -1,19 +1,21 @@
 package github.x1n32.Task3DesignPatterns;
 
 /**
- *  TASK 3: 
- *  Let's add a name as another parameter to WizardDecorator so that it can be displayed in the details() method.
- *  TASK 4 : 
- *  Set its base magic to 20. Create a String method called magicSpell().
+ *  TASKS: 
+ *  Let's add 'name' as another parameter to WizardDecorator so that it can be displayed in the details() method.
+ *  Set its base magic to 20. 
+ *  Create a String method called magicSpell().
  */
+
+/* DELETE THIS LINE AND THE LINE AT THE BOTTOM
 public class WizardDecorator implements Character{
 
     private Character wizard;
     private String name = "";
 
-    public WizardDecorator(Character wizard, String name)  {   //This has the ability to create more decorated objects.
+    public WizardDecorator(Character wizard ______ ____)  {   //This has the ability to create more decorated objects.
         this.wizard=wizard;  
-        this.name = name;
+        //TODO: Set name equal to the parameter value.
     } 
 
     public String getName(){
@@ -51,7 +53,7 @@ public class WizardDecorator implements Character{
 
     @Override
     public int mag() {
-        return 20; //Change this to make it return 20
+        return wizard.mag(); //Change this to make it return 20
     }
 
     @Override
@@ -59,7 +61,10 @@ public class WizardDecorator implements Character{
         return wizard.spd();
     }
 
-    public String magicSpell(){
-        return "Casting: ";
-    }
+    //CREATE A public String called magicSpell(), that returns "Casting: "
+    ______ ______ __________ __ _
+        ______ ___________ _
+    _
+        
 }
+*/DELETE THIS LINE
