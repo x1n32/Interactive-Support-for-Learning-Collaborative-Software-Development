@@ -10,14 +10,17 @@ package github.x1n32.Task3DesignPatterns;
 public class WizardDecorator implements Character{
 
     private Character wizard;
+    private String name = "";
 
-    public WizardDecorator(Character wizard)  {   //This has the ability to create more decorated objects.
+    public WizardDecorator(Character wizard, String name)  {   //This has the ability to create more decorated objects.
         this.wizard=wizard;  
+        this.name = name;
     }  
+
 
     @Override
     public void details() {
-        System.out.println("My Stats:");
+        System.out.println(name +" Stats:");
         System.out.println(job());
         System.out.println("Stength...: " + str());
         System.out.println("defence...: " + def());
@@ -26,6 +29,7 @@ public class WizardDecorator implements Character{
         System.out.println("---------------");
         
     }
+
 
     @Override
     public String job() {
@@ -49,8 +53,10 @@ public class WizardDecorator implements Character{
 
     @Override
     public int spd() {
-     
         return wizard.spd();
     }
-    
+
+    public String magicSpell(){
+        return "Casting: ";
+    }
 }

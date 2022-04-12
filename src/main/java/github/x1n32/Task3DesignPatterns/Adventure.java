@@ -32,9 +32,15 @@ public class Adventure {
         shieldKnight.details();
 
 
-        //----------
-        
+        //--------------------
+        //Wizards
+        WizardDecorator basicWizard = new WizardDecorator(new CharacterImp(),"Mage boy");
+        basicWizard.details();
+        System.out.println(basicWizard.magicSpell());
 
+        fireWizard myFireWizard = new fireWizard(new CharacterImp(), "Merlin");
+        myFireWizard.details();
+        System.out.println(myFireWizard.magicSpell());
 
     }
 }
