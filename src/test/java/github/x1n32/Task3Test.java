@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 
 import github.x1n32.Task3DesignPatterns.CharacterImp;
 import github.x1n32.Task3DesignPatterns.KnightWithAShield;
+import github.x1n32.Task3DesignPatterns.WizardDecorator;
+import github.x1n32.Task3DesignPatterns.fireWizard;
 
 import org.junit.Before;
 
@@ -75,7 +77,7 @@ public class Task3Test {
 
 		try {
 
-			FileWriter Writer = new FileWriter("decorator.md", true);
+			FileWriter Writer = new FileWriter("decorator.md", false);
 			Writer.write(fileReport);
 
 			System.out.println("Test passed: " + testPassed + " total = " + totalTests);
@@ -84,7 +86,7 @@ public class Task3Test {
 			// percentageCleared = 0;
 
 			// Feedback
-			Writer.write("\n <br>\nFor Hash Map Exercise, You have passed " + testPassed + " out of " + totalTests + ". ");
+			Writer.write("\n <br>\nFor Design Pattern tasks, You have passed " + testPassed + " out of " + totalTests + ". ");
 			if (percentageCleared == 0) {
 				Writer.write("\nHave a try!. ");
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
@@ -173,5 +175,94 @@ public class Task3Test {
 
   }
 
+  @Test
+  void wizardCreationTest() {
+	  try {
+		  totalTests += 1;
+
+		  String name = "Merlin";
+		  WizardDecorator basicWizard = new WizardDecorator(new CharacterImp(),name);
+		  String actual = basicWizard.getName();
+		  String expected = name;
+
+		  assertEquals(expected, actual);
+
+		  fileReport += " - Wizard's name Works! \n"; // Positive comment
+		  testPassed += 1;
+
+	  } catch (Throwable e) {
+		  fileReport += "- Error found in Wizard Decorator. The name feature is not working. Make sure the parameter takes String name and set that as the name for the object.\n";
+		  fileReport += e + "\n";
+		  System.out.println(fileReport + "\n");
+	  }
+  }
+
+  @Test
+  void wizardMagTest() {
+	  try {
+		  totalTests += 1;
+
+		  String name = "Merlin";
+		  WizardDecorator basicWizard = new WizardDecorator(new CharacterImp(),name);
+		  int actual = basicWizard.mag();
+		  int expected = 20;
+
+		  assertEquals(expected, actual);
+
+		  fileReport += " - Wizard's magic set to 20 Works! \n"; // Positive comment
+		  testPassed += 1;
+
+	  } catch (Throwable e) {
+		  fileReport += "- Error found in Wizard Decorator. Set the base magic to 20. Return 20; \n";
+		  fileReport += e + "\n";
+		  System.out.println(fileReport + "\n");
+	  }
+
+  }
+
+
+  @Test
+  void wizardCastingTest() {
+	  try {
+		  totalTests += 1;
+
+		  String name = "Merlin";
+		  WizardDecorator basicWizard = new WizardDecorator(new CharacterImp(),name);
+		  String expected = "Casting: ";
+		  String actual = basicWizard.magicSpell();
+		
+		  assertEquals(expected, actual);
+
+		  fileReport += " - Wizard's magicSpell() Works! \n"; // Positive comment
+		  testPassed += 1;
+
+	  } catch (Throwable e) {
+		  fileReport += "- Error found in Wizard Decorator. The method magicSpell() should return Casting: with a space after it. \n";
+		  fileReport += e + "\n";
+		  System.out.println(fileReport + "\n");
+	  }
+
+  }
+  @Test
+  void wizardCastingFireballTest() {
+	  try {
+		  totalTests += 1;
+
+		  String name = "Merlin";
+		  fireWizard myFireWizard = new fireWizard(new CharacterImp(), name);
+		  String expected = "Casting: Fireball!";
+		  String actual = myFireWizard.magicSpell();
+		
+		  assertEquals(expected, actual);
+
+		  fileReport += " - Fire Wizard's magicSpell() that includes Fireball Works! \n"; // Positive comment
+		  testPassed += 1;
+
+	  } catch (Throwable e) {
+		  fileReport += "- Error found in fireWizard. The method magicSpell() should return Casting: Fireball! Be careful with spelling and spacing. The method needs an override. Use \'super\' to call the decorators Casting: part. \n";
+		  fileReport += e + "\n";
+		  System.out.println(fileReport + "\n");
+	  }
+  }
 
 }

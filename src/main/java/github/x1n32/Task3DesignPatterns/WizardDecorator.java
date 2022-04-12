@@ -2,8 +2,7 @@ package github.x1n32.Task3DesignPatterns;
 
 /**
  *  TASK 3: 
- *  A new Decorator class for a Wizard has been created.  
- *  Fill in the missing words in the file marked with underscores.
+ *  Let's add a name as another parameter to WizardDecorator so that it can be displayed in the details() method.
  *  TASK 4 : 
  *  Set its base magic to 20. Create a String method called magicSpell().
  */
@@ -15,7 +14,11 @@ public class WizardDecorator implements Character{
     public WizardDecorator(Character wizard, String name)  {   //This has the ability to create more decorated objects.
         this.wizard=wizard;  
         this.name = name;
-    }  
+    } 
+
+    public String getName(){
+        return name;
+    }
 
 
     @Override
@@ -48,7 +51,7 @@ public class WizardDecorator implements Character{
 
     @Override
     public int mag() {
-        return 20;
+        return 20; //Change this to make it return 20
     }
 
     @Override

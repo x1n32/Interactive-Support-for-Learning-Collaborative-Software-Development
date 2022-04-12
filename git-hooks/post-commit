@@ -174,6 +174,93 @@ fout.write(newFile)
 fout.close()
 #-----------End of task 2 checkbox edit------------------------------------------
 
+
+
+#Task 3 Tasks---------------------------------
+
+#Calculator 2 positive test comments
+lineToFind1 = "Shield Knights defence stat buff WORKS!"
+lineToFind2 = "Wizard's magic set to 20 Works!"
+lineToFind3 = "Fire Wizard's magicSpell() that includes Fireball Works!"
+lineToFind4 = "Shield Knights description WORKS!"
+lineToFind5 = "Wizard's name Works!"
+lineToFind6 = "Wizard's magicSpell() Works!"
+
+
+checkbox1 = False 
+checkbox2 = False
+checkbox3 = False 
+checkbox4 = False
+checkbox5 = False
+checkbox6 = False
+
+file = open("decorator.md", "r")
+for line in file:
+    line = line.strip()
+    if lineToFind1 in line:
+        checkbox1 = True
+    if lineToFind2 in line:
+        checkbox2 = True
+    if lineToFind3 in line:
+        checkbox3 = True
+    if lineToFind4 in line:
+        checkbox4 = True
+    if lineToFind5 in line:
+        checkbox5 = True
+    if lineToFind6 in line:
+        checkbox6 = True
+file.close()
+
+print("check decorator",checkbox1,checkbox2,checkbox3,checkbox4,checkbox5,checkbox6)
+#Append to file:
+file = open("decorator.md", "r")
+newFile = ""
+#using the for loop to find the line where it displays the tasks
+for line in file:
+    line = line.strip()
+    if '- [ ] Create a KnightWithAShield.java class' in line:
+        if (checkbox1 == True):
+            changeline = line.replace("- [ ] Create a KnightWithAShield.java class", "- [x] Create a KnightWithAShield.java class")
+            newFile = newFile + changeline + "\n"
+        
+    elif '- [ ] Make KnightWithAShield.java class provide 10 extra defence.' in line:
+        if (checkbox2 == True):       
+            changeline = line.replace("- [ ] Make KnightWithAShield.java class provide 10 extra defence.", "- [x] Make KnightWithAShield.java class provide 10 extra defence.")
+            newFile = newFile + changeline + "\n"
+
+    elif '- [ ] A Decorator class for a Wizard has been created.' in line:
+        if (checkbox3 == True):
+            changeline = line.replace("- [ ] A Decorator class for a Wizard has been created.", "- [x] A Decorator class for a Wizard has been created.")
+            newFile = newFile + changeline + "\n"
+
+    elif '- [ ] Set WizardDecorator' in line:
+        if (checkbox4 == True):
+            changeline = line.replace("- [ ] Set WizardDecorator", "- [x] Set WizardDecorator")
+            newFile = newFile + changeline + "\n"
+
+    elif '- [ ] Create a String method called magicSpell()' in line:
+        if (checkbox5 == True):
+            changeline = line.replace("- [ ] Create a String method called magicSpell()", "- [x] Create a String method called magicSpell()")
+            newFile = newFile + changeline + "\n"
+            
+    elif '- [ ] Get a friend to join' in line:
+        if (checkbox6 == True):
+            changeline = line.replace("- [ ] Get a friend to join", "- [x] Get a friend to join")
+            newFile = newFile + changeline + "\n"
+
+    else:
+        newFile = newFile + line + "\n"
+
+file.close()
+
+#Write to file 
+fout = open("decorator.md", "w")
+fout.write(newFile)
+fout.close()
+
+#END OF TASK 3 Decorator ------------------------------------------------------------------
+
+
 sys.exit(0) #0 indicates success
 
 

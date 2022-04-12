@@ -63,7 +63,6 @@ Definitions
 6. Represents the best practices used by experienced object-oriented software developers. They are solutions to general problems that software developers faced during software development.
 
 ## Tasks
-**Not currently marked**
 - Look at the demo code provided in the Decorator and Observer folders to get familiar.
 - [ ] Create a KnightWithAShield.java class, that extends knightClass and returns " + shield " when the job function is called.
 - [ ] Make KnightWithAShield.java class provide 10 extra defence.
