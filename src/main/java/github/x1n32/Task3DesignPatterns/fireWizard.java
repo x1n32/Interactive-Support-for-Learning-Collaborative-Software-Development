@@ -1,6 +1,9 @@
 package github.x1n32.Task3DesignPatterns;
 
-public class fireWizard extends WizardDecorator {
+//create a "fireWizard.java" that extends WizardDecorator. Make magicSpell() output "Casting: Fireball!"
+
+/* REMOVE THIS LINE AND THE ONE AT THE BOTTOM
+public class fireWizard _______ _______________ {
 
     /**
      * Takes character and a name variable
@@ -16,7 +19,9 @@ public class fireWizard extends WizardDecorator {
      */
     @Override
     public String magicSpell(){ 
-        return super.magicSpell() + "Fireball!"; 
+        return null; //TO DO: make this output "Casting: Fireball". Hint: use super to call 'Casting: ' from the decorator class.
     }
     
 }
+
+*/ //REMOVE THIS LINE
