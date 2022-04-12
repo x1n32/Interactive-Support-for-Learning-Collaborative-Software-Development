@@ -2,10 +2,10 @@ package github.x1n32.Task3DesignPatterns;
 
 
 /** TASK:
- *  Create a KnightWithAShield.java class, that extends knightClass.
- *  That provides 10 extra defence, and returns " + shield " when the job function is called.
+ * Create a KnightWithAShield.java class, that extends knightClass and returns " + shield " when the job function is called.
+ * Make KnightWithAShield.java class provide 10 extra defence.
  */
-public class KnightWithAShield extends KnightClass  {
+public class KnightWithAShield extends __________  {
     
     public KnightWithAShield(Character knight) {   
         super(knight);  
@@ -15,12 +15,12 @@ public class KnightWithAShield extends KnightClass  {
         return super.job() + decorateWithShield();
     }
     private String decorateWithShield() {
-        return " + shield "; //Return " + shield" here.
+        return " + ______ "; //return " + shield " here.
     }
 
     @Override
     public int def() {
-        return super.def() + 10; //Increase defence by 10 here.
+        return null; //Increase defence by 10 here. Hint use 'super' to call on the inherited def value
     }
 
 }
