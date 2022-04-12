@@ -12,12 +12,11 @@ public class Adventure {
         CharacterImp StarterCharacter = new CharacterImp(); //A Character Implementation called Stater Character
         StarterCharacter.details();
         Character KnightFromStarterCharacter= new KnightWithSword(StarterCharacter); //StarterCharacter is used here 
-        Character shieldKnightfromKnightCharacter = new KnightWithAShield(KnightFromStarterCharacter);
-        shieldKnightfromKnightCharacter.details();
+
         // ----------------
 
         //Creating new Characters from NEW Implementations
-		Character decoratedKnight = new KnightWithSword(new CharacterImp()); //A new Character Imp is used here instead.
+	Character decoratedKnight = new KnightWithSword(new CharacterImp()); //A new Character Imp is used here instead.
         decoratedKnight.details();
 
         Character speedyKnight = new KnightWithLightBoots(new CharacterImp());
@@ -28,12 +27,16 @@ public class Adventure {
 
 
         //Task: Create a shield knight class that provides 10 extra defence and its job description includes + shield.
+	    
+/*	DELETE THIS LINE WHEN YOU START CREATING KNIGHT WITH A SHIELD    
         Character shieldKnight = new KnightWithAShield(new CharacterImp());
         shieldKnight.details();
-
+DELETE THIS LINE WHEN YOU START CREATING KNIGHT WITH A SHIELD*/
 
         //--------------------
         //Wizards
+/*DELETE THIS LINE WHEN YOU START CREATING Wizards classes
+
         WizardDecorator basicWizard = new WizardDecorator(new CharacterImp(),"Mage boy");
         basicWizard.details();
         System.out.println(basicWizard.magicSpell());
@@ -41,6 +44,8 @@ public class Adventure {
         fireWizard myFireWizard = new fireWizard(new CharacterImp(), "Merlin");
         myFireWizard.details();
         System.out.println(myFireWizard.magicSpell());
+DELETE THIS LINE WHEN YOU START CREATING Wizard classes*/
+
 
     }
 }
