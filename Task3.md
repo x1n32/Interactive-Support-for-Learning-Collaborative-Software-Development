@@ -12,9 +12,9 @@ Design Patterns - Elements of Reusable Object-Oriented Software <br>
 
 Design Patterns have two main usages in software development:
 
-1. Design patterns provide a standard terminology and are specific to particular scenario. 
+1. Design patterns provide a standard terminology and are specific to particular scenario.
 2. Design patterns been tested and updated. They are the best solutions to certain problems faced during software development.
- Learning these patterns helps unexperienced developers to learn software design in an easy and faster way.
+Learning these patterns helps unexperienced developers to learn software design in an easy and faster way.
 
 The design patterns we go through here are:
 1.Observer
@@ -28,18 +28,18 @@ The tasks involve creating code that involves the character.java code using deco
 - Knight takes functionality from CharacterImp, and adds some of its own.
 - KnightWithLightBoots and KnightWith Sword stem from the basic Knight class, by taking features of the knight class, with its own properties.
 
-### Observer is a behaviorial design pattern. 
+### Observer is a behaviorial design pattern.
 - Observer design pattern works with 3 classes which are Subject, Observer and Client.
-- Subjects consists of list of observers and methods to attach and detach observers to a client object. 
-- It also contains a method to notify all the observers of any change. 
+- Subjects consists of list of observers and methods to attach and detach observers to a client object.
+- It also contains a method to notify all the observers of any change.
 - So: Observers watch a subject; waiting for any changes from the subject.
 
 ### Decorator is a structural design pattern.
 - It provides the facility to add additional responsibilities to an existing object without altering its structure.
-- It is similar to Subclassing (Parent, Child Inheritance). Except that when you have many child classes, 
+- It is similar to Subclassing (Parent, Child Inheritance). Except that when you have many child classes,
 - you may find you want to make another that is a mix of two+ already existing child classes.
 - Rather than make another new child class, decorator is used so you avoid making any unnecesarry classes and combine the properties
- of the classes you want.
+of the classes you want.
 - E.g. Food. Food Decorator can have classes of 'Vegetarian', 'Indian', 'Salty', 'Chinese'.
 - You don't need to make a subclass of Vegetarian Chinese food now, as you can create an object that can be decorated with vegetarian, and chinese.
 
@@ -57,7 +57,7 @@ ex )Object-Oriented Programming: creating objects that contain both data and met
 Definitions
 1. A Structural design pattern. Provides the facility to add additional responsibilities to an existing object without altering its structure.
 2. Using inherited methods to perform different tasks. This allows us to perform a single action in different ways.
-3. A block of code which only runs when it is called. Data known as parameters can be passed. Used to perform a certain action. Also known as functions.
+3. A block of     bvgfrrcode which only runs when it is called. Data known as parameters can be passed. Used to perform a certain action. Also known as functions.
 4. The concept of Parent and Child. Where the Child is able to do the methods the parent can, as well as inheriting it's attributes.
 5. A behaviorial design pattern. A One-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 6. Represents the best practices used by experienced object-oriented software developers. They are solutions to general problems that software developers faced during software development.
@@ -67,7 +67,7 @@ Definitions
 - [ ] Create a KnightWithAShield.java class, that extends knightClass and returns " + shield " when the job function is called.
 - [ ] Make KnightWithAShield.java class provide 10 extra defence.
 - [ ] A Decorator class for a Wizard has been created. Let's add a name as another parameter to WizardDecorator so that it can be displayed in the details() method.
-- [ ] Set WizardDecorator's base magic to 20. 
+- [ ] Set WizardDecorator's base magic to 20.
 - [ ] Create a String method called magicSpell() in WizardDecorator that outputs "Casting: ".
 - [ ] Get a friend to join your repository to create a "fireWizard.java" that extends WizardDecorator. Make magicSpell() output "Casting: Fireball!"
 
