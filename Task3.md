@@ -64,10 +64,18 @@ Definitions
 
 ## Tasks
 **Not currently marked**
-1. Look at the demo code provided in the Decorator and Observer folders to get familiar.
-2. Create a KnightWithAShield.java class, that extends knightClass, that provides 10 extra defence, and returns " + shield " when the job function is called.
-3. Let's create a new Decorator class like Knight, this time, lets have a Wizard class. Create a "WizardDecorator.java" that extends Character. Set its base magic to 20. Create a String method called magicSpell().
-4. Get a friend to join your repository to create a "fireWizard.java" that extends WizardDecorator. Make magicSpell() output "Fireball!"
+- Look at the demo code provided in the Decorator and Observer folders to get familiar.
+- [ ] Create a KnightWithAShield.java class, that extends knightClass and returns " + shield " when the job function is called.
+- [ ] Make KnightWithAShield.java class provide 10 extra defence.
+- [ ] A new Decorator class for a Wizard has been created. Fill in the missing words in the file marked with underscores.
+- [ ] Set WizardDecorator's base magic to 20. 
+- [ ] Create a String method called magicSpell() in WizardDecorator that outputs "Casting: ".
+- [ ] Get a friend to join your repository to create a "fireWizard.java" that extends WizardDecorator. Make magicSpell() output "Fireball!"
+
+# Decorator Task status:<br/>
+[See report on Decorator Task](decorator.md)<br/>
+<img src="Images/decorator.jpg" width="50%" height="50%"><br/>
+
 
 ### EXT Tasks:
 **Not currently marked**

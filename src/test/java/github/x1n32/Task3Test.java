@@ -1,26 +1,34 @@
 package github.x1n32;
 
-//import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+
+import github.x1n32.Task1Calculator.Calculator;
+import github.x1n32.Task3DesignPatterns.CharacterImp;
+import github.x1n32.Task3DesignPatterns.KnightWithAShield;
+
+import org.junit.Before;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+import java.io.FileOutputStream;
+
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URL;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.HashMap;
-
-import org.junit.Before;
-import org.junit.jupiter.api.AfterAll;
 
 
 
-public class KnightWithAShieldTest {
+public class Task3Test {
 
-	HashMap<String, String> ItemDescriptions = new HashMap<>();
 	static int totalTests = 0;
 	static int testPassed = 0;
 
@@ -83,25 +91,25 @@ public class KnightWithAShieldTest {
 			if (percentageCleared == 0) {
 				Writer.write("\nHave a try!. ");
 				String imageUrl = "https://images.squarespace-cdn.com/content/571b6a94746fb91673b8ab13/1496046345902-SVMQKP9OGGNDP2SMA6W2/Give+it+a+go.png?content-type=image%2Fpng";
-				String destinationFile = "decoratorStatus.jpg";
+				String destinationFile = "Images/decoratorStatus.jpg";
 				saveImage(imageUrl, destinationFile);
 
 			} else if (percentageCleared == 100) {
 				Writer.write("ALL CORRECT! CONGRATULATIONS!");
 				String imageUrl = "https://www.rubberstampking.co.uk/assets/images/fullmarks.png";
-				String destinationFile = "decorator.jpg";
+				String destinationFile = "Images/decorator.jpg";
 				saveImage(imageUrl, destinationFile);
 
 			} else if (percentageCleared > 50) {
 				Writer.write("Well done.");
 				String imageUrl = "https://cdn3.vectorstock.com/i/1000x1000/94/02/well-done-stamp-vector-1469402.jpg";
-				String destinationFile = "decorator.jpg";
+				String destinationFile = "Images/decorator.jpg";
 				saveImage(imageUrl, destinationFile);
 
 			} else if (percentageCleared <= 50 && percentageCleared > 0) {
 				Writer.write("\nHave another go." + percentageCleared);
 				String imageUrl = "http://comealivein365.com/wp-content/uploads/2013/08/keep-calm-try-again.jpg";
-				String destinationFile = "decorator.jpg";
+				String destinationFile = "Images/decorator.jpg";
 				saveImage(imageUrl, destinationFile);
 
 			}
@@ -118,4 +126,55 @@ public class KnightWithAShieldTest {
 	}
 
   // ============================TEST==============================
+
+  @Test
+  void knightWithShieldJobDescriptionTest() {
+	  try {
+		  totalTests += 1;
+
+		//  CharacterImp StarterCharacter = new CharacterImp();
+		  KnightWithAShield shieldKnight = new KnightWithAShield(new CharacterImp());
+  
+		  System.out.println(shieldKnight.job());
+
+		  String actual = shieldKnight.job();
+		  String expected = "Job: Human Knight + shield ";
+
+		  assertEquals(expected, actual);
+
+		  fileReport += " - Shield Knights description WORKS! \n"; // Positive comment
+		  testPassed += 1;
+
+	  } catch (Throwable e) {
+		  fileReport += "- Error in description for Shield Knight. \nShould return Job: Human Knight + shield. Make sure you typed it correctly! \n";
+		  fileReport += e + "\n";
+		  System.out.println(fileReport + "\n");
+	  }
+
+  }
+
+
+  @Test
+  void knightWithShieldStatTest() {
+	  try {
+		  totalTests += 1;
+		  KnightWithAShield shieldKnight = new KnightWithAShield(new CharacterImp());
+
+		  int actual = shieldKnight.def();
+		  int expected = 20;
+
+		  assertEquals(expected, actual);
+
+		  fileReport += " - Shield Knights defence stat buff WORKS! \n"; // Positive comment
+		  testPassed += 1;
+
+	  } catch (Throwable e) {
+		  fileReport += "- Error found in knight with a shield. The defence stat isn't correct. Should increase defence by 10, so total defence should be 20. \n";
+		  fileReport += e + "\n";
+		  System.out.println(fileReport + "\n");
+	  }
+
+  }
+
+
 }

@@ -12,12 +12,10 @@ public class CharacterImp implements Character { //implements the Character Inte
         System.out.println("---------------");
 
     };
-
-
     
     @Override
     public String job() {
-        return("Job: ");
+        return("Job: Human ");
     }
 
     @Override

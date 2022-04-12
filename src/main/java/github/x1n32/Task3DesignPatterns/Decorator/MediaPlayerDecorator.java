@@ -7,7 +7,7 @@ package github.x1n32.Task3DesignPatterns.Decorator;
 public class MediaPlayerDecorator implements MediaPlayer {
 	protected MediaPlayer mediaPlayer;
  
-	public MediaPlayerDecorator(MediaPlayer mediaPlayer){
+	public MediaPlayerDecorator(MediaPlayer mediaPlayer){ //This is inherited for children classes.
 		this.mediaPlayer=mediaPlayer;
 	}
  
