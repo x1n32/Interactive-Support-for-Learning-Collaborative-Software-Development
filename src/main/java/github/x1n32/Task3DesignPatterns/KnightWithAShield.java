@@ -5,6 +5,8 @@ package github.x1n32.Task3DesignPatterns;
  * Create a KnightWithAShield.java class, that extends knightClass and returns " + shield " when the job function is called.
  * Make KnightWithAShield.java class provide 10 extra defence.
  */
+
+/* DELETE THIS LINE AND THE LINE AT THE BOTTOM.
 public class KnightWithAShield extends __________  {
     
     public KnightWithAShield(Character knight) {   
@@ -24,3 +26,4 @@ public class KnightWithAShield extends __________  {
     }
 
 }
+*///DELETE THIS LINE 
