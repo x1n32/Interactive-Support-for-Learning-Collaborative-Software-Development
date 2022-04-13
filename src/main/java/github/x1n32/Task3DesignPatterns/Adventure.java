@@ -12,7 +12,7 @@ public class Adventure {
         CharacterImp StarterCharacter = new CharacterImp(); //A Character Implementation called Stater Character
         StarterCharacter.details();
         Character KnightFromStarterCharacter= new KnightWithSword(StarterCharacter); //StarterCharacter is used here 
-
+        KnightFromStarterCharacter.details();
         // ----------------
 
         //Creating new Characters from NEW Implementations
