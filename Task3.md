@@ -64,9 +64,9 @@ Definitions
 
 ## Tasks
 - Look at the demo code provided in the Decorator and Observer folders to get familiar.
-- [ ] Create a KnightWithAShield.java class, that extends knightClass and returns " + shield " when the job function is called.
+- [ ] Create a KnightWithAShield.java class, that returns " + shield " when the job function is called.
 - [ ] Make KnightWithAShield.java class provide 10 extra defence.
-- [ ] A Decorator class for a Wizard has been created. Let's add a name as another parameter to WizardDecorator so that it can be displayed in the details() method.
+- [ ] A Decorator class for a Wizard has been created. Let's add a name as another parameter to WizardDecorator so that it can be displayed in the details() method. The parameter has been added in wizard decorator creation, but the value needs to be set.
 - [ ] Set WizardDecorator's base magic to 20.
 - [ ] Create a String method called magicSpell() in WizardDecorator that outputs "Casting: ".
 - [ ] Get a friend to join your repository to create a "fireWizard.java" that extends WizardDecorator. Make magicSpell() output "Casting: Fireball!"
