@@ -12,7 +12,7 @@ checkbox2 = False #Calc 1
 checkbox3 = False #Calc 1
 
 #The add test has 3 checks in calculator(1)
-lineToFind1 = "Adding two positive numbers WORKS!"
+lineToFind1 = "Adding two positive numbers WORKS!" 
 lineToFind2 = "Adding two negative numbers WORKS!"
 lineToFind3 = "Adding a positive number and a negative number WORKS!"
 
@@ -36,6 +36,7 @@ newFile = ""
 for line in file:
     line = line.strip()
     if (checkbox1 == True) and (checkbox2 == True) and (checkbox3 == True) :
+        print("Checking off intro task")
         changeline = line.replace("- [ ] Back on GitPod", "- [x] Back on GitPod")
         newFile = newFile + changeline + "\n"
     else:
@@ -91,31 +92,43 @@ for line in file:
         if (checkbox1 == True):
             changeline = line.replace("- [ ] Fix squareOfB", "- [x] Fix squareOfB")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
         
     elif '- [ ] Fix fourAC' in line:
         if (checkbox2 == True):       
             changeline = line.replace("- [ ] Fix fourAC", "- [x] Fix fourAC")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
 
     elif '- [ ] Fix squareRootAnswer' in line:
         if (checkbox3 == True):
             changeline = line.replace("- [ ] Fix squareRootAnswer", "- [x] Fix squareRootAnswer")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
 
     elif '- [ ] Fix positive answer' in line:
         if (checkbox4 == True):
             changeline = line.replace("- [ ] Fix positive answer", "- [x] Fix positive answer")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
 
     elif '- [ ] Now do the' in line:
         if (checkbox5 == True):
             changeline = line.replace("- [ ] Now do the", "- [x] Now do the")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
             
     elif '- [ ] Using all the functions' in line:
         if (checkbox6 == True):
             changeline = line.replace("- [ ] Using all the functions", "- [x] Using all the functions")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"    
 
     else:
         newFile = newFile + line + "\n"
@@ -222,31 +235,43 @@ for line in file:
         if (checkbox1 == True):
             changeline = line.replace("- [ ] Create a KnightWithAShield.java class", "- [x] Create a KnightWithAShield.java class")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"    
         
     elif '- [ ] Make KnightWithAShield.java class provide 10 extra defence.' in line:
         if (checkbox2 == True):       
             changeline = line.replace("- [ ] Make KnightWithAShield.java class provide 10 extra defence.", "- [x] Make KnightWithAShield.java class provide 10 extra defence.")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
 
     elif '- [ ] A Decorator class for a Wizard has been created.' in line:
         if (checkbox3 == True):
             changeline = line.replace("- [ ] A Decorator class for a Wizard has been created.", "- [x] A Decorator class for a Wizard has been created.")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
 
     elif '- [ ] Set WizardDecorator' in line:
         if (checkbox4 == True):
             changeline = line.replace("- [ ] Set WizardDecorator", "- [x] Set WizardDecorator")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
 
     elif '- [ ] Create a String method called magicSpell()' in line:
         if (checkbox5 == True):
             changeline = line.replace("- [ ] Create a String method called magicSpell()", "- [x] Create a String method called magicSpell()")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
             
     elif '- [ ] Get a friend to join' in line:
         if (checkbox6 == True):
             changeline = line.replace("- [ ] Get a friend to join", "- [x] Get a friend to join")
             newFile = newFile + changeline + "\n"
+        else:
+            newFile = newFile + line + "\n"
 
     else:
         newFile = newFile + line + "\n"
