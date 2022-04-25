@@ -56,7 +56,7 @@ System.out.println(10 + 10);
 - This code is mostly finished, but contains a bug.
 - Try running the code (Press F5)
 - Now go to Calculator 1 Status and click the link to see the report. Can you see the error?
-- [ ] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
+- [x] Back on GitPod, look at the add function. Change 'return a + 5' to 'return a + b'.
 - Now type **'submit'** into the console of GitPod
 - Reload the status page. Any differences?
 - NOTE: The page may take a while to update before you notice anything.
@@ -69,6 +69,14 @@ System.out.println(10 + 10);
 
 # Main Task, Calculator2.java: <br>
 Open calculator2.java
+
+- [ ] Fix squareOfB so that it returns the square value of input B
+- [ ] Fix fourAC so that it returns the value of 4 x input a x input c
+- [ ] Fix squareRootAnswer so that it returns the square root of (B squared - 4AC)
+- [ ] Fix positive answer method/function
+- [ ] Now do the same for the negative answer but use - instead of +
+- [ ] Using all the functions you have created, put it all into the final function 'quadraticFormula' to find the answer.
+
 
 # Calculator 2 status:<br/>
 [See report on Calculator 2](calculator2Report.md)<br/>
@@ -89,11 +97,11 @@ Open calculator2.java
 - Remember to save your work. You can see your progress on the links as well by saving.
 - To save your work, enter **submit** to the command line.
 <br/><img src="Images/submit.PNG" width="70%" height="70%"><br/>
-<!--
+
 ```shell
 mvn test && git add . && git commit -m "Saving" && git push
 ```
--->
+
 
 
 
