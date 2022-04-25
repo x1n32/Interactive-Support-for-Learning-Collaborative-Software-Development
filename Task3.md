@@ -57,7 +57,7 @@ ex )Object-Oriented Programming: creating objects that contain both data and met
 Definitions
 1. A Structural design pattern. Provides the facility to add additional responsibilities to an existing object without altering its structure.
 2. Using inherited methods to perform different tasks. This allows us to perform a single action in different ways.
-3. A block of     bvgfrrcode which only runs when it is called. Data known as parameters can be passed. Used to perform a certain action. Also known as functions.
+3. A block of code which only runs when it is called. Data known as parameters can be passed. Used to perform a certain action. Also known as functions.
 4. The concept of Parent and Child. Where the Child is able to do the methods the parent can, as well as inheriting it's attributes.
 5. A behaviorial design pattern. A One-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 6. Represents the best practices used by experienced object-oriented software developers. They are solutions to general problems that software developers faced during software development.
